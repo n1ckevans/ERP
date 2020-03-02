@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>eResource Planner</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="img/erp.ico" rel="icon">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- Nav Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+    <a id="" class="navbar-brand text-brand" href="index.html"><img src="img/erp_logo.jpg" alt="eResourcePlanner Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <div class="btn-group">
+            <button type="button" class="btn"><a class="text-decoration-none text-dark" href="/">Solutions</a></button>
+            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Employee Self-Management</a>
+              <a class="dropdown-item" href="#">Performance Management</a>
+              <a class="dropdown-item" href="#">Time Keeping</a>
+              <a class="dropdown-item" href="#">Employee Portal</a>
+              <a class="dropdown-item" href="#">Schedule Fullfillment</a>
+              <a class="dropdown-item" href="#">Intraday Resource Management</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="btn-group">
+            <button type="button" class="btn"><a class="text-decoration-none text-dark" href="/">Services</a></button>
+            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Software as a Service</a>
+              <a class="dropdown-item" href="#">Deployment Process</a>
+              <a class="dropdown-item" href="#">Integration With Existing Platforms</a>
+              <a class="dropdown-item" href="#">Training Options</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="btn-group">
+            <button type="button" class="btn"><a class="text-decoration-none text-dark" href="/">Industries</a></button>
+            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Contact Centers</a>
+              <a class="dropdown-item" href="#">Outsourcers</a>
+              <a class="dropdown-item" href="#">At Home Agents</a>
+              <a class="dropdown-item" href="#">Healthcare</a>
+              <a class="dropdown-item" href="#">Public Safety</a>
+              <a class="dropdown-item" href="#">Manufacturing</a>
+              <a class="dropdown-item" href="#">Shift Based Employee Groups</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="btn-group">
+            <button type="button" class="btn"><a class="text-decoration-none text-dark" href="/">About</a></button>
+            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Company</a>
+              <a class="dropdown-item" href="#">Management Team</a>
+              <a class="dropdown-item" href="#">Mission</a>
+              <a class="dropdown-item" href="#">Careers</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="btn-group">
+            <button type="button" class="btn"><a class="text-decoration-none text-dark" href="/">Contact</a></button>
+            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Sales Inquiries</a>
+              <a class="dropdown-item" href="#">Customer Support</a>
+              <a class="dropdown-item" href="#">Media and PR</a>
+              <a class="dropdown-item" href="#">General Inquiries</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="btn-group">
+            <button type="button " class="btn"><a class="text-decoration-none text-dark" href="/">Clients</a></button>
+            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#">Customer Case Studies</a>
+              <a class="dropdown-item" href="#">Brick and Mortar Contact Center</a>
+              <a class="dropdown-item" href="#">Media and PR</a>
+              <a class="dropdown-item" href="#">Home Agent Contact Center</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>  
+  </nav>
+
+  <!-- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+  <!-- <ul class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+    <li data-target="#slides" data-slide-to="3"></li>
+  </ul> -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="img-fluid landing" src="img/stock1.jfif" alt="Stock Photo 1">
+      <div class="carousel-caption">
+        <h1>Web based solutions to empower employees</h1>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="img-fluid landing" src="img/stock2.jfif" alt="Stock Photo 2">
+      <div class="carousel-caption">
+        <h1 id="eliminate" class="mb-4 p-4">Eliminate costs</h1>
+        <h1 id="empower" class="mb-4 p-4">Empower staff</h1>
+        <h1 id="improve" class="mb-4 p-4">Improve outcomes</h1>
+       </div>
+    </div>
+    </div>
+  </div>
+  
+
+  <!-- Welcome Section -->
+<div id="welcome">
+  <h1>Welcome</h1>
+  <p>eResourcePlanner is a unique Global Staff Self-Management, Reporting, and Intelligent Notification Service that automates the disposition of employee schedule change requests and passes the resulting schedule changes to other in house applications, most often to Workforce Management, Payroll, and Time/Attendance systems.</p>
+  <p>Employees log onto an eResourcePlanner hosted and maintained website that is fully customized to their employer's schedule coverage needs and HR policies allowing them to safely self-manage their schedules and time off with immediate and objective dispositions.</p>
+  <p>Using Six Sigma methodologies, eResourcePlanner eliminates the need for administrators to manually review, research, disposition, and enter employee and company requests for changes to their schedules. Whether it is a time off request, participation in a shift/vacation bid, a shift trade, or overtime/early release selection, eResourcePlanner ensures that all company policies are adhered to, that coverage needs are met, and that entitlement balances are in line with the request.</p>
+  <p>Allowing employees to adjust their own schedules reduces back office personnel and creates happier employees. With software tied into HR entitlements and policies, our customers' scheduling requirements are improved while giving employees maximum flexibility without risking coverage requirements.</p>
+  <p>eResourcePlanner's reporting and intelligent notification services help managers spot trends and outliers quickly before they impact productivity or drive additional coverage costs. Using our threshold alerts to not only alert managers of specific transactions by specific employee, they modify employee behavior by alerting them at the time of the transaction of a policy or performance infraction. Additionally, the return on investment with eResourcePlanner is very robust and enticing to organizations that are seeking to empower their employees to take on more responsibilities. The streamlined and cost effective strategies employed by customers of eResourcePlanner typically return their initial investments within the first few months of use.</p>
+  <p>Please contact us to learn how other companies are finding more margin through automation.</p>
+</div>
+
+<!-- Benefits Section -->
+<div id="benefits">
+  <h1>Your Benefits</h1>
+  <h2>Control Costs</h2>
+  <h2>Enployee Satisfaction</h2>
+  <h2>Return on Inventment</h2>
+</div>
+
+
+<!-- Success Stories -->
+<div id="success" class="carousel slide" data-ride="carousel">
+  <!-- <ul class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1"></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+    <li data-target="#slides" data-slide-to="3"></li>
+  </ul> -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="img-fluid landing" src="img/stock4.jfif" alt="Stock Photo 1">
+      <div class="carousel-caption">
+        <h1>An Ideal Solution</h1>
+        <p>A major (and innovative) airline uses eResourcePlanner to support their "work at home workforce". They find eResourcePlanner an ideal solution to communicate and manage employee's schedules and entitlements.</p>
+        <a class="btn" href="/">Learn More</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="img-fluid landing" src="img/stock3.jfif" alt="Stock Photo 2">
+      <div class="carousel-caption">
+        <h1>Free From Time Consuming Tasks</h1>
+        <p>A substantial utility company was faced with a need to manage their staff more efficiently. Front line management was being asked to take on more responsibility without more front line managers or staff.</p>
+        <a class="btn" href="/">Learn More</a>
+       </div>
+    </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+<footer class="bg-secondary text-white">
+  <div class="container-fluid">
+  <div class="row text-center">
+     <div class="col-md-4">
+      <p>© Copyright 2004 - 2020 eResourcePlanner All rights Reserved</p>
+    </div>
+    <div class="col-md-4">
+      <a id="dan-header" class="navbar-brand text-brand" href="index.html"><img src="img/erp_logo.jpg" alt="eResourcePlanner Logo"></a>
+    </div>
+    <div class="col-md-4">
+      <ul class="">
+        <li class="">
+          <a class="d-inline-block" href="index.html">Support</a>
+        </li>
+        <li class="">
+          <a class="d-inline-block" href="index.html">Customers</a>
+        </li>
+        <li class="">
+          <a class="d-inline-block" href="index.html">Careers</a>
+        </li>
+        <li class="">
+          <a class="d-inline-block" href="index.html">News and Events</a>
+        </li>
+        
+      </ul>
+    </div>
+     </div>
+  </div>
+  </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
