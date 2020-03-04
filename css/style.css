@@ -49,7 +49,7 @@ html, body {
   width: 100%;
   font-family: 'Nunito Sans', sans-serif;
   color: #222222;
-  background-color: #DCDEE6;
+  background-color: white;
 }
 html {
   scroll-behavior: smooth;
@@ -114,16 +114,14 @@ html {
 
 
 
-nav, footer, #benefits {
-  background-color: #DCDEE6;
+nav {
+  background-color: white;
 }
 
 .learn{
   color: white;
 
 }
-
-
 
 
 .landing {
@@ -184,6 +182,10 @@ object-fit: cover;
       1em,
       1fr
     );
+}
+
+.more-stuff-grid img {
+  width: 400px;
 }
 
 #welcome{
@@ -255,4 +257,10 @@ nav li a:hover, footer li a:hover{
 .welcome-text {
   font-size: 140%;
   margin-bottom: 32px;
+}
+
+.solution {
+  width: 600px;
+  width: 500px;
+  object-fit: cover
 }
