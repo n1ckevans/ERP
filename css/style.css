@@ -348,7 +348,7 @@ nav li a:hover, footer li a:hover{
   object-fit: cover
 }
 
-.solution-info:hover, .services-info:hover, .industry-info:hover, .contact-info:hover {
+.card-hover:hover {
   background-color: #00004B;
   border-radius: 5%;
   opacity: 0.8;
