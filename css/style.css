@@ -383,6 +383,7 @@ html {
 }
 
 
+
 .logo {
   font-size: 150%;
 }
@@ -423,7 +424,7 @@ html {
    object-fit: cover;
 } 
 
-#contact-center-menu li{
+/* #contact-center-menu li{
   font-size: 100%;
   text-align: left;
 }
@@ -431,7 +432,7 @@ html {
 #contact-center-menu h3{
   font-size: 155%;
   
-}
+} */
 
 .contact-description{
   padding-right:30px;
@@ -448,6 +449,10 @@ html {
 
 #erp-logo-footer{
   max-width: 11rem;
+}
+
+#erp-logo-address{
+  max-width: 10rem;
 }
 
 #copywright
