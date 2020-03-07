@@ -11,28 +11,14 @@ html {
 
 
 
-nav {
-  height: 60px;
-  width: 100%;
-  background-color: rgb(250, 250, 250);
-  color: #eee;
-  position: fixed;
-  padding: 5rem;
-}
 
-
-.navbar-nav a {
-  padding-right: 0.35rem;
-  font-size: 1.1rem;
-
-}
 
 /* Showcase */
  #showcase {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100vh;
+  height: 35vh;
   position: relative;
   overflow-y: hidden;
   color: white;
@@ -42,19 +28,16 @@ nav {
 
 #showcase .carousel-caption{
   position: absolute;
-  top:25vh;
+  top:7vh;
 }
 
 
 #showcase h1 {
-  font-size: 5.5rem;
+  font-size: 1.6rem;
   margin-bottom: 0;
 
 }
 
-#showcase h2 {
-  font-size: 2rem;
-} 
 
 
 
@@ -71,32 +54,9 @@ nav {
 }
 
 
-/* Success */
-#success {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  overflow-y: hidden;
-  color: white;
-  text-shadow: 5px 5px 7px black;
-}
 
-#success .carousel-caption{
-  position: absolute;
-  top:25vh;
-}
-
-
-#success h1 {
-  font-size: 5.5rem;
-  margin-bottom: 0;
-
-}
-
-#success h2 {
-  font-size: 2rem;
+.hide-small {
+  display: none;
 } 
 
 
@@ -219,6 +179,193 @@ nav {
   text-align: center;
 } */
 
+
+
+.footer-links {
+  font-size: 0.9rem;
+}
+
+/* nav li a, footer li a, .copywright, .dropdown-item{
+
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  font-size: 16px;
+  vertical-align: middle;
+  color: #00004B;
+} */
+
+/* nav li a:hover, footer li a:hover{
+  color: #006788;
+  vertical-align: middle;
+} */
+
+/* .copywright{
+  margin-top: 18px;
+  font-size: 10px;
+  margin-left: -180px;
+} */
+
+/* .dropdown-item:hover{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  color: #006788;
+} */
+
+.e {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: #800000;
+  font-size: 125%;
+  font-weight: bold;
+}
+
+.RP {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #00004B;
+}
+#welcome-title h1{
+  font-size: 2rem;
+}
+
+#welcome-body{
+  font-size: 1.2rem;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  line-height: 1.5;
+}
+
+#welcome-body p{
+  margin-bottom: 2rem;
+  font-weight: 500;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+
+.logo {
+  font-size: 150%;
+}
+
+
+.blue {
+  color: #00004B;
+}
+
+
+
+
+
+
+.solutions {
+  height: 250px;
+  object-fit: cover
+}
+
+.card-hover:hover {
+  background-color: #00004B;
+  border-radius: 5%;
+  opacity: 0.8;
+  color: white;
+ }
+
+
+.services-info img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.industry-info img {
+  height: 220px;
+   object-fit: cover;
+} 
+
+#contact-center-menu li{
+  font-size: 100%;
+  text-align: left;
+}
+
+#contact-center-menu h3{
+  font-size: 155%;
+  
+}
+
+.contact-description{
+  padding-right:30px;
+}
+
+
+#erp-logo-nav{
+  max-width: 10rem;
+}
+
+#erp-logo-copywright{
+  max-width: 4.5rem;
+}
+
+#erp-logo-footer{
+  max-width: 11rem;
+}
+
+#copywright
+{
+  font-size: 0.7rem;
+}
+
+.dropdown-item {
+  font-size: 1rem;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  
+#erp-logo-nav{
+  max-width: 19.5rem;
+}
+
+#erp-logo-copywright{
+  max-width: 6rem;
+}
+
+#erp-logo-footer{
+  max-width: 12rem;
+}
+
+nav {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(250, 250, 250);
+  color: #eee;
+  position: fixed;
+  padding: 5rem;
+} 
+
+
+
+ .navbar-nav a {
+  padding-right: 0.35rem;
+  font-size: 1.1rem;
+
+}
+
+#showcase h1 {
+  font-size: 5.5rem;
+  margin-bottom: 0;
+
+}
+
 .fade-in {
   opacity: 0;
   transition: opacity 250ms ease-in;
@@ -272,125 +419,33 @@ nav {
   width: 400px;
 }
 
-.footer-links {
-  font-size: 0.9rem;
-}
-
-nav li a, footer li a, .copywright, .dropdown-item{
-  /* font-family: 'Noto Serif', sans-serif; */
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  font-size: 16px;
-  vertical-align: middle;
-  color: #00004B;
-}
-
-nav li a:hover, footer li a:hover{
-  color: #006788;
-  vertical-align: middle;
-}
-
-.copywright{
-  margin-top: 18px;
-  font-size: 10px;
-  margin-left: -180px;
-}
-
-.dropdown-item:hover{
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  color: #006788;
-}
-
-.e {
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
-  color: #800000;
-  font-size: 125%;
-  font-weight: bold;
-}
-
-.RP {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  color: #00004B;
-}
-
-.welcome{
-  width: 1000px;
-  height: auto;
-  padding: 0px 30px 30px 30px;
-  margin: auto;
-  line-height: 1.7;
-}
-
-.logo {
-  font-size: 150%;
-}
-
-
-.blue {
-  color: #00004B;
-}
-
-
-.welcome-intro h1, #benefits h1 {
-  font-weight: bold;
-}
-
-.welcome-text {
-  font-size: 140%;
-  margin-bottom: 32px;
-}
-
-.solutions {
-  height: 250px;
-  object-fit: cover
-}
-
-.card-hover:hover {
-  background-color: #00004B;
-  border-radius: 5%;
-  opacity: 0.8;
+/* Success */
+#success {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow-y: hidden;
   color: white;
- }
-
-
-.services-info img {
-  height: 400px;
-  object-fit: cover;
+  text-shadow: 5px 5px 7px black;
 }
 
-.industry-info img {
-  height: 220px;
-   object-fit: cover;
+#success .carousel-caption{
+  position: absolute;
+  top:25vh;
+}
+
+
+#success h1 {
+  font-size: 5.5rem;
+  margin-bottom: 0;
+
+}
+
+#success h2 {
+  font-size: 2rem;
 } 
 
-#contact-center-menu li{
-  font-size: 100%;
-  text-align: left;
-}
 
-#contact-center-menu h3{
-  font-size: 155%;
-  
-}
-
-.contact-description{
-  padding-right:30px;
-}
-
- 
-/* Extra small devices (portrait phones, less than 576px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+ }

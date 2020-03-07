@@ -51,3 +51,7 @@ faders.forEach(fader => {
 sliders.forEach(slider => {
   appearOnScroll.observe(slider);
 });
+
+// $(document).ready(function(){
+
+// });

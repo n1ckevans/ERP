@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
   <link href="img/erp.ico" rel="icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/erp-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/erp-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -10,11 +14,11 @@
   <meta name="msvalidate.01" content="CD51AC35EBC0562817F42AE7EDA725DC">
   <meta name="description" content="eResourcePlanner is a unique tool that helps mid-size to large companies cut unnecessary staffing costs, improve employee satisfaction through empowerment and schedule flexibility, thus improving business outcomes.  Companies that use eResourcePlanner short ROIs or return on investments due to more efficient staffing and workforce optimization.">
   <link rel="canonical" href="http://eresourceplanner.com/">
-  <meta name="msapplication-square70x70logo" content="img/erp.ico" />
-  <meta name="msapplication-square150x150logo" content="img/erp.ico" />
-  <meta name="msapplication-wide310x150logo" content="img/erp_logo.jpg" />
-  <meta name="msapplication-square310x310logo" content="img/erp_logo.jpg" />
-  <meta name="msapplication-TileColor" content="#006788" />
+  <meta name="msapplication-square70x70logo" content="img/erp-icon.png" />
+  <meta name="msapplication-square150x150logo" content="img/erp-icon.png" />
+  <meta name="msapplication-wide310x150logo" content="img/erp-logo.jpg" />
+  <meta name="msapplication-square310x310logo" content="img/erp-logo.jpg" />
+  <meta name="msapplication-TileColor" content="#fff" />
   <meta name="application-name" content="eResourcePlanner" />
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="website">
@@ -27,10 +31,7 @@
    <meta name="twitter:title" content="eResourcePlanner">
    <meta name="twitter:image" content="http://www.eresourceplanner.com/images/erp_logo.gif">
    <link rel="shortlink" href="http://eresourceplanner.com/">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
   <link href="css/style.css" rel="stylesheet">
-  
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -39,131 +40,133 @@
 <body>
 <header>
 <!-- Nav Bar -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">
+    <img id="erp-logo-nav" class="img-fluid" src="img/erp-logo.png" alt="eResourcePlanner Logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <a class="navbar-brand text-brand" href="index.html"><b class="logo"><span class="e">e</span><span class="RP">ResourcePlanner</span></b></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item mx-auto">
-          <div class="btn-group">
-            <button type="button" class="btn">
-              <a class="text-decoration-none" href="index.html">Home</a>
-            </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <div class="btn-group">
+          <button type="button" class="btn">
+            <a class="text-decoration-none blue" href="index.html">Home</a>
+          </button>
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="btn-group">
+          <button type="button" class="btn"><a class="text-decoration-none blue" href="solutions.html">Solutions</a></button>
+          <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item blue" href="employee-self-management.html">Employee Self-Management</a>
+            <a class="dropdown-item blue" href="performance-management.html">Performance Management</a>
+            <a class="dropdown-item blue" href="time-keeping.html">Time Keeping</a>
+            <a class="dropdown-item blue" href="employee-portal.html">Employee Portal</a>
+            <a class="dropdown-item blue" href="schedule-fulfillment.html">Schedule Fullfillment</a>
+            <a class="dropdown-item blue" href="intraday-resource-management.html">Intraday Resource Management</a>
           </div>
-        </li>
-        <li class="nav-item mx-auto">
-          <div class="btn-group">
-            <button type="button" class="btn"><a class="text-decoration-none" href="solutions.html">Solutions</a></button>
-            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span class="sr-only">Toggle Dropdown</span>
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="employee-self-management.html">Employee Self-Management</a>
-              <a class="dropdown-item" href="performance-management.html">Performance Management</a>
-              <a class="dropdown-item" href="time-keeping.html">Time Keeping</a>
-              <a class="dropdown-item" href="employee-portal.html">Employee Portal</a>
-              <a class="dropdown-item" href="schedule-fulfillment.html">Schedule Fullfillment</a>
-              <a class="dropdown-item" href="intraday-resource-management.html">Intraday Resource Management</a>
-            </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="btn-group">
+          <button type="button" class="btn"><a class="text-decoration-none blue" href="services.html">Services</a></button>
+          <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item blue" href="software-as-a-service.html">Software as a Service</a>
+            <a class="dropdown-item blue" href="deployment-process.html">Deployment Process</a>
+            <a class="dropdown-item blue" href="integrations-with-other-platforms.html">Integration With Existing Platforms</a>
+            <a class="dropdown-item blue" href="training-options.html">Training Options</a>
           </div>
-        </li>
-        <li class="nav-item mx-auto">
-          <div class="btn-group">
-            <button type="button" class="btn"><a class="text-decoration-none" href="services.html">Services</a></button>
-            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span class="sr-only">Toggle Dropdown</span>
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="software-as-a-service.html">Software as a Service</a>
-              <a class="dropdown-item" href="deployment-process.html">Deployment Process</a>
-              <a class="dropdown-item" href="integrations-with-other-platforms.html">Integration With Existing Platforms</a>
-              <a class="dropdown-item" href="training-options.html">Training Options</a>
-            </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="btn-group">
+          <button type="button" class="btn"><a class="text-decoration-none blue" href="industries.html">Industries</a></button>
+          <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item blue" href="contact-centers.html">Contact Centers</a>
+            <a class="dropdown-item blue" href="outsourcers.html">Outsourcers</a>
+            <a class="dropdown-item blue" href="at-home-agents.html">At Home Agents</a>
+            <a class="dropdown-item blue" href="healthcare.html">Healthcare</a>
+            <a class="dropdown-item blue" href="hospitality.html">Hospitality</a>
+            <a class="dropdown-item blue" href="public-safety.html">Public Safety</a>
+            <a class="dropdown-item blue" href="manufacturing.html">Manufacturing</a>
+            <a class="dropdown-item blue" href="shift-based-employee-group.html">Shift Based Employee Groups</a>
           </div>
-        </li>
-        <li class="nav-item mx-auto">
-          <div class="btn-group">
-            <button type="button" class="btn"><a class="text-decoration-none" href="industries.html">Industries</a></button>
-            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span class="sr-only">Toggle Dropdown</span>
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="contact-centers.html">Contact Centers</a>
-              <a class="dropdown-item" href="outsourcers.html">Outsourcers</a>
-              <a class="dropdown-item" href="at-home-agents.html">At Home Agents</a>
-              <a class="dropdown-item" href="healthcare.html">Healthcare</a>
-              <a class="dropdown-item" href="hospitality.html">Hospitality</a>
-              <a class="dropdown-item" href="public-safety.html">Public Safety</a>
-              <a class="dropdown-item" href="manufacturing.html">Manufacturing</a>
-              <a class="dropdown-item" href="shift-based-employee-group.html">Shift Based Employee Groups</a>
-            </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <div class="btn-group">
+          <button type="button" class="btn"><a class="text-decoration-none blue" href="about.html">About</a></button>
+          <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item blue" href="company.html">Company</a>
+            <a class="dropdown-item" href="management-team.html">Management Team</a>
+            <a class="dropdown-item blue" href="mission.html">Mission</a>
+            <a class="dropdown-item blue" href="careers.html">Careers</a>
           </div>
-        </li>
-        <li class="nav-item mx-auto">
-          <div class="btn-group">
-            <button type="button" class="btn"><a class="text-decoration-none" href="about.html">About</a></button>
-            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span class="sr-only">Toggle Dropdown</span>
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="company.html">Company</a>
-              <a class="dropdown-item" href="management-team.html">Management Team</a>
-              <a class="dropdown-item" href="mission.html">Mission</a>
-              <a class="dropdown-item" href="careers.html">Careers</a>
-            </div>
+        </div>
+      </li>
+      <li class="nav-item ">
+        <div class="btn-group">
+          <button type="button" class="btn"><a class="text-decoration-none blue" href="contact.html">Contact</a></button>
+          <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item blue" href="sales-inquiries.html">Sales Inquiries</a>
+            <a class="dropdown-item blue" href="customer-support.html">Customer Support</a>
+            <a class="dropdown-item blue" href="media-and-pr.html">Media and PR</a>
+            <a class="dropdown-item blue" href="general-inquiries.html">General Inquiries</a>
           </div>
-        </li>
-        <li class="nav-item mx-auto">
-          <div class="btn-group">
-            <button type="button" class="btn"><a class="text-decoration-none" href="contact.html">Contact</a></button>
-            <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span class="sr-only">Toggle Dropdown</span>
-            </button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="sales-inquiries.html">Sales Inquiries</a>
-              <a class="dropdown-item" href="customer-support.html">Customer Support</a>
-              <a class="dropdown-item" href="media-and-pr.html">Media and PR</a>
-              <a class="dropdown-item" href="general-inquiries.html">General Inquiries</a>
-            </div>
-          </div>
-        </li>
-        <li class="nav-item mx-auto">
-          <div class="btn-group">
-            <button type="button" class="btn">
-              <a class="text-decoration-none" href="success-story.html">Success Story</a>
-            </button>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>  
-  </nav>
+        </div>
+      </li>
+      <li class="nav-item ">
+        <div class="btn-group">
+          <button type="button" class="btn">
+            <a class="text-decoration-none blue" href="success-story.html">Success Story</a>
+          </button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
 </header>
 
 
-<main>
+
+
+
+
   <!-- Carousel -->
-  <div id="showcase" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#showcase" data-slide-to="0" class="active"></li>
-      <li data-target="#showcase" data-slide-to="1"></li>
-    </ol>
+  <div id="showcase" class="carousel slide" data-ride="carousel" data-interval="4500" data-pause="false" data-wrap="true">
     <div class="carousel-inner">
-      <div class="carousel-item drk active">
+           <div class="carousel-item drk active">
         <img class="d-block img-fluid" src="img/stock1.jfif" alt="First slide">
         <div class="carousel-caption d-md-block">
-          <h1>Web Based Solutions to Empower Employees</h1>
+          <h1 class="text-uppercase">Web Based Solutions to Empower Employees</h1>
         </div>
       </div>
       <div class="carousel-item drk">
         <img class="d-block img-fluid" src="img/stock2.jfif" alt="Second slide">
         <div class="carousel-caption d-md-block">
-          <h1>
+          <h1 class="text-uppercase">
             Eliminate costs<br>
             Empower staff<br> 
             Improve outcomes
@@ -171,35 +174,31 @@
          </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#showcase" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#showcase" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
 
   <!-- Welcome Section -->
-<div class="container-fluid">
-  <section class="welcome-intro">
-    <h1 class="text-center m-5 blue">Welcome</h1>
+<div id="welcome-section" class="container">
+  <section id="welcome-title">
+    <h1 class="text-center m-4 blue">Welcome</h1>
   </section>
-  <div class="welcome fade-in">
-    <p class="blue welcome-text">
+  <div id="welcome-body" class="fade-in">
+    <p class="blue">
       eResourcePlanner
       is a unique Global Staff Self-Management, Reporting, and Intelligent Notification Service that automates the disposition of employee schedule change requests and passes the resulting schedule changes to other in house applications, most often to Workforce Management, Payroll, and Time/Attendance systems.</p>
-    <p class="blue welcome-text">Employees log onto an eResourcePlanner hosted and maintained website that is fully customized to their employer's schedule coverage needs and HR policies allowing them to safely self-manage their schedules and time off with immediate and objective dispositions.</p>
-    <p class="blue welcome-text">Using Six Sigma methodologies, eResourcePlanner eliminates the need for administrators to manually review, research, disposition, and enter employee and company requests for changes to their schedules. Whether it is a time off request, participation in a shift/vacation bid, a shift trade, or overtime/early release selection, eResourcePlanner ensures that all company policies are adhered to, that coverage needs are met, and that entitlement balances are in line with the request.</p>
-    <p class="blue welcome-text">Allowing employees to adjust their own schedules reduces back office personnel and creates happier employees. With software tied into HR entitlements and policies, our customers' scheduling requirements are improved while giving employees maximum flexibility without risking coverage requirements.</p>
-    <p class="blue welcome-text">eResourcePlanner's reporting and intelligent notification services help managers spot trends and outliers quickly before they impact productivity or drive additional coverage costs. Using our threshold alerts to not only alert managers of specific transactions by specific employee, they modify employee behavior by alerting them at the time of the transaction of a policy or performance infraction. Additionally, the return on investment with eResourcePlanner is very robust and enticing to organizations that are seeking to empower their employees to take on more responsibilities. The streamlined and cost effective strategies employed by customers of eResourcePlanner typically return their initial investments within the first few months of use.</p>
-    <p class="blue welcome-text">Please contact us to learn how other companies are finding more margin through automation.</p>
+    <p class="blue">Employees log onto an eResourcePlanner hosted and maintained website that is fully customized to their employer's schedule coverage needs and HR policies allowing them to safely self-manage their schedules and time off with immediate and objective dispositions.</p>
+    <p class="blue">Using Six Sigma methodologies, eResourcePlanner eliminates the need for administrators to manually review, research, disposition, and enter employee and company requests for changes to their schedules. Whether it is a time off request, participation in a shift/vacation bid, a shift trade, or overtime/early release selection, eResourcePlanner ensures that all company policies are adhered to, that coverage needs are met, and that entitlement balances are in line with the request.</p>
+    <p class="blue">Allowing employees to adjust their own schedules reduces back office personnel and creates happier employees. With software tied into HR entitlements and policies, our customers' scheduling requirements are improved while giving employees maximum flexibility without risking coverage requirements.</p>
+    <p class="blue">eResourcePlanner's reporting and intelligent notification services help managers spot trends and outliers quickly before they impact productivity or drive additional coverage costs. Using our threshold alerts to not only alert managers of specific transactions by specific employee, they modify employee behavior by alerting them at the time of the transaction of a policy or performance infraction. 
+    </p>
+      <p class="blue">
+      Additionally, the return on investment with eResourcePlanner is very robust and enticing to organizations that are seeking to empower their employees to take on more responsibilities. The streamlined and cost effective strategies employed by customers of eResourcePlanner typically return their initial investments within the first few months of use.</p>
+    <p class="blue">Please contact us to learn how other companies are finding more margin through automation.</p>
   </div>
+ 
 </div>
 
 <!-- Benefits Section -->
-<div id="benefits">
+<div id="benefits" class="hide-small">
   <h1 class="text-center blue">Your Benefits</h1>
   <div class="more-stuff-grid">
     <img
@@ -235,7 +234,7 @@
 
 
 <!-- Success Stories -->
-<div id="success" class="carousel slide" data-ride="carousel" data-interval="5000">
+<div id="success" class="carousel slide hide-small" data-ride="carousel" data-interval="5000">
   <div class="carousel-inner">
     <div class="carousel-item drk active">
       <img class="img-fluid" src="img/stock4.jfif" alt="Stock Photo 1">
@@ -262,16 +261,16 @@
   <div class="container-fluid">
   <div class="row text-center">
      <div class="col-md-4">
-      <p class="copywright">© Copyright 2004 - 2020 <b><span class="e">e</span><span class="RP">ResourcePlanner</span></b> All rights Reserved</p>
+      <p id="copywright">© Copyright 2004 - 2020  <img id="erp-logo-copywright" class="img-fluid" src="img/erp-logo.png" alt="eResourcePlanner Logo"> All rights Reserved</p>
     </div>
-    <div class="col-md-4">
-      <a id="dan-header" class="navbar-brand mx-auto" href="index.html"><img src="img/erp_logo.jpg" alt="eResourcePlanner Logo"></a>
+    <div class="hide-small col-md-4">
+      <a class="navbar-brand mx-auto mt-1" href="index.html"><img id="erp-logo-footer" class="img-fluid" src="img/erp-logo.png" alt="eResourcePlanner Logo"></a>
     </div>
-    <div class="col-md-4">
-      <ul class="">
+    <div class="hide-small col-md-4">
+      <ul class="mt-1">
         <li class="d-inline-block">
           <div class="btn-group dropup">
-            <button type="button " class="btn"><a class="text-decoration-none footer-links" href="support.html">Support</a></button>
+            <button type="button " class="btn"><a class="text-decoration-none " href="support.html">Support</a></button>
             <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span class="sr-only">Toggle Dropdown</span>
             </button>
@@ -285,7 +284,7 @@
         </li>
         <li class="d-inline-block">
           <div class="btn-group dropup">
-            <button type="button " class="btn"><a class="text-decoration-none footer-links" href="customers.html">Customers</a></button>
+            <button type="button " class="btn"><a class="text-decoration-none " href="customers.html">Customers</a></button>
             <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span class="sr-only">Toggle Dropdown</span>
             </button>
@@ -298,7 +297,7 @@
         </li>
         <li class="d-inline-block">
           <div class="btn-group dropup">
-            <button type="button " class="btn"><a class="text-decoration-none footer-links" href="careers.html">Careers</a></button>
+            <button type="button " class="btn"><a class="text-decoration-none " href="careers.html">Careers</a></button>
             <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span class="sr-only">Toggle Dropdown</span>
             </button>
@@ -310,7 +309,7 @@
         </li>
         <li class="d-inline-block">
           <div class="btn-group dropup">
-            <button type="button " class="btn"><a class="text-decoration-none footer-links" href="news.html">News</a></button>
+            <button type="button " class="btn"><a class="text-decoration-none " href="news.html">News</a></button>
             <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span class="sr-only">Toggle Dropdown</span>
             </button>
@@ -331,5 +330,6 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+				
 </body>
 </html>
