@@ -38,7 +38,7 @@
 </head>
 <body>
   <header>
-<!-- Navigation -->
+<!-- Nav Bar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="index.html">
     <img id="erp-logo-nav" class="img-fluid" src="img/erp-logo.png" alt="eResourcePlanner Logo">
@@ -52,18 +52,26 @@
       <li class="nav-item">
         <div class="btn-group">
           <button type="button" class="btn">
-            <a class="text-decoration-none blue" href="index.html">Home</a>
+            <a class="text-decoration-none blue navbar-link" href="index.html">Home</a>
           </button>
         </div>
       </li>
+
+
       <li class="nav-item">
         <div class="btn-group">
-          <button type="button" class="btn"><a class="text-decoration-none blue" href="solutions.html">Solutions</a></button>
+          <button type="button" class="btn">
+            <a class="text-decoration-none blue navbar-link" href="solutions.html">Solutions</a>
+          </button>
+        </div>
+      <li class="nav-item hide-small">
+        <div class="btn-group ">
+          <button type="button" class="btn"><a class="text-decoration-none blue navbar-link" href="solutions.html">Solutions</a></button>
           <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropdown</span>
           </button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item blue" href="employee-self-management.html">Employee Self-Management</a>
+          <div id="dropdown" class="dropdown-menu">
+            <a class="dropdown-item blue navbar-dropdown-link" href="employee-self-management.html">Employee Self-Management</a>
             <a class="dropdown-item blue" href="performance-management.html">Performance Management</a>
             <a class="dropdown-item blue" href="time-keeping.html">Time Keeping</a>
             <a class="dropdown-item blue" href="employee-portal.html">Employee Portal</a>
@@ -72,9 +80,17 @@
           </div>
         </div>
       </li>
+
+
       <li class="nav-item">
         <div class="btn-group">
-          <button type="button" class="btn"><a class="text-decoration-none blue" href="services.html">Services</a></button>
+          <button type="button" class="btn">
+            <a class="text-decoration-none blue navbar-link" href="services.html">Services</a>
+          </button>
+        </div>
+      <li class="nav-item hide-small">
+        <div class="btn-group">
+          <button type="button" class="btn"><a class="text-decoration-none blue navbar-link" href="services.html">Services</a></button>
           <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropdown</span>
           </button>
@@ -86,9 +102,18 @@
           </div>
         </div>
       </li>
+
+
+
       <li class="nav-item">
         <div class="btn-group">
-          <button type="button" class="btn"><a class="text-decoration-none blue" href="industries.html">Industries</a></button>
+          <button type="button" class="btn">
+            <a class="text-decoration-none blue navbar-link" href="industries.html">Industries</a>
+          </button>
+        </div>
+      <li class="nav-item hide-small">
+        <div class="btn-group">
+          <button type="button" class="btn"><a class="text-decoration-none blue navbar-link" href="industries.html">Industries</a></button>
           <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropdown</span>
           </button>
@@ -104,9 +129,17 @@
           </div>
         </div>
       </li>
+
+
       <li class="nav-item">
         <div class="btn-group">
-          <button type="button" class="btn"><a class="text-decoration-none blue" href="about.html">About</a></button>
+          <button type="button" class="btn">
+            <a class="text-decoration-none blue navbar-link" href="about.html">About</a>
+          </button>
+        </div>
+      <li class="nav-item hide-small">
+        <div class="btn-group">
+          <button type="button" class="btn"><a class="text-decoration-none blue navbar-link" href="about.html">About</a></button>
           <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropdown</span>
           </button>
@@ -118,9 +151,18 @@
           </div>
         </div>
       </li>
-      <li class="nav-item ">
+
+
+
+      <li class="nav-item">
         <div class="btn-group">
-          <button type="button" class="btn"><a class="text-decoration-none blue" href="contact.html">Contact</a></button>
+          <button type="button" class="btn">
+            <a class="text-decoration-none blue navbar-link" href="contact.html">Contact</a>
+          </button>
+        </div>
+      <li class="nav-item hide-small">
+        <div class="btn-group">
+          <button type="button" class="btn"><a class="text-decoration-none blue navbar-link" href="contact.html">Contact</a></button>
           <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="sr-only">Toggle Dropdown</span>
           </button>
@@ -131,11 +173,12 @@
             <a class="dropdown-item blue" href="general-inquiries.html">General Inquiries</a>
           </div>
         </div>
-      </li>
+      </li>   
+      
       <li class="nav-item ">
         <div class="btn-group">
           <button type="button" class="btn">
-            <a class="text-decoration-none blue" href="success-story.html">Success Story</a>
+            <a class="text-decoration-none blue navbar-link" href="success-story.html">Success Story</a>
           </button>
         </div>
       </li>
@@ -226,11 +269,11 @@
 
 
 <!-- Solutions Cards -->
-<div id="solution-cards" class="container text-center blue">
+<div class="info-cards container text-center blue">
   <div class="row">
     <a class="col-sm blue text-decoration-none mb-3 mt-3" href="employee-self-management.html">
       <div class="card shadow p-3 bg-white rounded">
-        <h1 class="solution-title mb-3 mt-3">Employee Self-Management</h1>
+        <h1 class="cards-title mb-3 mt-3">Employee Self-Management</h1>
         <img class="card-img" src="img/solution1.jpg" alt="Card image">
         <div class="card-body">
           
@@ -239,7 +282,7 @@
   </a>
   <a class="col-sm blue text-decoration-none mb-3 mt-3" href="performance-management.html">
     <div class="card shadow p-3 bg-white rounded">
-      <h1 class="solution-title mb-3 mt-3">Performance Management</h1>
+      <h1 class="cards-title mb-3 mt-3">Performance Management</h1>
       <img class="card-img" src="img/solution2.jpg" alt="Card image">
       <div class="card-body">
         
@@ -248,7 +291,7 @@
 </a>
 <a class="col-sm blue text-decoration-none mb-3 mt-3" href="time-keeping.html">
   <div class="card shadow p-3 bg-white rounded">
-    <h1 class="solution-title mb-3 mt-3">Time Keeping</h1>
+    <h1 class="cards-title mb-3 mt-3">Time Keeping</h1>
     <img class="card-img" src="img/solution3.jpg" alt="Card image">
     <div class="card-body">
 </div>
@@ -259,7 +302,7 @@
   <div class="row">
     <a class="col-sm blue text-decoration-none" href="employee-portal.html">
       <div class="card shadow p-3 bg-white rounded">
-        <h1 class="solution-title mb-3 mt-3">Employee Portal</h1>
+        <h1 class="cards-title mb-3 mt-3">Employee Portal</h1>
         <img class="card-img" src="img/solution4.jpg" alt="Card image">
         <div class="card-body">
           
@@ -268,7 +311,7 @@
     </a>
     <a class="col-sm blue text-decoration-none" href="schedule-fulfillment.html">
       <div class="card shadow p-3 bg-white rounded">
-        <h1 class="solution-title mb-3 mt-3">Schedule Fulfillment</h1>
+        <h1 class="cards-title mb-3 mt-3">Schedule Fulfillment</h1>
         <img class="card-img" src="img/solution5.jpg" alt="Card image">
         <div class="card-body">
           
@@ -277,7 +320,7 @@
     </a>
     <a class="col-sm blue text-decoration-none mb-3 mt-3" href="intraday-resource-management.html">
       <div class="card shadow p-3 bg-white rounded">
-        <h1 class="solution-title mb-3 mt-3">Intraday Resource Management</h1>
+        <h1 class="cards-title mb-3 mt-3">Intraday Resource Management</h1>
         <img class="card-img" src="img/solution6.jpg" alt="Card image">
         <div class="card-body">
           

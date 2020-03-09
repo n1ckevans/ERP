@@ -28,12 +28,12 @@ html {
 
 #index-carousel .carousel-caption{
   position: absolute;
-  top:7vh;
+  top:3vh;
 }
 
 
 #index-carousel h1 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-bottom: 0;
 
 }
@@ -404,6 +404,20 @@ html {
   color: #006788;
 } */
 
+.navbar-link {
+  font-size: 1rem;
+
+}
+
+#dropdown{
+  position: relative;
+  display: block;
+}
+
+
+.dropdown-item {
+  font-size: 1rem;
+}
 
 
 .section-title h1{
@@ -431,6 +445,11 @@ html {
   margin-right: 1.5rem;
 }
 
+.card-body {
+  font-size: 1.1rem;
+  margin-top: -2rem;
+}
+
 
 
 .logo {
@@ -446,24 +465,26 @@ html {
   color: #006993;
 }
 
-.solution-title {
-  font-size: 1.5rem;
+.cards-title {
+  font-size: 1.6rem;
+  font-weight: 790;
 }
 
-#solution-cards a:hover,
-.solution-title:hover,
-.solution-title:focus {
+.info-cards:hover,
+.cards-title:hover,
+.cards-title:focus {
   color: #006993;
 }
 
-.solutions {
+/* .solutions {
   height: 250px;
   object-fit: cover
-}
+} */
 
 
 
-.services-info img {
+
+/* .services-info img {
   height: 400px;
   object-fit: cover;
 }
@@ -471,7 +492,7 @@ html {
 .industry-info img {
   height: 220px;
    object-fit: cover;
-} 
+}  */
 
 /* #contact-center-menu li{
   font-size: 100%;
@@ -509,9 +530,6 @@ html {
   font-size: 0.7rem;
 }
 
-.dropdown-item {
-  font-size: 1rem;
-}
 
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query since this is the default in Bootstrap */
