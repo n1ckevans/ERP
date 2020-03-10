@@ -23,7 +23,7 @@ html {
   overflow-y: hidden;
   color: white;
   text-shadow: 5px 5px 7px black;
-
+  margin-right: 0px;
 }
 
 #index-carousel .carousel-caption{
@@ -33,10 +33,11 @@ html {
 
 
 #index-carousel h1 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-bottom: 0;
-
+ 
 }
+
 
 /* solutions-carousel */
 #solutions-carousel {
@@ -138,7 +139,7 @@ html {
 }
 
 /* success-carousel */
-#success-carousel {
+#success-carousel-carousel {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -150,13 +151,13 @@ html {
 }
 
 
-#success-carousel .carousel-caption{
+#success-carousel-carousel .carousel-caption{
   position: absolute;
   top:0.5vh;
 }
 
 
-#success-carousel h1 {
+#success-carousel-carousel h1 {
   font-size: 1.3rem;
   margin-bottom: 0;
 }
@@ -248,9 +249,6 @@ html {
 
 
 
-.hide-small {
-  display: none;
-} 
 
 
 /* .bottom-carousel {
@@ -346,7 +344,6 @@ html {
 
 
 
-
 /* 
 #indexCarousel img {
   height: 100vh;
@@ -374,9 +371,7 @@ html {
 
 
 
-.footer-links {
-  font-size: 0.9rem;
-}
+
 
 /* nav li a, footer li a, .copywright, .dropdown-item{
 
@@ -409,10 +404,7 @@ html {
 
 }
 
-#dropdown{
-  position: relative;
-  display: block;
-}
+
 
 
 .dropdown-item {
@@ -530,21 +522,843 @@ html {
   font-size: 0.7rem;
 }
 
+.hide-small {
+  display: none;
+} 
 
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
+@media (min-width: 576px) { 
+/* index-carousel */
+#index-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+
+}
+
+#index-carousel .carousel-caption{
+  position: absolute;
+  top:9vh;
+}
+
+
+#index-carousel h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+
+}
+
+/* solutions-carousel */
+#solutions-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+
+
+
+#solutions-carousel .carousel-caption{
+  position: absolute;
+  top:10vh;
+}
+
+
+#solutions-carousel h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+#solutions-cards h1 {
+  font-size: 1.3rem;
+}
+
+/* #solutions-cards .card {
+  width:15rem;
+} */
+
+
+/* services-carousel */
+#services-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+
+#services-carousel .carousel-caption{
+  position: absolute;
+  top:10vh;
+}
+
+
+#services-carousel h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+#services-cards h1 {
+  font-size: 1.8rem;
+}
+
+
+
+
+/* industries-carousel */
+#industries-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+
+#industries-carousel .carousel-caption{
+  position: absolute;
+  top:10vh;
+}
+
+
+#industries-carousel h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+/* about-carousel */
+#about-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+
+#about-carousel .carousel-caption{
+  position: absolute;
+  top:10vh;
+}
+
+
+#about-carousel h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+/* success-carousel */
+#success-carousel-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+
+#success-carousel-carousel .carousel-caption{
+  position: absolute;
+  top:0.5vh;
+}
+
+
+#success-carousel-carousel h1 {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+/* contact-carousel */
+#contact-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+
+#contact-carousel .carousel-caption{
+  position: absolute;
+  top:10vh;
+}
+
+
+#contact-carousel h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+/* news-carousel */
+#news-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+
+#news-carousel .carousel-caption{
+  position: absolute;
+  top:10vh;
+}
+
+
+#news-carousel h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+/* support-carousel */
+#support-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+
+#support-carousel .carousel-caption{
+  position: absolute;
+  top:3vh;
+}
+
+
+#support-carousel h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0;
+}
+
+#erp-logo-nav{
+  max-width: 15rem;
+}
+
+#erp-logo-copywright{
+  max-width: 8rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+
+ }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
+@media (min-width: 768px) { 
+  .section-title h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+  
+  .section-body{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    line-height: 1.5;
+  }
+
+  .section-body p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+
+  .subtitle{
+    font-size: 1.4rem;
+    font-weight: 750;
+    margin: 1rem 1.5rem 1rem 1.4rem;
+  }
+  
+
+  
+  #erp-logo-nav{
+    max-width: 15rem;
+  }
+  
+  #erp-logo-copywright{
+    max-width: 3rem;
+    display: inline-block;
+    }
+    
+    #erp-logo-copywright{
+      max-width: 8rem;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+
+
+    /* index-carousel */
+#index-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+
+}
+
+#index-carousel .carousel-caption{
+  position: absolute;
+  top:9vh;
+}
+
+
+#index-carousel h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+
+}
+
+/* solutions-carousel */
+#solutions-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+
+
+
+#solutions-carousel .carousel-caption{
+  position: absolute;
+  top:8vh;
+}
+
+
+#solutions-carousel h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0;
+}
+
+#solutions-cards h1 {
+  font-size: 1.5rem;
+}
+
+#solutions-cards .card {
+  width:20rem;
+}
+
+/* services-carousel */
+#services-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+
+#services-carousel .carousel-caption{
+  position: absolute;
+  top:10vh;
+}
+
+
+#services-carousel h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+/* industries-carousel */
+#industries-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+
+#industries-carousel .carousel-caption{
+  position: absolute;
+  top:10vh;
+}
+
+
+#industries-carousel h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+/* about-carousel */
+#about-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+
+#about-carousel .carousel-caption{
+  position: absolute;
+  top:10vh;
+}
+
+
+#about-carousel h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+/* success-carousel */
+#success-carousel-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+
+#success-carousel-carousel .carousel-caption{
+  position: absolute;
+  top:0.5vh;
+}
+
+
+#success-carousel-carousel h1 {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+/* contact-carousel */
+#contact-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+
+#contact-carousel .carousel-caption{
+  position: absolute;
+  top:10vh;
+}
+
+
+#contact-carousel h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+/* news-carousel */
+#news-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+
+#news-carousel .carousel-caption{
+  position: absolute;
+  top:10vh;
+}
+
+
+#news-carousel h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+/* support-carousel */
+#support-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+
+#support-carousel .carousel-caption{
+  position: absolute;
+  top:3vh;
+}
+
+
+#support-carousel h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0;
+}
+ 
+
+
+  }
+
+
+ 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (min-width: 992px) { 
+  body {
+   overflow-x: hidden;
+  }
+
+  #welcome p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 2.75rem;
+  }
+
+  .section-title {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+
+ 
+  .fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+  }
+  
+  .fade-in.appear {
+    opacity: 1;
+  }
+  
+  .from-left {
+    grid-column: 2 / 3;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  .from-right {
+    grid-column: 3 / 4;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+  
+  .from-left,
+  .from-right {
+    transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
+    transition: opacity 250ms ease-in, transform 400ms ease-in;
+    transition: opacity 250ms ease-in, transform 400ms ease-in,
+      -webkit-transform 400ms ease-in;
+    opacity: 0;
+  }
+  
+  .from-left.appear,
+  .from-right.appear {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  
+  .more-stuff-grid {
+    padding: 4em 0;
+    display: grid;
+    grid-gap: 2em;
+    align-items: center;
+    grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax(
+        1em,
+        1fr
+      );
+  }
+  
+  .more-stuff-grid img {
+    width: 40vw;
+  }
+
+
+
+
+  .hide-large {
+    display: none;
+  } 
+
+  .hide-small {
+    display: inherit;
+  } 
+  
+
+  #erp-logo-nav{
+    max-width: 15rem;
+  }
+
+
+
+  #erp-logo-copywright{
+    max-width: 6rem;
+    
+  }
+  
+  #erp-logo-footer{
+    max-width: 8rem;
+   
+  }
+
+
+  .navbar-nav a {
+    padding-right: 0.35rem;
+    font-size: 0.75rem;
+
+ }
+
+ #copywright
+{
+  font-size: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* footer li {
+ border: 1px solid green;
+  
+}  */
+
+
+/* footer .col-lg-5, footer .col-lg-2  {
+  border: 10px solid pink;
+ 
+ }  */
+
+ .footer-btn a {
+  font-size: 0.7rem;
+  /* border: 1px solid blue; */
+  margin: -0.9rem;
+
+  
+}
+
+footer ul {
+  margin-right: 3rem;
+}
+
+.footer-btn {
+  /* border: 1px solid red; */
+  width: 5rem;
+
+}
+
+.footer-submenu a {
+  font-size: 1rem;
+}
+
+
+ .section-body{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  
+}
+
+.section-body p{
+  font-size: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  line-height: 2rem;
+  margin-bottom: 4rem;
+ }
+
+     /* index-carousel */
+#index-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 75vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+
+}
+
+#index-carousel .carousel-caption{
+  position: absolute;
+  top:15vh;
+}
+
+
+#index-carousel h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+
+}
+   /* Success carousel */
+   #success-carousel {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    overflow-y: hidden;
+    color: white;
+    text-shadow: 5px 5px 7px black;
+    margin-bottom: -11.5rem;
+  }
+  
+  #success-carousel .carousel-caption{
+    position: absolute;
+    top:4vh;
+  }
+  
+  
+  #success-carousel h1 {
+    font-size: 5rem;
+    margin-bottom: 0;
+  
+  }
+  
+  #success-carousel h2 {
+    font-size: 1.8rem;
+  } 
+
+
+
+
+}
+
+
+@media (min-width: 1000px) { 
+
+     /* Success carousel */
+     #success-carousel {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 75vh;
+      position: relative;
+      overflow-y: hidden;
+      color: white;
+      text-shadow: 5px 5px 7px black;
+      margin-bottom: -3rem;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-  
+     /* index-carousel */
+     #index-carousel {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+      overflow-y: hidden;
+      color: white;
+      text-shadow: 5px 5px 7px black;
+    
+    }
+    
+    #index-carousel .carousel-caption{
+      position: absolute;
+      margin: 0;
+      padding: 0;
+      top:15vh;
+    }
+    
+    
+    #index-carousel h1 {
+      font-size: 2rem;
+      margin-bottom: 0;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #index-carousel img {
+     
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Success carousel */
+#success-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+#success-carousel .carousel-caption{
+  position: absolute;
+  top:25vh;
+}
+
+
+#success-carousel h1 {
+  font-size: 5.5rem;
+  margin-bottom: 0;
+
+}
+
+#success-carousel h2 {
+  font-size: 2rem;
+} 
+
 #erp-logo-nav{
   max-width: 19.5rem;
 }
@@ -555,6 +1369,7 @@ html {
 
 #erp-logo-footer{
   max-width: 12rem;
+  vertical-align: middle;
 }
 
 nav {
@@ -630,36 +1445,10 @@ nav {
 }
 
 .more-stuff-grid img {
-  width: 400px;
+  width: 25vw;
 }
 
-/* Success */
-#success {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  overflow-y: hidden;
-  color: white;
-  text-shadow: 5px 5px 7px black;
-}
-
-#success .carousel-caption{
-  position: absolute;
-  top:25vh;
-}
-
-
-#success h1 {
-  font-size: 5.5rem;
-  margin-bottom: 0;
-
-}
-
-#success h2 {
-  font-size: 2rem;
-} 
 
 
  }
+
