@@ -1169,23 +1169,21 @@ html {
 {
   font-size: 0.5rem;
   margin-top: 1rem;
+  margin-left: 5rem;
 }
 
-/* footer li {
- border: 1px solid green;
-  
-}  */
+footer .btn-group {
+  width: 4rem;
+  margin-right: 0.4rem;
+} 
 
 
-/* footer .col-lg-5, footer .col-lg-2  {
-  border: 10px solid pink;
- 
- }  */
+
 
  .footer-btn a {
   font-size: 0.7rem;
   /* border: 1px solid blue; */
-  margin: -0.9rem;
+  margin: -1.1rem;
 
   
 }
@@ -1194,16 +1192,28 @@ footer ul {
   margin-right: 3rem;
 }
 
+footer .dropdown-menu{
+     min-height: 8rem;
+     min-width: 12rem;
+}
+
+
 .footer-btn {
   /* border: 1px solid red; */
-  width: 5rem;
+  width: 4rem;
 
+}
+
+.footer-submenu  {
+  height: 100%;
+  
 }
 
 .footer-submenu a {
-  font-size: 1rem;
+  font-size: 0.8rem;
+  margin: 0.1rem;
+  
 }
-
 
  .section-body{
   width: 100%;
@@ -1259,12 +1269,12 @@ footer ul {
   
   #success-carousel .carousel-caption{
     position: absolute;
-    top:4vh;
+    top:2vh;
   }
   
   
   #success-carousel h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     margin-bottom: 0;
   
   }
@@ -1345,7 +1355,7 @@ footer ul {
 
 #success-carousel .carousel-caption{
   position: absolute;
-  top:25vh;
+  top:20vh;
 }
 
 
@@ -1448,7 +1458,46 @@ nav {
   width: 25vw;
 }
 
+footer .btn-group {
+  width: 5rem;
+  
+  margin-left: 2px;
+} 
 
+
+
+.footer-btn a {
+  font-size: 0.9rem;
+  /* border: 1px solid blue; */
+  margin: -0.9rem;
+  
+  
+}
+
+
+
+footer {
+  margin-top: -2rem;
+}
+
+.footer-submenu  {
+  height: 100%;
+  
+}
+
+.footer-submenu a {
+  font-size: 0.8rem;
+  margin: 0.1rem;
+  
+}
+
+
+#copywright
+{
+  font-size: 0.5rem;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
 
  }
 
