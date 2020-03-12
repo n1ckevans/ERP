@@ -28,15 +28,18 @@ html {
 
 #index-carousel .carousel-caption{
   position: absolute;
-  top:3vh;
+  top:6vh;
 }
 
 
 #index-carousel h1 {
-  font-size: 1.6rem;
+  font-size: 1.75rem;
   margin-bottom: 0;
  
 }
+
+
+
 
 
 /* solutions-carousel */
@@ -103,6 +106,8 @@ html {
 }
 
 
+
+
 #industries-carousel .carousel-caption{
   position: absolute;
   top:3vh;
@@ -139,7 +144,7 @@ html {
 }
 
 /* success-carousel */
-#success-carousel-carousel {
+#success-carousel {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -151,14 +156,14 @@ html {
 }
 
 
-#success-carousel-carousel .carousel-caption{
+#success-carousel .carousel-caption{
   position: absolute;
-  top:0.5vh;
+  top:4.5vh;
 }
 
 
-#success-carousel-carousel h1 {
-  font-size: 1.3rem;
+#success-carousel h1 {
+  font-size: 1.25rem;
   margin-bottom: 0;
 }
 
@@ -245,6 +250,7 @@ html {
   right:0;
   background:#000;
   opacity:0.4;
+
 }
 
 
@@ -424,6 +430,7 @@ html {
   margin: auto;
   line-height: 1.5;
 }
+
 .subtitle{
   font-size: 1.4rem;
   font-weight: 750;
@@ -526,6 +533,19 @@ html {
   display: none;
 } 
 
+nav {
+  background-color: white;
+}
+
+#services-cards h1 {
+  font-size: 1.25rem;
+}
+
+#success-cards .card {
+  width:32rem;
+}
+
+
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query since this is the default in Bootstrap */
 
@@ -546,12 +566,12 @@ html {
 
 #index-carousel .carousel-caption{
   position: absolute;
-  top:9vh;
+  top:10vh;
 }
 
 
 #index-carousel h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 0;
 
 }
@@ -616,7 +636,7 @@ html {
 }
 
 #services-cards h1 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 
@@ -671,7 +691,7 @@ html {
 }
 
 /* success-carousel */
-#success-carousel-carousel {
+#success-carousel {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -683,16 +703,17 @@ html {
 }
 
 
-#success-carousel-carousel .carousel-caption{
+#success-carousel .carousel-caption{
   position: absolute;
-  top:0.5vh;
+  top:4.5vh;
 }
 
 
-#success-carousel-carousel h1 {
-  font-size: 1.3rem;
+#success-carousel h1 {
+  font-size: 2rem;
   margin-bottom: 0;
 }
+
 
 /* contact-carousel */
 #contact-carousel {
@@ -776,6 +797,13 @@ html {
   margin-right: 0.5rem;
 }
 
+#industries-cards .card {
+  width:15rem;
+}
+
+#success-cards .card {
+  width:34rem;
+}
 
  }
 
@@ -804,7 +832,7 @@ html {
   .subtitle{
     font-size: 1.4rem;
     font-weight: 750;
-    margin: 1rem 1.5rem 1rem 1.4rem;
+    margin: 1rem 1.5rem 1rem 1.5em;
   }
   
 
@@ -840,12 +868,12 @@ html {
 
 #index-carousel .carousel-caption{
   position: absolute;
-  top:9vh;
+  top:10vh;
 }
 
 
 #index-carousel h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 0;
 
 }
@@ -877,7 +905,7 @@ html {
 }
 
 #solutions-cards h1 {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 #solutions-cards .card {
@@ -889,7 +917,7 @@ html {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   position: relative;
   overflow-y: hidden;
   color: white;
@@ -904,9 +932,19 @@ html {
 
 
 #services-carousel h1 {
-  font-size: 2rem;
+  font-size: 2.25rem;
   margin-bottom: 0;
 }
+
+#services-cards .card {
+  width:21rem;
+}
+
+
+#services-cards h1 {
+  font-size: 0.98rem;
+}
+
 
 /* industries-carousel */
 #industries-carousel {
@@ -931,6 +969,9 @@ html {
   font-size: 2rem;
   margin-bottom: 0;
 }
+
+
+
 
 /* about-carousel */
 #about-carousel {
@@ -957,7 +998,7 @@ html {
 }
 
 /* success-carousel */
-#success-carousel-carousel {
+#success-carousel {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -969,14 +1010,14 @@ html {
 }
 
 
-#success-carousel-carousel .carousel-caption{
+#success-carousel .carousel-caption{
   position: absolute;
-  top:0.5vh;
+  top:7vh;
 }
 
 
-#success-carousel-carousel h1 {
-  font-size: 1.3rem;
+#success-carousel h1 {
+  font-size: 2rem;
   margin-bottom: 0;
 }
 
@@ -1052,6 +1093,13 @@ html {
   margin-bottom: 0;
 }
  
+#industries-cards .card {
+  width:21rem;
+}
+
+#success-cards .card {
+  width:41.1rem;
+}
 
 
   }
@@ -1075,8 +1123,13 @@ html {
     margin-bottom: 3rem;
   }
 
+  .subtitle{
+    font-size: 1.4rem;
+    font-weight: 750;
+    margin: 1rem 1.5rem 1rem 3.5em;
+  }
+  
 
- 
   .fade-in {
     opacity: 0;
     transition: opacity 250ms ease-in;
@@ -1126,8 +1179,8 @@ html {
       );
   }
   
-  .more-stuff-grid img {
-    width: 40vw;
+  .more-stuff-grid img, .more-stuff-grid h2 {
+    width: 40.25vw;
   }
 
 
@@ -1143,7 +1196,7 @@ html {
   
 
   #erp-logo-nav{
-    max-width: 15rem;
+    max-width: 12rem;
   }
 
 
@@ -1154,14 +1207,14 @@ html {
   }
   
   #erp-logo-footer{
-    max-width: 8rem;
+    max-width: 10rem;
    
   }
 
 
   .navbar-nav a {
     padding-right: 0.35rem;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
 
  }
 
@@ -1222,14 +1275,18 @@ footer .dropdown-menu{
   
 }
 
-.section-body p{
-  font-size: 1rem;
+.section-body p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-bottom: 2.75rem;
   margin-left: 5rem;
-  margin-right: 5rem;
-  line-height: 2rem;
-  margin-bottom: 4rem;
+  margin-right: 5rem; 
  }
 
+ .section-body ul {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+ }
      /* index-carousel */
 #index-carousel {
   margin: 0;
@@ -1245,65 +1302,243 @@ footer .dropdown-menu{
 
 #index-carousel .carousel-caption{
   position: absolute;
-  top:15vh;
+  top:18vh;
 }
 
 
 #index-carousel h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin-bottom: 0;
 
 }
-   /* Success carousel */
-   #success-carousel {
+
+
+  #solutions-carousel {
+    display: none;
+  }
+
+  .solutions-parallax {
+    background-image: url(../img/solution.jpg);
     margin: 0;
     padding: 0;
     width: 100%;
     height: 75vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    overflow-y: hidden;
-    color: white;
-    text-shadow: 5px 5px 7px black;
-    margin-bottom: -11.5rem;
+    filter: grayscale(69%);
+  
   }
   
-  #success-carousel .carousel-caption{
+  .solutions-parallax-text  {
     position: absolute;
-    top:2vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 5px 5px 5px black;
   }
-  
-  
-  #success-carousel h1 {
-    font-size: 4rem;
-    margin-bottom: 0;
-  
+
+  .solutions-parallax-text h1 {
+   font-size: 3rem;
   }
-  
-  #success-carousel h2 {
-    font-size: 1.8rem;
-  } 
 
+    #solutions-cards h1 {
+      font-size: 1.5rem;
+    }
+    
+    #solutions-cards .card {
+      width:28rem;
+    }
 
+    #services-cards .card {
+      width:28rem;
+    }
 
+    #services-carousel {
+      display: none;
+    }
 
-}
-
-
-@media (min-width: 1000px) { 
-
-     /* Success carousel */
-     #success-carousel {
+    .services-parallax {
+      background-image: url(../img/services.jpg);
       margin: 0;
       padding: 0;
       width: 100%;
       height: 75vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
       position: relative;
-      overflow-y: hidden;
-      color: white;
-      text-shadow: 5px 5px 7px black;
-      margin-bottom: -3rem;
+      filter: grayscale(80%);
+    
     }
+    
+    .services-parallax-text  {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-shadow: 5px 5px 5px black;
+    }
+  
+    .services-parallax-text h1 {
+     font-size: 3rem;
+    }
+
+    #services-cards h1 {
+      font-size: 1.25rem;
+    }
+
+
+    #industries-carousel {
+      display: none;
+    }
+
+    .industries-parallax {
+      background-image: url(../img/industries.jpg);
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 75vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      filter: grayscale(55%);
+    
+    }
+    
+    .industries-parallax-text  {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-shadow: 5px 5px 5px black;
+    }
+  
+    .industries-parallax-text h1 {
+     font-size: 3rem;
+    }
+
+
+    #industries-cards .card {
+      width:14rem;
+      height: 15rem;
+    }
+
+    #industries-cards h1 {
+      font-size: 1.5rem;
+
+    }
+
+      .about-parallax {
+        background-image: url(../img/about.jpg);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(65%);
+      
+      }
+      
+      .about-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+    
+      .about-parallax-text h1 {
+       font-size: 3rem;
+      }
+  
+#about-carousel {
+  display: none;
 }
+
+.contact-parallax {
+  background-image: url(../img/contact.jpg);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 75vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: grayscale(45%);
+
+}
+
+.contact-parallax-text  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+.contact-parallax-text h1 {
+ font-size: 3rem;
+}
+
+#contact-carousel {
+display: none;
+}
+
+.success-parallax {
+  background-image: url(../img/success.jpg);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 75vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: grayscale(50%);
+
+}
+
+.success-parallax-text  {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+.success-parallax-text h1 {
+ font-size: 2.25rem;
+}
+
+#success-carousel {
+display: none;
+}
+
+#success-cards .card {
+  width:57rem;
+}
+
+}
+
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
@@ -1311,7 +1546,7 @@ footer .dropdown-menu{
      #index-carousel {
       margin: 0;
       padding: 0;
-      width: 100vw;
+      width: 100%;
       height: 100vh;
       position: relative;
       overflow-y: hidden;
@@ -1324,28 +1559,104 @@ footer .dropdown-menu{
       position: absolute;
       margin: 0;
       padding: 0;
-      top:15vh;
+      top:30vh;
     }
-    
     
     #index-carousel h1 {
-      font-size: 2rem;
+      font-size: 4rem;
       margin-bottom: 0;
-      margin: 0;
-      padding: 0;
+    
     }
     
-    #index-carousel img {
-     
+    .industries-parallax {
+      background-image: url(../img/industries.jpg);
       margin: 0;
       padding: 0;
+      width: 100%;
+      height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      filter: grayscale(55%);
+    
+    }
+    
+    .industries-parallax-text  {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-shadow: 5px 5px 5px black;
+    }
+  
+    .industries-parallax-text h1 {
+     font-size: 3rem;
     }
 
-    /* Success carousel */
+    .about-parallax {
+      background-image: url(../img/about.jpg);
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      filter: grayscale(65%);
+    
+    }
+    
+    .about-parallax-text  {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-shadow: 5px 5px 5px black;
+    }
+  
+    .about-parallax-text h1 {
+     font-size: 3.5rem;
+    }
+
+    
+.contact-parallax {
+  background-image: url(../img/contact.jpg);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: grayscale(45%);
+
+}
+
+.contact-parallax-text  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+.contact-parallax-text h1 {
+ font-size: 3rem;
+}
+
 #success-carousel {
   margin: 0;
   padding: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: relative;
   overflow-y: hidden;
@@ -1355,22 +1666,22 @@ footer .dropdown-menu{
 
 #success-carousel .carousel-caption{
   position: absolute;
-  top:20vh;
+  top:8vh;
 }
 
 
 #success-carousel h1 {
-  font-size: 5.5rem;
+  font-size: 7rem;
   margin-bottom: 0;
 
 }
 
 #success-carousel h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 } 
 
 #erp-logo-nav{
-  max-width: 19.5rem;
+  max-width: 19rem;
 }
 
 #erp-logo-copywright{
@@ -1378,8 +1689,8 @@ footer .dropdown-menu{
 }
 
 #erp-logo-footer{
-  max-width: 12rem;
-  vertical-align: middle;
+  max-width: 10rem;
+
 }
 
 nav {
@@ -1399,11 +1710,6 @@ nav {
 
 }
 
-#index-carousel h1 {
-  font-size: 5.5rem;
-  margin-bottom: 0;
-
-}
 
 .fade-in {
   opacity: 0;
@@ -1454,8 +1760,13 @@ nav {
     );
 }
 
+  
 .more-stuff-grid img {
-  width: 25vw;
+  width: 31vw;
+}
+
+.more-stuff-grid h2 {
+  width: 26.25vw;
 }
 
 footer .btn-group {
@@ -1470,7 +1781,7 @@ footer .btn-group {
   font-size: 0.9rem;
   /* border: 1px solid blue; */
   margin: -0.9rem;
-  
+  padding-right: 0.5rem;
   
 }
 
@@ -1499,5 +1810,203 @@ footer {
   margin-left: 5rem;
 }
 
+#solutions-cards h1 {
+  font-size: 1.75rem;
+}
+
+#solutions-cards .card {
+  width:34rem;
+}
+
+.solutions-parallax {
+  background-image: url(../img/solution.jpg);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: grayscale(69%);
+
+}
+
+.solutions-parallax-text  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+.solutions-parallax-text h1 {
+ font-size: 3.5rem;
+}
+
+
+.services-parallax {
+  background-image: url(../img/services.jpg);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: grayscale(69%);
+
+}
+
+.services-parallax-text  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+.services-parallax-text h1 {
+ font-size: 3.5rem;
+}
+
+#services-cards .card {
+  width:34rem;
+}
+
+#services-cards h1 {
+  font-size: 1.5rem;
+}
+
+ .industries-parallax-text h1 {
+  font-size: 3rem;
  }
 
+
+ #industries-cards .card {
+   width:17rem;
+   height: 16rem;
+ }
+
+ #industries-cards h1 {
+   font-size: 1.5rem;
+
+
+}
+
+.success-parallax {
+  background-image: url(../img/success.jpg);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: grayscale(60%);
+
+}
+
+.success-parallax-text  {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+.success-parallax-text h1 {
+ font-size: 2.75rem;
+}
+
+#success-cards .card {
+  width:68em;
+  height:16rem;
+}
+
+
+}
+
+ @media (min-width: 1600px) { 
+     /* index-carousel */
+     #index-carousel {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      overflow-y: hidden;
+      color: white;
+      text-shadow: 5px 5px 7px black;
+    
+    }
+    
+    #index-carousel .carousel-caption{
+      position: absolute;
+      margin: 0;
+      padding: 0;
+      top:25vh;
+    }
+    
+    #index-carousel h1 {
+      font-size: 5rem;
+      margin-bottom: 0;
+    
+    }
+    
+    
+    #index-carousel img {
+     
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Success carousel */
+#success-carousel {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+
+#success-carousel .carousel-caption{
+  position: absolute;
+  top:10vh;
+}
+
+
+#success-carousel h1 {
+  font-size: 8rem;
+  margin-bottom: 0;
+
+}
+
+#success-carousel h2 {
+  font-size: 3rem;
+} 
+
+.solutions-parallax-text h1 {
+  font-size: 4rem;
+ }
+ 
+ .more-stuff-grid h2 {
+  width: 20.9vw;
+}
+
+#services-cards h1 {
+  font-size: 1.75rem;
+}
+ 
+}
