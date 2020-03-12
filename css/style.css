@@ -103,7 +103,7 @@ nav {
 #copywright
 {
   font-size: 0.7rem;
-  
+  margin-left: 17vw;
 }
 
 /* INDEX */
@@ -382,6 +382,15 @@ nav {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
+/* FOOTER */
+
+#copywright
+{
+  font-size: 1rem;
+  margin-left: 17vw;
+}
+
+
 /* index-carousel */
 #index-carousel {
   margin: 0;
@@ -1014,7 +1023,11 @@ nav {
     width: 40.25vw;
   }
 
-
+  #copywright
+  {
+    font-size: 0.7rem;
+    margin-left: inherit;
+  }
 
 
   .hide-large {
