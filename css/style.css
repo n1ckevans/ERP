@@ -35,16 +35,17 @@ html {
 }
 
 .section-title h1{
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 800;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .section-body{
-  font-size: 1.2rem;
+  font-size: 1rem;
   width: 100%;
   height: auto;
   margin: auto;
-  line-height: 1.5;
 }
 
 .subtitle{
@@ -54,10 +55,11 @@ html {
 }
 
 .section-body p{
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: 500;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  line-height: 1.5;
 }
 
 #erp-logo-address{
@@ -78,7 +80,11 @@ html {
 }
 
 nav {
-  background-color: white;
+  background-color: rgb(250, 250, 250);
+}
+
+nav .dropdown-item {
+  font-size: 1rem;
 }
 
 /* FOOTER */
@@ -143,8 +149,14 @@ footer {
 }
 
 #solutions-carousel h1 {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   margin-bottom: 0;
+}
+
+
+#solutions-cards h1 {
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 
 /* SERVICES */
@@ -166,8 +178,13 @@ footer {
 }
 
 #services-carousel h1 {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   margin-bottom: 0;
+}
+
+#services-cards h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 /* INDUSTRIES */
@@ -189,9 +206,20 @@ footer {
 }
 
 #industries-carousel h1 {
-  font-size: 1.6rem;
+  font-size: 1.25rem;
   margin-bottom: 0;
 }
+
+#industries-cards h1 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 650;
+}
+
+#industries-cards .card {
+  margin-top: 1rem;
+ }
+
 
 /* ABOUT */
 /* about-carousel */
@@ -212,8 +240,22 @@ footer {
 }
 
 #about-carousel h1 {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   margin-bottom: 0;
+}
+
+#about-cards {
+  margin-top: 2rem;
+}
+
+#about-cards .card {
+  margin-bottom: 1rem;
+}
+
+#about-cards h1 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 /* CONTACT */
@@ -235,9 +277,21 @@ footer {
 }
 
 #contact-carousel h1 {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   margin-bottom: 0;
 }
+
+#contact-cards .card {
+  margin-bottom: 1rem;
+}
+
+
+#contact-cards h1{
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  font-weight: 650;
+}
+
 
 /* SUCCESS STORY */
 /* success-carousel */
@@ -263,47 +317,31 @@ footer {
 }
 
 #success-cards .card {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
   margin-top: 1rem;
-  padding: 1.5rem 0.5rem 1.5rem 0.5em;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 #success-cards .btn {
- font-size: 1.1rem;
+ font-size: 1rem;
  padding: 0.5rem;
-  width: 8rem;
+ width: 8rem;
 }
 
-#success-ideal{
-  margin-top: 1rem;
+#success-cards h1 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
   margin-bottom:1rem;
 }
 
-#success-ideal h1 {
-  font-size: 1.5rem;
+#success-cards p {
+  font-size: 0.95rem;
+  margin-bottom:2rem;
 }
 
-#success-ideal p {
-  font-size: 1.1rem; 
-  padding-left: 1rem;
-  padding-right: 1rem; 
-}
 
-#success-free{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-#success-free h1{
-  font-size: 1.5rem;
-}
-
-#success-free p {
-  font-size: 1.1rem;  
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
 
 /* SUPPORT */
 /* support-carousel */
@@ -361,7 +399,7 @@ footer {
 /* GLOBAL */
 
 /* INDEX */
-/* index-carousel */
+  /* index-carousel */
       #index-carousel {
           margin: 0;
           padding: 0;
@@ -383,8 +421,15 @@ footer {
         margin-bottom: 0;
       }
 
+/* FOOTER */
+      #copywright-small
+      {
+        font-size: 1rem;
+        margin-top: 1rem;
+      }
+
 /* SOLUTIONS */
-/* solutions-carousel */
+  /* solutions-carousel */
       #solutions-carousel {
         margin: 0;
         padding: 0;
@@ -411,7 +456,7 @@ footer {
       }
 
 /* SERVICES */
-/* services-carousel */
+  /* services-carousel */
       #services-carousel {
         margin: 0;
         padding: 0;
@@ -429,16 +474,30 @@ footer {
       }
 
       #services-carousel h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
         margin-bottom: 0;
       }
 
       #services-cards h1 {
         font-size: 1.5rem;
+        font-weight: 750;
       }
 
+      
+      #services-cards .card {
+        margin-top: 0;
+        padding: 1rem;
+    }
+
+
+    #services-cards img {
+      width: 100%;
+    height: 40vw;
+    object-fit: cover;
+    }
+
 /* INDUSTRIES */
-/* industries-carousel */
+  /* industries-carousel */
       #industries-carousel {
         margin: 0;
         padding: 0;
@@ -460,8 +519,20 @@ footer {
         margin-bottom: 0;
       }
 
+      .industries-cards h1 {
+        font-size: 1.5rem;
+        font-weight: 650;
+      }
+
+      #industries-cards .card {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+         padding: 1rem;
+       }
+
+
 /* ABOUT */
-/* about-carousel */
+  /* about-carousel */
       #about-carousel {
         margin: 0;
         padding: 0;
@@ -484,7 +555,7 @@ footer {
       }
 
 /* CONTACT */
-/* contact-carousel */
+  /* contact-carousel */
       #contact-carousel {
         margin: 0;
         padding: 0;
@@ -528,49 +599,28 @@ footer {
         margin-bottom: 0;
       }
 
-      #success-cards .card {
-        
-        margin-top: 1rem;
-        padding: 1.5rem 0.5rem 1.5rem 0.5em;
-        margin-left: 3rem;
-        margin-right: 3rem;
+      /* #success-cards .card {
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+      } */
+      
+      /* #success-cards .btn {
+       font-size: 1rem;
+       padding: 0.5rem;
+       width: 8rem;
+      } */
+/*       
+      #success-cards h1 {
+        font-size: 1.25rem;
+        margin-top: 1.5rem;
+        margin-bottom:0;
       }
-
-      #success-cards .btn {
-      font-size: 1.1rem;
-      padding: 0.5rem;
-        width: 8rem;
-      }
-
-      #success-ideal{
-        margin-top: 1rem;
-        margin-bottom:1rem;
-      }
-
-      #success-ideal h1 {
-        font-size: 1.5rem;
-      }
-
-      #success-ideal p {
-        font-size: 1.1rem; 
-        padding-left: 1rem;
-        padding-right: 1rem; 
-      }
-
-      #success-free{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-      }
-
-      #success-free h1{
-        font-size: 1.5rem;
-      }
-
-      #success-free p {
-        font-size: 1.1rem;  
-        padding-left: 1rem;
-        padding-right: 1rem;
-      }
+      
+      #success-cards p {
+        font-size: 1rem;
+      } */
+      
+      
 
 /* NEWS */
 /* news-carousel */
@@ -628,13 +678,7 @@ footer {
         margin-right: 0.5rem;
       }
 
-      #industries-cards .card {
-        width:15rem;
-      }
-
-      #success-cards .card {
-        width:34rem;
-      }
+     
 
 }
 
@@ -672,10 +716,10 @@ footer {
 }
 
 /* FOOTER */
-      #copywright
+#copywright-small
       {
-        font-size: 0.7rem;
-        margin-left: inherit;
+        font-size: 1.25rem;
+        margin-top: 1rem;
       }
 
 /* INDEX */
@@ -712,50 +756,7 @@ footer {
 /* CONTACT */
 
 /* SUCCESS */
-      #success-cards .card {
-        margin-top: 1rem;
-        padding: 1.5rem 0.5rem 1.5rem 0.5em;
-        margin-left: 5rem;
-        margin-right: 5rem;
-      }
-
-      #success-cards .btn {
-      font-size: 1.1rem;
-      padding: 0.5rem;
-        width: 8rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-      }
-
-      #success-ideal{
-        margin-top: 1rem;
-        margin-bottom:1rem;
-      }
-
-      #success-ideal h1 {
-        font-size: 2rem;
-      }
-
-      #success-ideal p {
-        font-size: 1.5rem; 
-        padding-left: 1rem;
-        padding-right: 1rem; 
-      }
-
-      #success-free{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-      }
-
-      #success-free h1{
-        font-size: 2rem;
-      }
-
-      #success-free p {
-        font-size: 1.5rem;  
-        padding-left: 1rem;
-        padding-right: 1rem;
-      }
+      
 
 /* solutions-carousel */
       #solutions-carousel {
@@ -805,16 +806,26 @@ footer {
       }
 
       #services-carousel h1 {
-        font-size: 2.25rem;
+        font-size: 2.75rem;
         margin-bottom: 0;
+        
       }
 
       #services-cards .card {
-        width:21rem;
+        margin-top: 0;
+        padding: 1rem;
+      }
+
+      #services-cards img {
+        width: 100%;
+      height: 20vw;
+      object-fit: cover;
       }
 
       #services-cards h1 {
-        font-size: 0.98rem;
+        font-size: 1rem;
+        font-weight: 750;
+        margin-top: -1rem;
       }
 
 /* industries-carousel */
@@ -838,6 +849,12 @@ footer {
         font-size: 2rem;
         margin-bottom: 0;
       }
+
+      #industries-cards .card {
+        margin-top: 0;;
+        padding: 1rem;
+    }
+
 
 /* about-carousel */
       #about-carousel {
@@ -882,6 +899,8 @@ footer {
         font-size: 2rem;
         margin-bottom: 0;
       }
+
+
 
 /* contact-carousel */
       #contact-carousel {
@@ -948,14 +967,7 @@ footer {
         font-size: 1.6rem;
         margin-bottom: 0;
       }
-      
-      #industries-cards .card {
-        width:21rem;
-      }
 
-      #success-cards .card {
-        width:41.1rem;
-      }
 
   }
 
@@ -1061,46 +1073,42 @@ footer {
         max-width: 12rem;
       }
 
-      nav a {
+      nav a, .navbar-link {
         padding-right: 0.35rem;
-        font-size: 0.9rem;
+        font-size: 0.85rem;
      }
 
 /* FOOTER */
+     #copywright {
+      font-size: 0.6rem;
+      margin-top: 1rem;
+     }
+
       #erp-logo-copywright{
-        max-width: 6rem;
+        max-width: 5rem;
       }
 
       #erp-logo-footer{
-        max-width: 10rem;
+        max-width: 12rem;
       }
 
       footer a {
-        font-size: 1rem;
+        font-size: 0.75rem;
         margin-right: -1rem;
       }
             
       footer .btn-group {
         width: 4rem;
-        margin-right: 0.4rem;
       } 
-      
-      .footer-btn a {
-        font-size: 0.7rem;
-        margin: -1.1rem;
+
+      footer .dropdown-item {
+        font-size: 0.8rem;
       }
-            
+         
       footer .dropdown-menu{
            min-height: 9rem;
       }
-      
-      .footer-btn {
-        width: 4rem;   
-      }
-      
-      .footer-submenu  {
-        height: 100%;
-      }
+    
 
 /* INDEX */
 /* index-carousel */
@@ -1166,9 +1174,7 @@ footer {
       }
 
 /* SERVICES */
-      #services-cards .card {
-        width:28rem;
-      }
+     
 
       #services-carousel {
         display: none;
@@ -1201,8 +1207,20 @@ footer {
       font-size: 3rem;
       }
 
+      #services-cards .card {
+        margin-top: 0;
+        padding: 1rem;
+      }
+
+      #services-cards img {
+        width: 100%;
+      height: 25vw;
+      object-fit: cover;
+      }
+
       #services-cards h1 {
         font-size: 1.25rem;
+        font-weight: 750;
       }
 
 /* INDUSTRIES */
@@ -1234,17 +1252,21 @@ footer {
       }
 
       .industries-parallax-text h1 {
-      font-size: 4rem;
+      font-size: 3rem;
       }
 
+     
       #industries-cards .card {
-        width:14rem;
-        height: 15rem;
-      }
+        margin-top: 1rem;
 
-      #industries-cards h1 {
-        font-size: 1.5rem;
-      }
+        padding: 1rem;
+        }
+  
+  
+
+        #industries-cards h1 {
+          font-size: 1.25rem;
+        }
 
 /* ABOUT */
       #about-carousel {
@@ -1310,6 +1332,12 @@ footer {
       display: none;
       }
 
+      #contact-cards h1{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        font-weight: 650;
+      }
+
 /* SUCCESS */
       .success-parallax {
         background-image: url(../img/success.jpg);
@@ -1335,16 +1363,14 @@ footer {
       }
 
       .success-parallax-text h1 {
-      font-size: 3rem;
+      font-size: 2.25rem;
       }
 
       #success-carousel {
       display: none;
       }
 
-      #success-cards .card {
-        width:57rem;
-      }
+
 
 }
 
@@ -1410,41 +1436,49 @@ footer {
 
 /* NAV BAR */
       #erp-logo-nav{
-        max-width: 19rem;
+        max-width: 20rem;
       }
 
       nav {
         height: 60px;
         width: 100%;
-        background-color: rgb(250, 250, 250);
-        color: #eee;
         position: fixed;
         padding: 5rem;
       } 
 
+      nav a, .navbar-link {
+        padding-right: 0.35rem;
+        font-size: 1rem;
+     }
+
 /* FOOTER */
+      #copywright{
+        font-size: 0.8rem;
+      }
+
       #erp-logo-copywright{
-        max-width: 6rem;
+        max-width: 7rem;
       }
 
       #erp-logo-footer{
-        max-width: 10rem;
+        max-width: 12rem;
       }
 
+      footer a {
+        font-size: 0.75rem;
+        margin-right: -1rem;
+      }
+            
       footer .btn-group {
-        width: 5rem;
-        
-        margin-left: 2px;
+        width: 4rem;
       } 
 
-      .footer-btn a {
-        font-size: 0.9rem;
-        margin: -0.9rem;
-        padding-right: 0.5rem;
+      footer .dropdown-item {
+        font-size: 1.5rem;
       }
-      
-      .footer-submenu  {
-        height: 100%;  
+         
+      footer .dropdown-menu{
+           min-height: 9rem;
       }
 
 /* INDEX */
@@ -1559,15 +1593,25 @@ footer {
       }
 
       .services-parallax-text h1 {
-      font-size: 3.5rem;
+      font-size: 3.75rem;
       }
 
+      
       #services-cards .card {
-        width:34rem;
-      }
+        margin-top: 0;
+        padding: 1rem;
+    }
+
+    #services-cards img {
+      width: 100%;
+    height: 20vw;
+    object-fit: cover;
+    }
+      
 
       #services-cards h1 {
         font-size: 1.5rem;
+        font-weight: 750;
       }
 
 /* INDUSTRIES */
@@ -1598,14 +1642,19 @@ footer {
       .industries-parallax-text h1 {
       font-size: 4rem;
       }
-      #industries-cards .card {
-        width:17rem;
-        height: 16rem;
-      }
+    
      
       #industries-cards h1 {
         font-size: 1.5rem;
+        
      }
+
+     #industries-cards .card {
+      margin-top: 1rem;
+      padding: 1rem;
+      }
+
+
 
 /* ABOUT */
       .about-parallax {
@@ -1656,7 +1705,7 @@ footer {
       }
 
       .contact-parallax-text h1 {
-      font-size: 4rem;
+      font-size: 3.5rem;
       }
 
 /* SUCCESS STORY */
@@ -1684,13 +1733,9 @@ footer {
       }
 
       .success-parallax-text h1 {
-      font-size: 3.75rem;
+      font-size: 3rem;
       }
 
-      #success-cards .card {
-        width:45em;
-        height:20rem;
-      }
 }
 
  @media (min-width: 1600px) { 
@@ -1752,6 +1797,46 @@ footer {
         font-size: 3rem;
       } 
 
+      .success-parallax-text h1 {
+        font-size: 3.5rem;
+        }
+
+/* NAV BAR */
+      nav a, .navbar-link {
+        padding-right: 0.35rem;
+        font-size: 1.25rem;
+      }
+
+/* FOOTER */
+      #erp-logo-copywright{
+        max-width: 8rem;
+      }
+
+      #copywright {
+        font-size: 0.75rem; 
+      }
+      
+      #erp-logo-footer{
+        max-width: 15rem;
+      }
+
+      footer .btn-group {
+        width: 6rem;
+        margin-left: 2px;
+      } 
+
+      footer a {
+        font-size: 1rem; 
+        padding-right: 0.5rem;
+      }
+
+      footer .dropdown-item {
+        font-size: 1.1rem; 
+      }
+
+      .footer-submenu  {
+        height: 100%;  
+      }
 
 /* SOLUTIONS */
       .solutions-parallax-text h1 {
@@ -1764,15 +1849,26 @@ footer {
 
       #services-cards h1 {
         font-size: 1.75rem;
+        font-weight: 750;
       }
 
 /* SERVICES */
+#services-cards .card {
+  margin-top: 0;
+  padding: 1rem;
+}
 
 /* INDUSTRIES */
+.industries-parallax-text h1 {
+  font-size: 4rem;
+  }
 
 /* ABOUT */
 
 /* CONTACT */
+.contact-parallax-text h1 {
+  font-size: 4rem;
+  }
 
 /* SUCCESS */
 }
