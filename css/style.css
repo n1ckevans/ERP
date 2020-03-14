@@ -55,7 +55,7 @@ html {
 }
 
 .section-body p{
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-weight: 500;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -162,6 +162,22 @@ footer {
   font-weight: 700;
 }
 
+/* SOLUTIONS SUB-CATEGORIES */
+#solutions-list {
+  font-size: 1.4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 3rem;
+}
+
+#solutions-list li{
+  margin-bottom: 1rem;
+}   
+
+
+
+
+
 /* SERVICES */
 /* services-carousel */
 #services-carousel {
@@ -227,6 +243,18 @@ footer {
   margin-top: 1rem;
  }
 
+/* INDUSTRIES SUB-CATEGORIES */
+#industries-list {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+#industries-list li{
+  margin-bottom: 0.5rem;
+}  
+
+
+
 
 /* ABOUT */
 /* about-carousel */
@@ -266,6 +294,17 @@ footer {
   font-size: 1.5rem;
   font-weight: 700;
 }
+
+#careers-list {
+  font-size: 1.05rem;
+  margin-left: -1rem;
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+}
+
+#careers-list li{
+  margin-bottom: 0.5rem;
+}  
 
 /* CONTACT */
 /* contact-carousel */
@@ -626,28 +665,6 @@ footer {
         margin-bottom: 0;
       }
 
-      /* #success-cards .card {
-        margin-left: 0.25rem;
-        margin-right: 0.25rem;
-      } */
-      
-      /* #success-cards .btn {
-       font-size: 1rem;
-       padding: 0.5rem;
-       width: 8rem;
-      } */
-/*       
-      #success-cards h1 {
-        font-size: 1.25rem;
-        margin-top: 1.5rem;
-        margin-bottom:0;
-      }
-      
-      #success-cards p {
-        font-size: 1rem;
-      } */
-      
-      
 
 /* NEWS */
 /* news-carousel */
@@ -705,7 +722,7 @@ footer {
         margin-right: 0.5rem;
       }
 
-     
+
 
 }
 
@@ -1314,6 +1331,28 @@ footer {
           font-size: 1.25rem;
         }
 
+/* INDUSTRIES SUB-CATEGORIES */
+        #industries-list {
+          font-size: 1.25rem;
+          margin-left: 0rem;
+          margin-right: 0rem;
+          margin-bottom: 0rem;
+        }
+
+        #industries-list li{
+          margin-bottom: 1rem;
+        }  
+
+        #healthcare-list {
+          font-size: 1.5rem;
+          margin-left: 4rem;
+          margin-bottom: 3rem;
+        }
+
+        #healthcare-list li{
+          margin-bottom: 1rem;
+        }  
+
 /* ABOUT */
       #about-carousel {
         display: none;
@@ -1346,6 +1385,31 @@ footer {
       .about-parallax-text h1 {
       font-size: 4rem;
       }
+
+/* ABOUT SUB-CATEGORIES */
+      #company-list-1 {
+        font-size: 1.4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        margin-bottom: 0rem;
+      }
+
+      #company-list-1 li{
+        margin-bottom: 1rem;
+      }  
+
+      #company-list-2 {
+        font-size: 1.4rem;
+        margin-left:0rem;
+        margin-right: 0rem;
+        margin-bottom: 2rem;
+      }
+
+      #company-list-2 li{
+        margin-bottom: 1rem;
+      }
+
+      
 
 /* CONTACT */
       .contact-parallax {
@@ -1418,7 +1482,6 @@ footer {
       #success-carousel {
       display: none;
       }
-
 
 
 }
