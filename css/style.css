@@ -79,9 +79,6 @@ html {
   font-size: 1rem;
 }
 
-nav {
-  background-color: rgb(250, 250, 250);
-}
 
 nav .dropdown-item {
   font-size: 1rem;
@@ -1170,19 +1167,6 @@ footer {
         margin-right: -0.5rem;
       }
           
-
-      /* footer a {
-        font-size: 0.75rem;
-        margin-right: -1rem;
-        padding-right: 0.35rem;
-        font-size: 1rem;
-      } */
-/*             
-      footer .btn-group {
-        width: 4.5rem;
-        margin-right: 0.8rem;
-    } */
-
        footer .dropdown-item {
         font-size: 1rem;
       }
@@ -1215,6 +1199,39 @@ footer {
       #index-carousel h1 {
         font-size: 3.5rem;
         margin-bottom: 0;
+      }
+
+  /* case-study */
+      #case-study {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        position: relative;
+        overflow-y: hidden;
+        color: white;
+        text-shadow: 5px 5px 7px black;
+      }
+
+      #case-study .carousel-caption{
+        position: absolute;
+        top:2vh;
+      }
+
+
+      #case-study h1 {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+      }
+
+      #case-study h2 {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+      }    
+
+      #case-study .btn {
+        font-size: 1rem;
+        border-radius: 0.5rem;
       }
 
 /* SOLUTIONS */
@@ -1646,24 +1663,7 @@ footer {
         font-size: 1rem;
         margin-right: -0.5rem;
       }
-            
-      /* footer .btn-group {
-        width: 4rem;
-        margin-right: 0rem;
-    }
 
-    footer .btn {
-      width: 4rem;
-      margin-right: 0rem;
-  } */
-
-      /* footer .dropdown-item {
-        font-size: 1.5rem;
-      } */
-         
-      /* footer .dropdown-menu{
-           min-height: 9rem;
-      } */
 
 /* INDEX */
   /* index-carousel */
@@ -1691,34 +1691,38 @@ footer {
         font-size: 4rem;
         margin-bottom: 0;
       }
-  /* success-carousel */
-      #success-carousel {
+  /* case-study */
+      #case-study {
         margin: 0;
         padding: 0;
         width: 100%;
-        height: 100vh;
+        height: 75vh;
         position: relative;
         overflow-y: hidden;
         color: white;
         text-shadow: 5px 5px 7px black;
-        margin-top: 4rem;
-        margin-bottom: 2rem;
       }
-      
-      #success-carousel .carousel-caption{
+
+      #case-study .carousel-caption{
         position: absolute;
-        top:8vh;
+        top:12vh;
       }
-      
-      
-      #success-carousel h1 {
-        font-size: 7rem;
-        margin-bottom: 0;
+
+
+      #case-study h1 {
+        font-size: 4rem;
+        margin-bottom: 1rem;
       }
-      
-      #success-carousel h2 {
-        font-size: 2.5rem;
-      } 
+
+      #case-study h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }    
+
+      #case-study .btn {
+        font-size: 1.25rem;
+        border-radius: 0.5rem;
+      }
 
 /* SOLUTIONS */
       #solutions-cards h1 {
@@ -1966,8 +1970,8 @@ footer {
         padding: 0;
       }
 
-  /* Success carousel */
-      #success-carousel {
+  /* case-study */
+      #case-study {
         margin: 0;
         padding: 0;
         width: 100%;
@@ -1976,23 +1980,28 @@ footer {
         overflow-y: hidden;
         color: white;
         text-shadow: 5px 5px 7px black;
-        margin-top: 4rem;
-        margin-bottom: 2rem;
       }
 
-      #success-carousel .carousel-caption{
+      #case-study .carousel-caption{
         position: absolute;
-        top:10vh;
+        top:20vh;
       }
 
-      #success-carousel h1 {
-        font-size: 8rem;
-        margin-bottom: 0;
+
+      #case-study h1 {
+        font-size:7rem;
+        margin-bottom:2rem;
       }
 
-      #success-carousel h2 {
+      #case-study h2 {
         font-size: 3rem;
-      } 
+        margin-bottom: 3rem;
+      }    
+
+      #case-study .btn {
+        font-size: 1.75rem;
+        border-radius: 0.5rem;
+      }
 
       .success-parallax-text h1 {
         font-size: 3.5rem;
