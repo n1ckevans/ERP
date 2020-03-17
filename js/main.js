@@ -1,16 +1,37 @@
 const header = document.querySelector("header");
-const sectionOne = document.querySelector(".welcome-intro");
+const sectionOne = document.querySelector(".index-carousel");
+const sectionTwo = document.querySelector(".welcome-intro");
 
 const faders = document.querySelectorAll(".fade-in");
 const sliders = document.querySelectorAll(".slide-in");
 
 const sectionOneOptions = {
+  rootMargin: "20px 0px 0px 0px"
+};
+
+const sectionOneObersver = new IntersectionObserver(function(entries, sectionOneObersver
+  ) {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) {
+        header.classList.add("navbar-scrolled");
+      } else {
+        header.classList.remove("navbar-scrolled");
+      }
+    });
+},
+ sectionOneOptions);
+
+
+
+
+
+const sectionTwoOptions = {
   rootMargin: "-200px 0px 0px 0px"
 };
 
-const sectionOneObserver = new IntersectionObserver(function(
+const sectionTwoObserver = new IntersectionObserver(function(
   entries,
-  sectionOneObserver
+  sectionTwoObserver
 ) {
   entries.forEach(entry => {
     if (!entry.isIntersecting) {
@@ -20,9 +41,9 @@ const sectionOneObserver = new IntersectionObserver(function(
     }
   });
 },
-sectionOneOptions);
+sectionTwoOptions);
 
-sectionOneObserver.observe(sectionOne);
+sectionTwoObserver.observe(sectionTwo);
 
 const appearOptions = {
   threshold: 0,
@@ -51,3 +72,4 @@ faders.forEach(fader => {
 sliders.forEach(slider => {
   appearOnScroll.observe(slider);
 });
+

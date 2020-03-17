@@ -2,13 +2,17 @@
 html, body {
   height: 100%;
   width: 100%;
-  /* font-family: 'Nunito Sans', sans-serif; */
   color: #222222;
   background-color: white;
 }
 html {
   scroll-behavior: smooth;
 }
+
+nav, main, footer {
+  font-family: 'Roboto', sans-serif;
+}
+
 
 .blue {
   color: #1d184a;
@@ -46,6 +50,7 @@ html {
   width: 100%;
   height: auto;
   margin: auto;
+  
 }
 
 .subtitle{
@@ -104,6 +109,8 @@ footer {
 }
 
 /* INDEX */
+
+
 /* Index Carousel */
  #index-carousel {
   margin: 0;
@@ -128,6 +135,8 @@ footer {
   font-size: 1.25rem;
   margin-bottom: 0;
  }
+
+ 
 
 /* SOLUTIONS */
 /* solutions-carousel */
