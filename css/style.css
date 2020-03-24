@@ -100,6 +100,7 @@ footer {
 }
 
 
+
 /* INDEX */
 /* Index Carousel */
 
@@ -146,12 +147,12 @@ footer {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 35vh;
+  height: 50vh;
   position: relative;
   overflow-y: hidden;
   color: white;
   text-shadow: 5px 5px 7px black;
-  margin-top: 4rem;
+  margin-top: 60px;
 }
 
 #solutions-carousel .carousel-caption{
@@ -192,12 +193,12 @@ footer {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 35vh;
+  height: 50vh;
   position: relative;
   overflow-y: hidden;
   color: white;
   text-shadow: 5px 5px 7px black;
-  margin-top: 4rem;
+  margin-top: 60px;
   margin-bottom: 2rem;
 }
 
@@ -216,6 +217,8 @@ footer {
   font-weight: 700;
 }
 
+
+
 /* INDUSTRIES */
 /* industries-carousel */
 #industries-carousel {
@@ -227,7 +230,7 @@ footer {
   overflow-y: hidden;
   color: white;
   text-shadow: 5px 5px 7px black;
-  margin-top: 4rem;
+  margin-top: 60px;
   margin-bottom: 2rem;
 }
 
@@ -275,7 +278,7 @@ footer {
   overflow-y: hidden;
   color: white;
   text-shadow: 5px 5px 7px black;
-  margin-top: 4rem;
+  margin-top: 60px;
   margin-bottom: 2rem;
 }
 
@@ -325,7 +328,7 @@ footer {
   overflow-y: hidden;
   color: white;
   text-shadow: 5px 5px 7px black;
-  margin-top: 4rem;
+  margin-top: 60px;
   margin-bottom: 2rem;
 }
 
@@ -362,7 +365,7 @@ footer {
   overflow-y: hidden;
   color: white;
   text-shadow: 5px 5px 7px black;
-  margin-top: 4rem;
+  margin-top: 60px;
         margin-bottom: 2rem;
 }
 
@@ -413,7 +416,7 @@ footer {
   overflow-y: hidden;
   color: white;
   text-shadow: 5px 5px 7px black;
-  margin-top: 4rem;
+  margin-top: 60px;
         margin-bottom: 2rem;
 }
 
@@ -514,12 +517,12 @@ footer {
         margin: 0;
         padding: 0;
         width: 100%;
-        height: 50vh;
+        height: 60vh;
         position: relative;
         overflow-y: hidden;
         color: white;
         text-shadow: 5px 5px 7px black;
-        margin-top: 4rem;
+        margin-top: 60px;
         margin-bottom: 2rem;
       }
 
@@ -543,12 +546,12 @@ footer {
         margin: 0;
         padding: 0;
         width: 100%;
-        height: 50vh;
+        height: 60vh;
         position: relative;
         overflow-y: hidden;
         color: white;
         text-shadow: 5px 5px 7px black;
-        margin-top: 4rem;
+        margin-top: 60px;
         margin-bottom: 2rem;
       }
 
@@ -591,7 +594,7 @@ footer {
         overflow-y: hidden;
         color: white;
         text-shadow: 5px 5px 7px black;
-        margin-top: 4rem;
+        margin-top: 60px;
         margin-bottom: 2rem;
       }
 
@@ -627,7 +630,7 @@ footer {
         position: relative;
         overflow-y: hidden;
         color: white;
-        margin-top: 4rem;
+        margin-top: 60px;
         margin-bottom: 2rem;
         text-shadow: 5px 5px 7px black;
       }
@@ -653,7 +656,7 @@ footer {
         overflow-y: hidden;
         color: white;
         text-shadow: 5px 5px 7px black;
-        margin-top: 4rem;
+        margin-top: 60px;
         margin-bottom: 2rem;
       }
 
@@ -677,7 +680,7 @@ footer {
         overflow-y: hidden;
         color: white;
         text-shadow: 5px 5px 7px black;
-        margin-top: 4rem;
+        margin-top: 60px;
         margin-bottom: 2rem;
       }
 
@@ -726,7 +729,7 @@ footer {
         overflow-y: hidden;
         color: white;
         text-shadow: 5px 5px 7px black;
-        margin-top: 4rem;
+        margin-top: 60px;
         margin-bottom: 2rem;
       }
 
@@ -828,12 +831,12 @@ footer {
         margin: 0;
         padding: 0;
         width: 100%;
-        height: 50vh;
+        height: 75vh;
         position: relative;
         overflow-y: hidden;
         color: white;
         text-shadow: 5px 5px 7px black;
-        margin-top: 4rem;
+        margin-top: 60px;
         margin-bottom: 2rem;
       }
 
@@ -861,12 +864,12 @@ footer {
         margin: 0;
         padding: 0;
         width: 100%;
-        height: 60vh;
+        height: 75vh;
         position: relative;
         overflow-y: hidden;
         color: white;
         text-shadow: 5px 5px 7px black;
-        margin-top: 4rem;
+        margin-top: 60px;
         margin-bottom: 2rem;
       }
 
@@ -909,7 +912,7 @@ footer {
         overflow-y: hidden;
         color: white;
         text-shadow: 5px 5px 7px black;
-        margin-top: 4rem;
+        margin-top: 60px;
         margin-bottom: 2rem;
       }
 
@@ -940,7 +943,7 @@ footer {
         overflow-y: hidden;
         color: white;
         text-shadow: 5px 5px 7px black;
-        margin-top: 4rem;
+        margin-top: 60px;
         margin-bottom: 2rem;
       }
 
@@ -965,7 +968,7 @@ footer {
         overflow-y: hidden;
         color: white;
         text-shadow: 5px 5px 7px black;
-        margin-top: 4rem;
+        margin-top: 60px;
         margin-bottom: 2rem;
       }
 
@@ -990,7 +993,7 @@ footer {
         overflow-y: hidden;
         color: white;
         text-shadow: 5px 5px 7px black;
-        margin-top: 4rem;
+        margin-top: 60px;
         margin-bottom: 2rem;
       }
 
@@ -1038,7 +1041,7 @@ footer {
         overflow-y: hidden;
         color: white;
         text-shadow: 5px 5px 7px black;
-        margin-top: 4rem;
+        margin-top: 60px;
         margin-bottom: 2rem;
       }
 
@@ -1181,12 +1184,13 @@ footer {
       }
 
       #erp-logo-footer{
-        max-width: 12rem;
+        max-width: 8rem;
       }
 
-      .foot-link {
-        font-size: 0.75rem;
-        margin-right: -0.5rem;
+      footer .btn {
+            font-size: 0.65rem;
+            margin: 0;
+            padding: 0.4rem;
       }
           
        footer .dropdown-item {
@@ -1227,7 +1231,7 @@ footer {
 
   /* Case Study Carousel */
       #case-study .carousel-caption {
-        top: 45%;
+        top: 50%;
         transform: translateY(-50%);
         bottom: initial;
         -webkit-transform-style: preserve-3d;
@@ -1237,14 +1241,14 @@ footer {
 
       #case-study h1 {
         font-size: 4rem;
-        margin-bottom: 1rem;
+        margin-bottom: 4rem;
         color: white;
         text-shadow: 5px 5px 7px black;
       }
 
       #case-study h2 {
         font-size: 1.75rem;
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
         color: white;
         text-shadow: 5px 5px 7px black;
       }    
@@ -1278,7 +1282,7 @@ footer {
       }
 
       .solutions-parallax {
-        background-image: url(../img/solution.jpg);
+        background-image: url(../img/solutions.jpg);
         margin: 0;
         padding: 0;
         width: 100%;
@@ -1288,8 +1292,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(69%);
-        margin-top: 4rem;
+        filter: grayscale(25%);
+        margin-top: 60px;
       }
 
       .solutions-parallax-text  {
@@ -1313,13 +1317,188 @@ footer {
           width:28rem;
       }
 
+
+      /* Employee Self Management */
+      .employee-parallax {
+        background-image: url(https://media.istockphoto.com/photos/cheerful-businessman-in-the-office-picture-id965761332?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(15%);
+        margin-top: 60px;
+      }
+
+      .employee-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .employee-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+      /* Performance Management */
+      .performance-parallax {
+        background-image: url(https://media.istockphoto.com/photos/african-american-business-coach-speaking-presentation-at-briefing-picture-id1092645884?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(20%);
+        margin-top: 60px;
+      }
+
+      .performance-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .performance-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+       /* Time Keeping */
+       .time-parallax {
+        background-image: url(https://media.istockphoto.com/photos/cheerful-ceo-is-monitoring-time-on-watch-picture-id1143014167?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(20%);
+        margin-top: 60px;
+      }
+
+      .time-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .time-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+       /* Employee Portal */
+       .portal-parallax {
+        background-image: url(https://media.istockphoto.com/photos/happy-african-american-businessman-using-phone-mobile-apps-at-picture-id1150384559?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(20%);
+        margin-top: 60px;
+      }
+
+      .portal-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .portal-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+        /* Schedule Fulfillment */
+        .schedule-parallax {
+          background-image: url(https://media.istockphoto.com/photos/making-sure-i-have-no-colliding-appointments-picture-id1159369709?s=2048x2048);
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 75vh;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          filter: grayscale(20%);
+          margin-top: 60px;
+        }
+  
+        .schedule-parallax-text  {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-shadow: 5px 5px 5px black;
+        }
+  
+        .schedule-parallax-text h1 {
+        font-size: 3rem;
+        }
+
+           /* Intraday */
+           .intraday-parallax {
+            background-image: url(https://media.istockphoto.com/photos/millennial-black-businesswoman-stands-addressing-colleagues-at-a-picture-id1146473085?s=2048x2048);
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 75vh;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            filter: grayscale(20%);
+            margin-top: 60px;
+          }
+    
+          .intraday-parallax-text  {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-shadow: 5px 5px 5px black;
+          }
+    
+          .intraday-parallax-text h1 {
+          font-size: 3rem;
+          }
+
 /* SERVICES */
       #services-carousel {
         display: none;
       }
 
       .services-parallax {
-        background-image: url(../img/services.jpg);
+        background-image: url(https://media.istockphoto.com/photos/it-support-picture-id1130702887?s=2048x2048);
         margin: 0;
         padding: 0;
         width: 100%;
@@ -1329,8 +1508,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(80%);
-        margin-top: 4rem;
+        filter: grayscale(25%);
+        margin-top: 60px;
       }
 
       .services-parallax-text  {
@@ -1361,6 +1540,125 @@ footer {
         font-size: 1.25rem;
         font-weight: 750;
       }
+    /* SOFTWARE AS A SERVICE */
+      
+        .software-parallax {
+          background-image: url(https://media.istockphoto.com/photos/accessing-important-information-picture-id1077510236?s=2048x2048);
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 75vh;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          filter: grayscale(15%);
+          margin-top: 60px;
+        }
+  
+        .software-parallax-text  {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-shadow: 5px 5px 5px black;
+        }
+  
+        .software-parallax-text h1 {
+        font-size: 3rem;
+        }
+
+        /* Deployment Process */
+      
+        .deployment-parallax {
+          background-image: url(https://media.istockphoto.com/photos/server-room-picture-id1091869510?s=2048x2048);
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 75vh;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          filter: grayscale(15%);
+          margin-top: 60px;
+        }
+  
+        .deployment-parallax-text  {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-shadow: 5px 5px 5px black;
+        }
+  
+        .deployment-parallax-text h1 {
+        font-size: 3rem;
+        }
+
+        /* Integration */
+      
+        .integration-parallax {
+          background-image: url(https://media.istockphoto.com/photos/ll-share-the-information-with-you-picture-id863497390?s=2048x2048);
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 75vh;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          filter: grayscale(15%);
+          margin-top: 60px;
+        }
+  
+        .integration-parallax-text  {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-shadow: 5px 5px 5px black;
+        }
+  
+        .integration-parallax-text h1 {
+        font-size: 3rem;
+        }
+
+        /* training Process */
+      
+        .training-parallax {
+          background-image: url(https://media.istockphoto.com/photos/teacher-giving-an-it-class-at-school-to-a-group-of-students-picture-id669775712?s=2048x2048);
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 75vh;
+          background-attachment: fixed;
+          background-position: center top
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          filter: grayscale(15%);
+          margin-top: 80px;
+        }
+  
+        .training-parallax-text  {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-shadow: 5px 5px 5px black;
+        }
+  
+        .training-parallax-text h1 {
+        font-size: 3rem;
+        }
 
 /* INDUSTRIES */
       #industries-carousel {
@@ -1368,7 +1666,7 @@ footer {
       }
 
       .industries-parallax {
-        background-image: url(../img/industries.jpg);
+        background-image: url(https://media.istockphoto.com/photos/phoenix-arizona-usa-cityscape-picture-id1138402547?s=2048x2048);
         margin: 0;
         padding: 0;
         width: 100%;
@@ -1379,7 +1677,7 @@ footer {
         background-size: cover;
         position: relative;
         filter: grayscale(55%);
-        margin-top: 4rem;
+        margin-top: 60px;
       }
 
       .industries-parallax-text  {
@@ -1407,6 +1705,240 @@ footer {
         #industries-cards h1 {
           font-size: 1.25rem;
         }
+
+
+        /* Contact Centers */
+      .contact-centers-parallax {
+        background-image: url(https://media.istockphoto.com/photos/beautiful-young-woman-with-headset-working-on-computer-while-talking-picture-id1143468136?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(55%);
+        margin-top: 60px;
+      }
+
+      .contact-centers-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .contact-centers-parallax-text h1 {
+      font-size: 4rem;
+      }
+
+       /* outsourcers Centers */
+       .outsourcers-parallax {
+        background-image: url(https://media.istockphoto.com/photos/rear-view-of-asian-businessman-walking-on-airport-escalator-at-sunset-picture-id1137499322?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(55%);
+        margin-top: 60px;
+      }
+
+      .outsourcers-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .outsourcers-parallax-text h1 {
+      font-size: 4rem;
+      }
+
+      /* at-home Centers */
+      .at-home-parallax {
+        background-image: url(https://media.istockphoto.com/photos/working-at-home-picture-id1153675389?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(55%);
+        margin-top: 60px;
+      }
+
+      .at-home-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .at-home-parallax-text h1 {
+      font-size: 4rem;
+      }
+
+      /* healthcare Centers */
+      .healthcare-parallax {
+        background-image: url(https://media.istockphoto.com/photos/m-glad-to-see-you-doing-well-picture-id1152844782?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(55%);
+        margin-top: 60px;
+      }
+
+      .healthcare-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .healthcare-parallax-text h1 {
+      font-size: 4rem;
+      }
+
+      /* hospitality Centers */
+      .hospitality-parallax {
+        background-image: url(https://media.istockphoto.com/photos/receptionist-giving-keys-to-hotel-guest-picture-id1192128830?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(55%);
+        margin-top: 60px;
+      }
+
+      .hospitality-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .hospitality-parallax-text h1 {
+      font-size: 4rem;
+      }
+
+        /* public-safety Centers */
+        .public-safety-parallax {
+          background-image: url(https://media.istockphoto.com/photos/police-officers-picture-id170098610?s=2048x2048);
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 75vh;
+          background-attachment: fixed;
+          background-position: center top;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          filter: grayscale(25%);
+          margin-top: 60px;
+        }
+  
+        .public-safety-parallax-text  {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-shadow: 5px 5px 5px black;
+        }
+  
+        .public-safety-parallax-text h1 {
+        font-size: 
+        4rem;
+        }
+
+         /* manufacturing Centers */
+      .manufacturing-parallax {
+        background-image: url(https://media.istockphoto.com/photos/industrial-engineer-picture-id453660217?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(25%);
+        margin-top: 60px;
+      }
+
+      .manufacturing-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .manufacturing-parallax-text h1 {
+      font-size: 4rem;
+      }
+
+          /* shift Centers */
+          .shift-parallax {
+            background-image: url(https://media.istockphoto.com/photos/happy-pilot-with-his-cabin-crew-at-the-airport-picture-id1094714772?s=2048x2048);
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 75vh;
+            background-attachment: fixed;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            filter: grayscale(25%);
+            margin-top: 60px;
+          }
+    
+          .shift-parallax-text  {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-shadow: 5px 5px 5px black;
+          }
+    
+          .shift-parallax-text h1 {
+          font-size: 4rem;
+          }
 
 /* INDUSTRIES SUB-CATEGORIES */
         #industries-list {
@@ -1436,18 +1968,18 @@ footer {
         }
         
       .about-parallax {
-        background-image: url(../img/about.jpg);
+        background-image: url(https://media.istockphoto.com/photos/colorful-sunrise-on-camelback-mountain-in-phoenix-arizona-picture-id1097186204?s=2048x2048);
         margin: 0;
         padding: 0;
         width: 100%;
         height: 75vh;
         background-attachment: fixed;
-        background-position: center;
+        background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(65%);
-        margin-top: 4rem;
+        filter: grayscale(15%);
+        margin-top: 60px;
       }
 
       .about-parallax-text  {
@@ -1462,6 +1994,130 @@ footer {
       .about-parallax-text h1 {
       font-size: 4rem;
       }
+
+      /* company parallax */
+      .company-parallax {
+        background-image: url(https://media.istockphoto.com/photos/sonoran-desert-picture-id866010860?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(15%);
+        margin-top: 60px;
+      }
+
+      .company-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .company-parallax-text h1 {
+      font-size: 4rem;
+      }
+
+
+      /* management-team parallax */
+      .management-team-parallax {
+        background-image: url(https://media.istockphoto.com/photos/business-data-information-projector-board-in-conference-room-me-picture-id1064053478?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(15%);
+        margin-top: 60px;
+      }
+
+      .management-team-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .management-team-parallax-text h1 {
+      font-size: 4rem;
+      }
+
+        /* mission parallax */
+        .mission-parallax {
+          background-image: url(https://media.istockphoto.com/photos/sea-of-hands-picture-id857146092?s=2048x2048);
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 75vh;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          filter: grayscale(15%);
+          margin-top: 60px;
+        }
+  
+        .mission-parallax-text  {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-shadow: 5px 5px 5px black;
+        }
+  
+        .mission-parallax-text h1 {
+        font-size: 4rem;
+        }
+  
+
+
+
+      /* careers parallax */
+      .careers-parallax {
+        background-image: url(https://media.istockphoto.com/photos/happy-human-resource-team-congratulating-a-candidate-on-successful-picture-id1072034334?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(15%);
+        margin-top: 60px;
+      }
+
+      .careers-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .careers-parallax-text h1 {
+      font-size: 4rem;
+      }
+
+
+
+
 
 /* ABOUT SUB-CATEGORIES */
       #company-list-1 {
@@ -1490,7 +2146,7 @@ footer {
 
 /* CONTACT */
       .contact-parallax {
-        background-image: url(../img/contact.jpg);
+        background-image: url(https://media.istockphoto.com/photos/businessman-talking-on-cell-phone-picture-id1136937581?s=2048x2048);
         margin: 0;
         padding: 0;
         width: 100%;
@@ -1501,7 +2157,7 @@ footer {
         background-size: cover;
         position: relative;
         filter: grayscale(45%);
-        margin-top: 4rem;
+        margin-top: 60px;
       }
 
       .contact-parallax-text  {
@@ -1527,9 +2183,128 @@ footer {
         font-weight: 650;
       }
 
+      /* sales */
+      .sales-parallax {
+        background-image: url(https://media.istockphoto.com/photos/portrait-of-cheerful-young-manager-handshake-with-new-employee-picture-id1129342452?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(45%);
+        margin-top: 60px;
+      }
+
+      .sales-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .sales-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+       /* media */
+       .media-parallax {
+        background-image: url(https://media.istockphoto.com/photos/focused-young-diverse-employees-listening-to-motivated-skilled-female-picture-id1208424336?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(45%);
+        margin-top: 60px;
+      }
+
+      .media-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .media-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+      /* general */
+      .general-parallax {
+        background-image: url(https://media.istockphoto.com/photos/always-be-ready-when-business-comes-calling-picture-id1144585582?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(45%);
+        margin-top: 60px;
+      }
+
+      .general-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .general-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+
+ /* customer-support */
+ .customer-support-parallax {
+  background-image: url(https://media.istockphoto.com/photos/smiling-female-operator-working-in-call-center-picture-id1141990102?s=2048x2048);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 75vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: grayscale(45%);
+  margin-top: 60px;
+}
+
+.customer-support-parallax-text  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+.customer-support-parallax-text h1 {
+font-size: 3rem;
+}
+
+
+
 /* SUCCESS */
       .success-parallax {
-        background-image: url(../img/success.jpg);
+        background-image: url(https://media.istockphoto.com/photos/phoenix-arizona-picture-id518395032?s=2048x2048);
         margin: 0;
         padding: 0;
         width: 100%;
@@ -1540,7 +2315,7 @@ footer {
         background-size: cover;
         position: relative;
         filter: grayscale(50%);
-        margin-top: 4rem;
+        margin-top: 60px;
       }
 
       .success-parallax-text  {
@@ -1553,6 +2328,69 @@ footer {
       }
 
       .success-parallax-text h1 {
+      font-size: 2.25rem;
+      }
+
+      #success-carousel {
+      display: none;
+      }
+
+
+      /* ideal */
+      .ideal-parallax {
+        background-image: url(../img/case1.jpg);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(50%);
+        margin-top: 60px;
+      }
+
+      .ideal-parallax-text  {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .ideal-parallax-text h1 {
+      font-size: 2.25rem;
+      }
+
+      /* free */
+      .free-parallax {
+        background-image: url(../img/case2.jpg);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(50%);
+        margin-top: 60px;
+      }
+
+      .free-parallax-text  {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .free-parallax-text h1 {
       font-size: 2.25rem;
       }
 
@@ -1584,7 +2422,7 @@ footer {
         background-size: cover;
         position: relative;
         filter: grayscale(45%);
-        margin-top: 4rem;
+        margin-top: 60px;
       }
 
       .support-parallax-text  {
@@ -1697,10 +2535,11 @@ footer {
         max-width: 12rem;
       }
 
-      .foot-link {
+      footer .btn {
         font-size: 1rem;
-        margin-right: -0.5rem;
-      }
+        margin: 0;
+        padding: 0.4rem;
+  }
 
 
 /* INDEX */
@@ -1709,7 +2548,7 @@ footer {
 
   /* Case Study Carousel */  
   #case-study .carousel-caption {
-    top: 40%;
+    top: 45%;
     transform: translateY(-50%);
     bottom: initial;
     -webkit-transform-style: preserve-3d;
@@ -1719,12 +2558,12 @@ footer {
 
   #case-study h1 {
     font-size: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 
   #case-study h2 {
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }    
 
   #case-study .btn {
@@ -1741,7 +2580,7 @@ footer {
       }
 
       .solutions-parallax {
-        background-image: url(../img/solution.jpg);
+        background-image: url(../img/solutions.jpg);
         margin: 0;
         padding: 0;
         width: 100%;
@@ -1751,8 +2590,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(69%);
-        margin-top: 4rem;
+        filter: grayscale(25%);
+        margin-top: 60px;
       }
 
       .solutions-parallax-text  {
@@ -1768,9 +2607,126 @@ footer {
       font-size: 3.5rem;
       }
 
-/* SERVICES */
-      .services-parallax {
-        background-image: url(../img/services.jpg);
+
+      /* Employee Self Management */
+      .employee-parallax {
+        background-image: url(https://media.istockphoto.com/photos/cheerful-businessman-in-the-office-picture-id965761332?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(15%);
+        margin-top: 60px;
+      }
+
+      .employee-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .employee-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+      /* Performance Management */
+      .performance-parallax {
+        background-image: url(https://media.istockphoto.com/photos/african-american-business-coach-speaking-presentation-at-briefing-picture-id1092645884?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(20%);
+        margin-top: 60px;
+      }
+
+      .performance-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .performance-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+      /* Time Keeping */
+      .time-parallax {
+        background-image: url(https://media.istockphoto.com/photos/cheerful-ceo-is-monitoring-time-on-watch-picture-id1143014167?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(20%);
+        margin-top: 60px;
+      }
+
+      .time-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .time-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+      /* Employee Portal */
+      .portal-parallax {
+        background-image: url(https://media.istockphoto.com/photos/happy-african-american-businessman-using-phone-mobile-apps-at-picture-id1150384559?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(20%);
+        margin-top: 60px;
+      }
+
+      .portal-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .portal-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+      /* Schedule Fulfillment */
+      .schedule-parallax {
+        background-image: url(https://media.istockphoto.com/photos/making-sure-i-have-no-colliding-appointments-picture-id1159369709?s=2048x2048);
         margin: 0;
         padding: 0;
         width: 100%;
@@ -1780,8 +2736,66 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(69%);
-        margin-top: 4rem;
+        filter: grayscale(20%);
+        margin-top: 60px;
+      }
+
+      .schedule-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .schedule-parallax-text h1 {
+      font-size: 3rem;
+      }
+      
+      /* Intraday */
+      .intraday-parallax {
+        background-image: url(https://media.istockphoto.com/photos/millennial-black-businesswoman-stands-addressing-colleagues-at-a-picture-id1146473085?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(20%);
+        margin-top: 60px;
+      }
+
+      .intraday-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .intraday-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+/* SERVICES */
+      .services-parallax {
+        background-image: url(https://media.istockphoto.com/photos/it-support-picture-id1130702887?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(25%);
+        margin-top: 60px;
       }
 
       .services-parallax-text  {
@@ -1814,10 +2828,126 @@ footer {
         font-size: 1.5rem;
         font-weight: 750;
       }
+      /* SaaS */
+      .software-parallax {
+        background-image: url(https://media.istockphoto.com/photos/accessing-important-information-picture-id1077510236?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(15%);
+        margin-top: 60px;
+      }
+
+      .software-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .software-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+      .deployment-parallax {
+        background-image: url(https://media.istockphoto.com/photos/server-room-picture-id1091869510?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(15%);
+        margin-top: 60px;
+      }
+
+      .deployment-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .deployment-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+      /* Integration */
+      
+      .integration-parallax {
+        background-image: url(https://media.istockphoto.com/photos/ll-share-the-information-with-you-picture-id863497390?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(15%);
+        margin-top: 60px;
+      }
+
+      .integration-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .integration-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+      /* training Process */
+      
+      .training-parallax {
+        background-image: url(https://media.istockphoto.com/photos/teacher-giving-an-it-class-at-school-to-a-group-of-students-picture-id669775712?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(15%);
+        margin-top: 60px;
+      }
+
+      .training-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .training-parallax-text h1 {
+      font-size: 3rem;
+      }
 
 /* INDUSTRIES */
       .industries-parallax {
-        background-image: url(../img/industries.jpg);
+        background-image: url(https://media.istockphoto.com/photos/phoenix-arizona-usa-cityscape-picture-id1138402547?s=2048x2048);
         margin: 0;
         padding: 0;
         width: 100%;
@@ -1828,7 +2958,7 @@ footer {
         background-size: cover;
         position: relative;
         filter: grayscale(55%);
-        margin-top: 4rem;
+        margin-top: 60px;
       }
 
       .industries-parallax-text  {
@@ -1856,21 +2986,253 @@ footer {
       }
 
 
-
-/* ABOUT */
-      .about-parallax {
-        background-image: url(../img/about.jpg);
+      /* Contact Centers */
+      .contact-centers-parallax {
+        background-image: url(https://media.istockphoto.com/photos/beautiful-young-woman-with-headset-working-on-computer-while-talking-picture-id1143468136?s=2048x2048);
         margin: 0;
         padding: 0;
         width: 100%;
         height: 100vh;
         background-attachment: fixed;
-        background-position: center;
+        background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(65%);
-        margin-top: 4rem;
+        filter: grayscale(55%);
+        margin-top: 60px;
+      }
+
+      .contact-centers-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .contact-centers-parallax-text h1 {
+      font-size: 4rem;
+      }
+    
+      /* outsourcers Centers */
+      .outsourcers-parallax {
+        background-image: url(https://media.istockphoto.com/photos/rear-view-of-asian-businessman-walking-on-airport-escalator-at-sunset-picture-id1137499322?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(55%);
+        margin-top: 60px;
+      }
+
+      .outsourcers-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .outsourcers-parallax-text h1 {
+      font-size: 4rem;
+      }
+
+      /* at-home Centers */
+      .at-home-parallax {
+        background-image: url(https://media.istockphoto.com/photos/working-at-home-picture-id1153675389?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(55%);
+        margin-top: 60px;
+      }
+
+      .at-home-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .at-home-parallax-text h1 {
+      font-size: 4rem;
+      }
+
+           /* healthcare Centers */
+           .healthcare-parallax {
+            background-image: url(https://media.istockphoto.com/photos/m-glad-to-see-you-doing-well-picture-id1152844782?s=2048x2048);
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+            background-attachment: fixed;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            filter: grayscale(55%);
+            margin-top: 60px;
+          }
+    
+          .healthcare-parallax-text  {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-shadow: 5px 5px 5px black;
+          }
+    
+          .healthcare-parallax-text h1 {
+          font-size: 4rem;
+          }
+
+           /* hospitality Centers */
+      .hospitality-parallax {
+        background-image: url(https://media.istockphoto.com/photos/receptionist-giving-keys-to-hotel-guest-picture-id1192128830?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(55%);
+        margin-top: 60px;
+      }
+
+      .hospitality-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .hospitality-parallax-text h1 {
+      font-size: 4rem;
+      }
+
+      /* manufacturing Centers */
+      .manufacturing-parallax {
+        background-image: url(https://media.istockphoto.com/photos/industrial-engineer-picture-id453660217?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(25%);
+        margin-top: 60px;
+      }
+
+      .manufacturing-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .manufacturing-parallax-text h1 {
+      font-size: 4rem;
+      }
+
+          /* shift Centers */
+          .shift-parallax {
+            background-image: url(https://media.istockphoto.com/photos/happy-pilot-with-his-cabin-crew-at-the-airport-picture-id1094714772?s=2048x2048);
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+            background-attachment: fixed;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            filter: grayscale(25%);
+            margin-top: 60px;
+          }
+    
+          .shift-parallax-text  {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-shadow: 5px 5px 5px black;
+          }
+    
+          .shift-parallax-text h1 {
+          font-size: 4rem;
+          }
+
+           /* public-safety Centers */
+        .public-safety-parallax {
+          background-image: url(https://media.istockphoto.com/photos/police-officers-picture-id170098610?s=2048x2048);
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 100vh;
+          background-attachment: fixed;
+          background-position: center top;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          filter: grayscale(25%);
+          margin-top: 60px;
+        }
+  
+        .public-safety-parallax-text  {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-shadow: 5px 5px 5px black;
+        }
+  
+        .public-safety-parallax-text h1 {
+        font-size: 
+        4rem;
+        }
+
+/* ABOUT */
+      .about-parallax {
+        background-image: url(https://media.istockphoto.com/photos/colorful-sunrise-on-camelback-mountain-in-phoenix-arizona-picture-id1097186204?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(15%);
+        margin-top: 60px;
       }
 
       .about-parallax-text  {
@@ -1882,9 +3244,134 @@ footer {
         text-shadow: 5px 5px 5px black;
       }
 
+
+       /* company parallax */
+       .company-parallax {
+        background-image: url(https://media.istockphoto.com/photos/sonoran-desert-picture-id866010860?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(15%);
+        margin-top: 60px;
+      }
+
+      .company-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .company-parallax-text h1 {
+      font-size: 4rem;
+      }
+
+
+          /* management-team parallax */
+          .management-team-parallax {
+            background-image: url(https://media.istockphoto.com/photos/business-data-information-projector-board-in-conference-room-me-picture-id1064053478?s=2048x2048);
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+            background-attachment: fixed;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            filter: grayscale(15%);
+            margin-top: 60px;
+          }
+    
+          .management-team-parallax-text  {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-shadow: 5px 5px 5px black;
+          }
+    
+          .management-team-parallax-text h1 {
+          font-size: 4rem;
+          }
+
+          /* mission parallax */
+        .mission-parallax {
+          background-image: url(https://media.istockphoto.com/photos/sea-of-hands-picture-id857146092?s=2048x2048);
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 100vh;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          filter: grayscale(15%);
+          margin-top: 60px;
+        }
+  
+        .mission-parallax-text  {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-shadow: 5px 5px 5px black;
+        }
+  
+        .mission-parallax-text h1 {
+        font-size: 4rem;
+        }
+  
+
+
+          /* careers parallax */
+      .careers-parallax {
+        background-image: url(https://media.istockphoto.com/photos/happy-human-resource-team-congratulating-a-candidate-on-successful-picture-id1072034334?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(15%);
+        margin-top: 60px;
+      }
+
+      .careers-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .careers-parallax-text h1 {
+      font-size: 4rem;
+      }
+
+
+
+
+
+
 /* CONTACT */
       .contact-parallax {
-        background-image: url(../img/contact.jpg);
+        background-image: url(https://media.istockphoto.com/photos/businessman-talking-on-cell-phone-picture-id1136937581?s=2048x2048);
         margin: 0;
         padding: 0;
         width: 100%;
@@ -1895,7 +3382,7 @@ footer {
         background-size: cover;
         position: relative;
         filter: grayscale(45%);
-        margin-top: 4rem;
+        margin-top: 60px;
       }
 
       .contact-parallax-text  {
@@ -1911,9 +3398,131 @@ footer {
       font-size: 3.5rem;
       }
 
+
+       /* sales */
+       .sales-parallax {
+        background-image: url(https://media.istockphoto.com/photos/portrait-of-cheerful-young-manager-handshake-with-new-employee-picture-id1129342452?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(45%);
+        margin-top: 60px;
+      }
+
+      .sales-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .sales-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+
+      /* media */
+      .media-parallax {
+        background-image: url(https://media.istockphoto.com/photos/focused-young-diverse-employees-listening-to-motivated-skilled-female-picture-id1208424336?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(45%);
+        margin-top: 60px;
+      }
+
+      .media-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .media-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+
+       /* general */
+       .general-parallax {
+        background-image: url(https://media.istockphoto.com/photos/always-be-ready-when-business-comes-calling-picture-id1144585582?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(45%);
+        margin-top: 60px;
+      }
+
+      .general-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .general-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+
+      /* customer-support */
+ .customer-support-parallax {
+  background-image: url(https://media.istockphoto.com/photos/smiling-female-operator-working-in-call-center-picture-id1141990102?s=2048x2048);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: grayscale(45%);
+  margin-top: 60px;
+}
+
+.customer-support-parallax-text  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+.customer-support-parallax-text h1 {
+font-size: 3rem;
+}
+
+
+
 /* SUCCESS STORY */
       .success-parallax {
-        background-image: url(../img/success.jpg);
+        background-image: url(https://media.istockphoto.com/photos/phoenix-arizona-picture-id518395032?s=2048x2048);
         margin: 0;
         padding: 0;
         width: 100%;
@@ -1924,7 +3533,7 @@ footer {
         background-size: cover;
         position: relative;
         filter: grayscale(60%);
-        margin-top: 4rem;
+        margin-top: 60px;
       }
 
       .success-parallax-text  {
@@ -1940,6 +3549,64 @@ footer {
       font-size: 3rem;
       }
 
+
+      /* ideal */
+      .ideal-parallax {
+        background-image: url(../img/case1.jpg);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(50%);
+        margin-top: 60px;
+      }
+
+      .ideal-parallax-text  {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .ideal-parallax-text h1 {
+      font-size: 2.25rem;
+      }
+
+      /* free */
+      .free-parallax {
+        background-image: url(../img/case2.jpg);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(50%);
+        margin-top: 60px;
+      }
+
+      .free-parallax-text  {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .free-parallax-text h1 {
+      font-size: 2.25rem;
+      }
 }
 
  @media (min-width: 1600px) { 
@@ -1974,8 +3641,33 @@ footer {
       }
       
       #erp-logo-footer{
-        max-width: 15rem;
+        max-width: 18rem;
       }
+
+    /* Index */
+    #case-study .carousel-caption {
+      top: 42%;
+      transform: translateY(-50%);
+      bottom: initial;
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+    }
+  
+    #case-study h1 {
+      font-size: 6rem;
+      margin-bottom: 5rem;
+    }
+  
+    #case-study h2 {
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
+    }    
+  
+    #case-study .btn {
+      font-size: 1.25rem;
+    }  
+
 
 
 /* SOLUTIONS */
@@ -1988,9 +3680,9 @@ footer {
       }
 
       #services-cards h1 {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         font-weight: 750;
-      }
+    }
 
 /* SERVICES */
 #services-cards .card {
