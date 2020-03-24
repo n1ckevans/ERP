@@ -2411,13 +2411,13 @@ font-size: 3rem;
       } 
 
       .support-parallax {
-        background-image: url(../img/support.jpg);
+        background-image: url(https://media.istockphoto.com/photos/answering-your-call-with-a-smile-picture-id1143358054?s=2048x2048);
         margin: 0;
         padding: 0;
         width: 100%;
-        height: 75vh;
+        height: 100vh;
         background-attachment: fixed;
-        background-position: center;
+        background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
@@ -2438,12 +2438,244 @@ font-size: 3rem;
       font-size: 3rem;
       }
 
+
+      .privacy-parallax {
+        background-image: url(https://media.istockphoto.com/photos/data-security-system-shield-protection-verification-picture-id1058694620?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(45%);
+        margin-top: 60px;
+      }
+
+      .privacy-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .privacy-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+
+      .security-parallax {
+        background-image: url(https://media.istockphoto.com/photos/young-women-using-computer-cyber-security-concept-picture-id1166334015?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(45%);
+        margin-top: 60px;
+      }
+
+      .security-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .security-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+
+      .support-plans-parallax {
+        background-image: url(https://media.istockphoto.com/photos/beautiful-woman-on-a-virtual-meeting-using-her-laptop-and-headset-picture-id1133808033?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(45%);
+        margin-top: 60px;
+      }
+
+      .support-plans-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .support-plans-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+      .implementation-process-parallax {
+        background-image: url(https://media.istockphoto.com/photos/indian-businesswoman-leading-the-seminar-picture-id1179434300?s=2048x2048);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: grayscale(45%);
+        margin-top: 60px;
+      }
+
+      .implementation-process-parallax-text  {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
+
+      .implementation-process-parallax-text h1 {
+      font-size: 3rem;
+      }
+
+
       #support-carousel {
         display: none;
         }
+
+
+        .customers-parallax {
+          background-image: url(https://media.istockphoto.com/photos/downtown-phoenix-aerial-view-picture-id945853312?s=2048x2048);
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 100vh;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          filter: grayscale(45%);
+          margin-top: 60px;
+        }
   
+        .customers-parallax-text  {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-shadow: 5px 5px 5px black;
+        }
+  
+        .customers-parallax-text h1 {
+        font-size: 3rem;
+        }
+  
+  
+        .brick-parallax {
+          background-image: url(https://media.istockphoto.com/photos/female-customer-service-representative-working-on-desktop-pc-in-the-picture-id1147976572?s=2048x2048);
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 100vh;
+          background-attachment: fixed;
+          background-position: center top;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          filter: grayscale(45%);
+          margin-top: 60px;
+        }
+  
+        .brick-parallax-text  {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-shadow: 5px 5px 5px black;
+        }
+  
+        .brick-parallax-text h1 {
+        font-size: 3rem;
+        }
+
+        .home-agent-parallax {
+          background-image: url(https://media.istockphoto.com/photos/young-man-working-at-home-in-the-evening-picture-id1181035364?s=2048x2048);
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 100vh;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          filter: grayscale(45%);
+          margin-top: 60px;
+        }
+  
+        .home-agent-parallax-text  {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-shadow: 5px 5px 5px black;
+        }
+  
+        .home-agent-parallax-text h1 {
+        font-size: 3rem;
+        }
+
+        .news-parallax {
+          background-image: url(https://media.istockphoto.com/photos/good-new-on-the-stock-market-picture-id1162210652?s=2048x2048);
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 100vh;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: relative;
+          filter: grayscale(45%);
+          margin-top: 60px;
+        }
+  
+        .news-parallax-text  {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          text-shadow: 5px 5px 5px black;
+        }
+  
+        .news-parallax-text h1 {
+        font-size: 3rem;
+        }
+
+
 
 }
+
 
 
 /* Extra large devices (large desktops, 1200px and up) */
