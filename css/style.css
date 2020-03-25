@@ -78,7 +78,28 @@ nav {
 
 .navbar-link {
   font-size: 1rem;
+  text-decoration: none;
+  position: relative;
+
 }
+
+.current {
+  padding-right: 0.35rem;
+  font-size: 1.25rem;
+  color: #006993;
+  position: relative;
+}
+
+.current::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 95%;
+  height: 2px;
+  background: #006993;
+}
+
 
 
 /* FOOTER */
@@ -3860,7 +3881,36 @@ font-size: 3rem;
 /* NAV BAR */
       nav a, .navbar-link {
         padding-right: 0.35rem;
+        padding-bottom: 0.25rem;
         font-size: 1.25rem;
+      }
+
+      .navbar-link {
+        text-decoration: none;
+        position: relative;
+      }
+
+      .navbar-link:hover {
+        text-decoration: none;
+        color: #006993;
+      }
+
+      .navbar-link::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 95%;
+        height: 2px;
+        background: #006993;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 250ms ease-in;
+      }
+
+      .navbar-link:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
       }
 
 /* FOOTER */
