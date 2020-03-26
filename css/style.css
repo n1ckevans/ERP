@@ -16,10 +16,10 @@ nav, main, footer {
 }
 
 .light-blue {
-  color: #006993;
+  color: #006993; 
 }
 
-.drk:after {
+.:after {
   content:"";
   display:block;
   position:absolute;
@@ -76,16 +76,9 @@ nav {
   max-width: 10rem;
 }
 
-.navbar-link {
-  font-size: 1rem;
-  text-decoration: none;
-  position: relative;
-
-}
-
 .current {
-  padding-right: 0.35rem;
-  font-size: 1.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 1rem;
   color: #006993;
   position: relative;
 }
@@ -96,8 +89,38 @@ nav {
   left: 0;
   bottom: 0;
   width: 95%;
+  height: 2.5px;
+  background: #006993;
+}
+
+.navbar-link {
+  font-size: 1rem;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 0.25rem;
+}
+
+.navbar-link:hover {
+  text-decoration: none;
+  color: #006993;
+}
+
+.navbar-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 95%;
   height: 2px;
   background: #006993;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+.navbar-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 
@@ -119,6 +142,7 @@ footer {
 #erp-logo-copywright{
   max-width: 4.5rem;
 }
+
 
 
 
@@ -144,6 +168,8 @@ footer {
 #index1 {
   background-image: url("../img/nurse.jpg");
   background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
   background-position: 60% 20%;
   background-size: cover;
   height: 50vh;
@@ -151,9 +177,12 @@ footer {
 
 
 
+
 #index2 {
   background-image: url("../img/index-carousel2.jpg");
   background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
   height: 50vh;
@@ -271,9 +300,29 @@ footer {
   font-weight: 650;
 }
 
-#industries-cards .card {
+
+
+#industries-cards .cards {
   margin-top: 1rem;
+
  }
+
+
+
+ .card-image {
+   overflow: hidden;
+ }
+
+ .card-image img {
+   transition: all 1s ease-in;
+ }
+
+ .card-image:hover img {
+   transform: scale(1.1);
+ }
+
+
+
 
 /* INDUSTRIES SUB-CATEGORIES */
 #industries-list {
@@ -510,6 +559,8 @@ footer {
   background-repeat: no-repeat;
   background-position: 80% 50%;
   background-size: cover;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
   height: 75vh;
 }
 
@@ -518,6 +569,8 @@ footer {
   background-image: url("../img/index-carousel2.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
   background-size: cover;
   height: 75vh;
 }
@@ -832,6 +885,8 @@ footer {
     background-image: url("../img/nurse.jpg");
     background-repeat: no-repeat;
     background-position: 80% 50%;
+    background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
     background-size: cover;
     height: 90vh;
   }
@@ -840,6 +895,8 @@ footer {
     background-image: url("../img/index-carousel2.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
     background-size: cover;
     height: 90vh;
   }
@@ -1165,11 +1222,73 @@ footer {
         width: 40.25vw;
       }
 
+
+      .from-right.appear:hover, .from-left.appear:hover {
+        text-decoration: none;
+        color: #006993;
+        position: relative;
+      }
+
+      .from-right.appear::after, .from-left.appear::after {
+        content: '';
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+        width: 80%;
+        height: 2px;
+        background: #006993;
+        transform: scale(0);
+        transition: transform 250ms ease-in;
+     
+      }
+
+
+
+
+      .from-right.appear:hover::after, .from-left.appear:hover::after {
+        transform: scale(1);
+      }
+    
+      #control-costs.appear:hover {
+        text-decoration: none;
+        color: #006993;
+        position: relative;
+      }
+
+      #control-costs.appear::after {
+        content: '';
+      position: absolute;
+      left: 25%;
+      bottom: 0;
+      width: 50%;
+      height: 2px;
+      background: #006993;
+      transform: scale(0);
+      transition: transform 250ms ease-in;
+}
+
+
+     
+      
+
+
+
+
+      #control-costs.appear:hover::after {
+        transform: scale(1);
+      }
+
+
       .section-body{
         width: 100%;
         height: auto;
         margin: auto;
       }
+
+      
+
+
+
       
       .section-body p {
         font-size: 1.5rem;
@@ -1189,10 +1308,56 @@ footer {
         max-width: 12rem;
       }
 
-      nav a, .navbar-link {
-        padding-right: 0.35rem;
-        font-size: 0.85rem;
-     }
+
+      .current {
+        padding-bottom: 0.35rem;
+        font-size: 0.9rem;
+        color: #006993;
+        position: relative;
+      }
+      
+      .current::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 95%;
+        height: 2px;
+        background: #006993;
+      }
+      
+      .navbar-link {
+        text-decoration: none;
+        position: relative;
+        padding-bottom: 0.25rem;
+        font-size: 0.9rem;
+      }
+      
+      .navbar-link:hover {
+        text-decoration: none;
+        color: #006993;
+      }
+      
+      .navbar-link::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 95%;
+        height: 2px;
+        background: #006993;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 250ms ease-in;
+      }
+      
+      .navbar-link:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+
+
+     
 
 /* FOOTER */
      #copywright {
@@ -1238,6 +1403,8 @@ footer {
       background-image: url("../img/nurse.jpg");
       background-repeat: no-repeat;
       background-position: 50% 45%;
+      background-color: rgb(139, 139, 139);
+      background-blend-mode: multiply;
       background-size: cover;
       height: 100vh;
       }
@@ -1246,6 +1413,8 @@ footer {
       background-image: url("../img/index-carousel2.jpg");
       background-repeat: no-repeat;
       background-position: center;
+      background-color: rgb(139, 139, 139);
+      background-blend-mode: multiply;
       background-size: cover;
       height: 100vh;
       }
@@ -1274,24 +1443,62 @@ footer {
         text-shadow: 5px 5px 7px black;
       }    
 
-      #case-study .btn {
+     
+      #case-study button {
         font-size: 1rem;
         border-radius: 0.5rem;
+        cursor: pointer;
+        border: 0;
+        background: #006993;
+        color: white;
+        padding: 1em 1.5em;
+        position: relative;
+        z-index: 1;
       }
 
-      #case1 {
-      background-image: url("../img/case1.jpg");
-      background-repeat: no-repeat;
-      background-position: 50% 45%;
-      background-size: cover;
-      height: 100vh;
+      
+
+      #case-study button::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.3);
+        z-index: -1;
+        transition: transform 200ms ease-in;
+        transform: scaleX(0);
+        transform-origin: right;
       }
+
+      #case-study button:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+
+
+      
+
+
+
+      #case1 {
+        background-image: url("../img/case1.jpg");
+        background-repeat: no-repeat;
+        background-color: rgb(194, 194, 194);
+        background-blend-mode: multiply;
+        background-position: 50% 45%;
+        background-size: cover;
+        height: 100vh;
+        }
 
       #case2 {
       background-image: url("../img/case2.jpg");
       background-repeat: no-repeat;
-      background-position: center;
+      background-color: rgb(194, 194, 194);
+      background-blend-mode: multiply;
       background-size: cover;
+      background-position: 50% 45%;
       height: 100vh;
       }
 
@@ -1313,7 +1520,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(25%);
+        background-color: rgb(139, 139, 139);
+        background-blend-mode: multiply;
         margin-top: 60px;
       }
 
@@ -1351,7 +1559,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(15%);
+        background-color: rgb(139, 139, 139);
+        background-blend-mode: multiply;
         margin-top: 60px;
       }
 
@@ -1380,7 +1589,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(20%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -1409,7 +1619,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(20%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -1438,7 +1649,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(20%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -1467,7 +1679,8 @@ footer {
           background-repeat: no-repeat;
           background-size: cover;
           position: relative;
-          filter: grayscale(20%);
+          background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
           margin-top: 60px;
         }
   
@@ -1496,7 +1709,8 @@ footer {
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
-            filter: grayscale(20%);
+            background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
             margin-top: 60px;
           }
     
@@ -1529,7 +1743,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(25%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -1574,7 +1789,8 @@ footer {
           background-repeat: no-repeat;
           background-size: cover;
           position: relative;
-          filter: grayscale(15%);
+          background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
           margin-top: 60px;
         }
   
@@ -1604,7 +1820,8 @@ footer {
           background-repeat: no-repeat;
           background-size: cover;
           position: relative;
-          filter: grayscale(15%);
+          background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
           margin-top: 60px;
         }
   
@@ -1634,7 +1851,8 @@ footer {
           background-repeat: no-repeat;
           background-size: cover;
           position: relative;
-          filter: grayscale(15%);
+          background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
           margin-top: 60px;
         }
   
@@ -1660,11 +1878,12 @@ footer {
           width: 100%;
           height: 75vh;
           background-attachment: fixed;
-          background-position: center top
+          background-position: center top;
           background-repeat: no-repeat;
           background-size: cover;
           position: relative;
-          filter: grayscale(15%);
+          background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
           margin-top: 80px;
         }
   
@@ -1697,7 +1916,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(55%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -1740,7 +1960,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(55%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -1769,7 +1990,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(55%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -1798,7 +2020,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(55%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -1827,7 +2050,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(55%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -1856,7 +2080,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(55%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -1885,7 +2110,8 @@ footer {
           background-repeat: no-repeat;
           background-size: cover;
           position: relative;
-          filter: grayscale(25%);
+          background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
           margin-top: 60px;
         }
   
@@ -1915,7 +2141,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(25%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -1944,7 +2171,8 @@ footer {
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
-            filter: grayscale(25%);
+            background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
             margin-top: 60px;
           }
     
@@ -1999,7 +2227,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(15%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2028,7 +2257,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(15%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2058,7 +2288,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(15%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2087,7 +2318,8 @@ footer {
           background-repeat: no-repeat;
           background-size: cover;
           position: relative;
-          filter: grayscale(15%);
+          background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
           margin-top: 60px;
         }
   
@@ -2119,7 +2351,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(15%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2177,7 +2410,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(45%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2216,7 +2450,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(45%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2245,7 +2480,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(45%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2274,7 +2510,8 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(45%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2304,7 +2541,8 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  filter: grayscale(45%);
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
   margin-top: 60px;
 }
 
@@ -2335,7 +2573,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(50%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2369,7 +2608,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(50%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2398,7 +2638,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(50%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2442,7 +2683,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(45%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2471,7 +2713,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(45%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2500,7 +2743,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(45%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2529,7 +2773,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(45%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2557,7 +2802,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(45%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2591,7 +2837,8 @@ font-size: 3rem;
           background-repeat: no-repeat;
           background-size: cover;
           position: relative;
-          filter: grayscale(45%);
+          background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
           margin-top: 60px;
         }
   
@@ -2620,7 +2867,8 @@ font-size: 3rem;
           background-repeat: no-repeat;
           background-size: cover;
           position: relative;
-          filter: grayscale(45%);
+          background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
           margin-top: 60px;
         }
   
@@ -2648,7 +2896,8 @@ font-size: 3rem;
           background-repeat: no-repeat;
           background-size: cover;
           position: relative;
-          filter: grayscale(45%);
+          background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
           margin-top: 60px;
         }
   
@@ -2676,7 +2925,8 @@ font-size: 3rem;
           background-repeat: no-repeat;
           background-size: cover;
           position: relative;
-          filter: grayscale(45%);
+          background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
           margin-top: 60px;
         }
   
@@ -2770,10 +3020,56 @@ font-size: 3rem;
         padding: 5rem;
       } 
 
-      nav a, .navbar-link {
-        padding-right: 0.35rem;
+      .current {
+        padding-bottom: 0.35rem;
         font-size: 1rem;
-     }
+        color: #006993;
+        position: relative;
+      }
+      
+      .current::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 95%;
+        height: 2px;
+        background: #006993;
+      }
+      
+      .navbar-link {
+        text-decoration: none;
+        position: relative;
+        padding-bottom: 0.25rem;
+        font-size: 1rem;
+      }
+      
+      .navbar-link:hover {
+        text-decoration: none;
+        color: #006993;
+      }
+      
+      .navbar-link::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 95%;
+        height: 2px;
+        background: #006993;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 250ms ease-in;
+      }
+      
+      .navbar-link:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+
+
+
+      
 
 /* FOOTER */
       #copywright{
@@ -2826,11 +3122,42 @@ font-size: 3rem;
 /* SOLUTIONS */
       #solutions-cards h1 {
         font-size: 1.75rem;
+        position: relative;
+        padding-bottom: 1rem;
       }
-
+      
       #solutions-cards .card {
         width:34rem;
+        
       }
+
+      #solutions-cards h1:hover {
+        color: #006993;
+      }
+
+
+      #solutions-cards h1::after {
+        content: '';
+        position: absolute;
+        left: 16%;
+        bottom: 0;
+        width: 69%;
+        height: 4px;
+        background: #006993;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 250ms ease-in;
+    }
+      }
+
+      #solutions-cards h1:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+        
+      }
+      
+
+
 
       .solutions-parallax {
         background-image: url(../img/solutions.jpg);
@@ -2843,7 +3170,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(25%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2873,7 +3201,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(15%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2902,7 +3231,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(20%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2931,7 +3261,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(20%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2960,7 +3291,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(20%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -2989,7 +3321,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(20%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3018,7 +3351,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(20%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3047,7 +3381,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(25%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3093,7 +3428,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(15%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3121,7 +3457,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(15%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3151,7 +3488,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(15%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3181,7 +3519,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(15%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3210,7 +3549,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(55%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3238,6 +3578,8 @@ font-size: 3rem;
       padding: 1rem;
       }
 
+      
+
 
       /* Contact Centers */
       .contact-centers-parallax {
@@ -3251,7 +3593,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(55%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3280,7 +3623,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(55%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3309,7 +3653,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(55%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3338,7 +3683,8 @@ font-size: 3rem;
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
-            filter: grayscale(55%);
+            background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
             margin-top: 60px;
           }
     
@@ -3367,7 +3713,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(55%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3396,7 +3743,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(25%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3425,7 +3773,8 @@ font-size: 3rem;
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
-            filter: grayscale(25%);
+            background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
             margin-top: 60px;
           }
     
@@ -3454,7 +3803,8 @@ font-size: 3rem;
           background-repeat: no-repeat;
           background-size: cover;
           position: relative;
-          filter: grayscale(25%);
+          background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
           margin-top: 60px;
         }
   
@@ -3484,7 +3834,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(15%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3510,7 +3861,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(15%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3540,7 +3892,8 @@ font-size: 3rem;
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
-            filter: grayscale(15%);
+            background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
             margin-top: 60px;
           }
     
@@ -3569,7 +3922,8 @@ font-size: 3rem;
           background-repeat: no-repeat;
           background-size: cover;
           position: relative;
-          filter: grayscale(15%);
+          background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
           margin-top: 60px;
         }
   
@@ -3600,7 +3954,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(15%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3634,7 +3989,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(45%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3664,7 +4020,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(45%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3694,7 +4051,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(45%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3724,7 +4082,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(45%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;;
         margin-top: 60px;
       }
 
@@ -3754,7 +4113,8 @@ font-size: 3rem;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  filter: grayscale(45%);
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
   margin-top: 60px;
 }
 
@@ -3785,7 +4145,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(60%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
         margin-top: 60px;
       }
 
@@ -3815,7 +4176,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(50%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
         margin-top: 60px;
       }
 
@@ -3844,7 +4206,8 @@ font-size: 3rem;
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        filter: grayscale(50%);
+        background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
         margin-top: 60px;
       }
 
@@ -3879,39 +4242,57 @@ font-size: 3rem;
         }
 
 /* NAV BAR */
-      nav a, .navbar-link {
-        padding-right: 0.35rem;
-        padding-bottom: 0.25rem;
-        font-size: 1.25rem;
-      }
+      
+      
+.current {
+  padding-bottom: 0.35rem;
+  font-size: 1.25rem;
+  color: #006993;
+  position: relative;
+}
 
-      .navbar-link {
-        text-decoration: none;
-        position: relative;
-      }
+.current::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 95%;
+  height: 2px;
+  background: #006993;
+}
 
-      .navbar-link:hover {
-        text-decoration: none;
-        color: #006993;
-      }
+.navbar-link {
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 0.25rem;
+  font-size: 1.25rem;
+}
 
-      .navbar-link::after {
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 95%;
-        height: 2px;
-        background: #006993;
-        transform: scaleX(0);
-        transform-origin: right;
-        transition: transform 250ms ease-in;
-      }
+.navbar-link:hover {
+  text-decoration: none;
+  color: #006993;
+}
 
-      .navbar-link:hover::after {
-        transform: scaleX(1);
-        transform-origin: left;
-      }
+.navbar-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 95%;
+  height: 2px;
+  background: #006993;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+.navbar-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+     
+
 
 /* FOOTER */
       #erp-logo-copywright{
@@ -3949,6 +4330,69 @@ font-size: 3rem;
     #case-study .btn {
       font-size: 1.25rem;
     }  
+
+
+  
+   
+
+      .from-right.appear:hover, .from-left.appear:hover {
+        text-decoration: none;
+        color: #006993;
+        position: relative;
+      }
+
+      .from-right.appear::after, .from-left.appear::after {
+        content: '';
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+        width: 80%;
+        height: 2px;
+        background: #006993;
+        transform: scale(0);
+        transition: transform 250ms ease-in;
+     
+      }
+
+
+
+
+      .from-right.appear:hover::after, .from-left.appear:hover::after {
+        transform: scale(1);
+      }
+    
+
+
+      #control-costs.appear:hover {
+        text-decoration: none;
+        color: #006993;
+        position: relative;
+      }
+
+      #control-costs.appear::after {
+        content: '';
+      position: absolute;
+      left: 25%;
+      bottom: 0;
+      width: 50%;
+      height: 2px;
+      background: #006993;
+      transform: scale(0);
+      transition: transform 250ms ease-in;
+}
+
+
+     
+      
+
+
+
+
+      #control-costs.appear:hover::after {
+        transform: scale(1);
+      }
+
+    
 
 
 
