@@ -19,26 +19,26 @@ nav, main, footer {
   color: #006993; 
 }
 
-.section-body{
-  font-size: 1rem;
+.section-body {
   width: 100%;
   height: auto;
   margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-.section-title h1{
-  font-size: 1.5rem;
-  font-weight: 800;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
+.section-title h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .section-body p {
-    margin-bottom: 1.5rem;
-    font-weight: 500;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    line-height: 1.75;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
 }
 
 .hide-small {
@@ -55,12 +55,12 @@ nav, main, footer {
 }
 
 /*--Navigation-- */
-nav {
+nav {  
   border-bottom: 1px solid gray;
 }
 
-#erp-logo-nav{
-  max-width: 10rem;
+#erp-logo-nav {
+  width: 10rem;
 }
 
 .current {
@@ -70,7 +70,7 @@ nav {
   position: relative;
 }
 
-.current::after{
+.current::after {
   content: '';
   position: absolute;
   left: 0;
@@ -122,7 +122,7 @@ footer {
 }
  
 #erp-logo-copywright {
-  max-width: 4.5rem;
+  width: 5rem;
 }
 
 /* INDEX */
@@ -172,7 +172,7 @@ footer {
   overflow-y: hidden;
   color: white;
   text-shadow: 5px 5px 7px black;
-  margin-top: 60px;
+  margin-top: 58px;
 }
 
 #solutions-carousel .carousel-caption {
@@ -478,13 +478,12 @@ footer {
   @media (min-width: 576px) { 
   /* NAV */
   #erp-logo-nav{
-    max-width: 15rem;
+    width: 12rem;
   }
   
   /* FOOTER */
   #copywright-small {
       font-size: 1rem;
-      margin-top: 1rem;
   }
 
   #erp-logo-copywright{
@@ -496,28 +495,14 @@ footer {
   /* INDEX */
   #index-carousel h1 {
     font-size: 3rem;
-    font-weight: 700;
-    color: white;
-    text-shadow: 5px 5px 7px black;
   } 
 
   #index1 {
-    background-image: url("../img/nurse.jpg");
-    background-repeat: no-repeat;
     background-position: 80% 50%;
-    background-size: cover;
-    background-color: rgb(139, 139, 139);
-    background-blend-mode: multiply;
     height: 75vh;
   }
 
   #index2 {
-    background-image: url("../img/index-carousel2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgb(139, 139, 139);
-    background-blend-mode: multiply;
-    background-size: cover;
     height: 75vh;
   }
 
@@ -741,48 +726,34 @@ footer {
     /* Medium devices (tablets, 768px and up) */
     @media (min-width: 768px) { 
     /* GLOBAL */
-    .section-body {
-      width: 100%;
-      height: auto;
-      margin: auto;
-      line-height: 1.5;
-    }
-
-    .section-body p {
-      font-size: 1.5rem;
-      font-weight: 500;
-      margin-left: 2rem;
-      margin-right: 2rem;
-    }
-
     .subtitle {
       font-size: 1.4rem;
       font-weight: 750;
       margin: 1rem 1.5rem 1rem 1.5em;
     }
 
+    .section-body {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+
     .section-title h1 {
       font-size: 2.5rem;
-      font-weight: 800;
     }
 
     /* NAV BAR */
     #erp-logo-nav{
-      max-width: 15rem;
+      width: 15rem;
     }
 
     /* FOOTER */
     #copywright-small {
       font-size: 1.25rem;
-      margin-top: 1rem;
     }
 
     /* INDEX */
     #index-carousel h1 {
       font-size: 4rem;
-      font-weight: 700;
-      color: white;
-      text-shadow: 5px 5px 7px black;
     } 
     
     #index1  {
@@ -1044,8 +1015,13 @@ footer {
       } 
 
       .hide-small {
-            display: inherit;
+        display: inherit;
       }      
+
+      .section-body {
+        padding-left: 4rem;
+        padding-right: 4rem;
+      }
 
       .section-title {
         margin-top: 3rem;
@@ -1103,7 +1079,7 @@ footer {
         grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax(1em, 1fr);
       }
 
-      .more-stuff-grid img, .more-stuff-grid h2 {
+      .more-stuff-grid img {
         width: 40.25vw;
       }
 
@@ -1134,70 +1110,31 @@ footer {
         height: auto;
         margin: auto;
       }
-
-      .section-body p {
-        font-size: 1.5rem;
-        line-height: 2.5rem;
-        margin-bottom: 2.75rem;
-        margin-left: 5rem;
-        margin-right: 5rem; 
-       }
-      
+          
        .section-body ul {
         font-size: 1.2rem;
         line-height: 1.5rem;
        }
 
       /* NAV BAR */
+      nav {
+        height: 60px;
+        width: 100%;
+        position: fixed;
+        padding: 5rem;
+      } 
+
       #erp-logo-nav{
-        max-width: 12rem;
+        width: 12rem;
       }
 
       .current {
         padding-bottom: 0.35rem;
         font-size: 0.9rem;
-        color: #006993;
-        position: relative;
       }
-      
-      .current::after{
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 95%;
-        height: 2px;
-        background: #006993;
-      }
-      
+                  
       .navbar-link {
-        text-decoration: none;
-        position: relative;
-        padding-bottom: 0.25rem;
         font-size: 0.9rem;
-      }
-      
-      .navbar-link:hover {
-        text-decoration: none;
-        color: #006993;
-      }
-      
-      .navbar-link::after {
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 95%;
-        height: 2px;
-        background: #006993;
-        transform: scaleX(0);
-        transform-origin: right;
-        transition: transform 250ms ease-in;
-      }
-      
-      .navbar-link:hover::after {
-        transform: scaleX(1);
-        transform-origin: left;
       }
     
       /* FOOTER */
@@ -1223,8 +1160,6 @@ footer {
       .footer-current {
         padding-bottom: 0.35rem;
         font-size: 0.65rem;
-        color: #006993;
-        position: relative;
       }
       
       .footer-current::after{
@@ -1269,55 +1204,18 @@ footer {
       /* INDEX */
       #index-carousel h1 {
         font-size: 5rem;
-        font-weight: 700;
-        color: white;
-        text-shadow: 5px 5px 7px black;
       }    
 
       #index1 {
-        background-image: url("../img/nurse.jpg");
-        background-repeat: no-repeat;
         background-position: 50% 45%;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;
-        background-size: cover;
         height: 100vh;
       }
 
       #index2 {
-        background-image: url("../img/index-carousel2.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;
-        background-size: cover;
         height: 100vh;
       }
 
       /* Case Study Carousel */
-      #case-study .carousel-caption {
-        top: 50%;
-        transform: translateY(-50%);
-        bottom: initial;
-        -webkit-transform-style: preserve-3d;
-        -moz-transform-style: preserve-3d;
-        transform-style: preserve-3d;
-      }
-
-      #case-study h1 {
-        font-size: 4rem;
-        margin-bottom: 4rem;
-        color: white;
-        text-shadow: 5px 5px 7px black;
-      }
-
-      #case-study h2 {
-        font-size: 1.75rem;
-        margin-bottom: 3rem;
-        color: white;
-        text-shadow: 5px 5px 7px black;
-      }    
-     
       #case-study button {
         font-size: 1rem;
         border-radius: 0.5rem;
@@ -1352,22 +1250,70 @@ footer {
       #case1 {
         background-image: url("../img/case1.jpg");
         background-repeat: no-repeat;
-        background-color: rgb(194, 194, 194);
+        background-color: rgb(180 , 180, 180);
         background-blend-mode: multiply;
-        background-position: 50% 45%;
+        background-position: 50% 60%;
         background-size: cover;
         height: 100vh;
+      }
+
+      #case1 .carousel-caption {
+        top: 50%;
+        transform: translateY(-50%);
+        bottom: initial;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+      }
+
+      #case1 h1 {
+        font-size: 5rem;
+        color: white;
+        text-shadow: 5px 5px 7px black;
+      }
+
+      #case1 h2 {
+          font-size: 2.5rem;
+          margin-top: 20rem;
+          margin-bottom: 2rem;
+          color: white;
+          text-shadow: 5px 5px 7px black;
       }
 
       #case2 {
       background-image: url("../img/case2.jpg");
       background-repeat: no-repeat;
-      background-color: rgb(194, 194, 194);
+      background-color: rgb(126, 126, 126);
       background-blend-mode: multiply;
       background-size: cover;
       background-position: 50% 45%;
       height: 100vh;
       }
+
+      #case2 .carousel-caption {
+        top: 45%;
+        transform: translateY(-50%);
+        bottom: initial;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+      }
+
+      #case2 h1 {
+        font-size: 5rem;
+        color: white;
+        text-shadow: 5px 5px 7px black;
+      }
+
+      #case2 h2 {
+        font-size: 2rem;
+       margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+        color: white;
+        text-shadow: 5px 5px 7px black;
+      }  
+
+
 
       #control-costs.appear:hover {
         text-decoration: none;
@@ -2810,117 +2756,23 @@ footer {
         /* Extra large devices (large desktops, 1200px and up) */
         @media (min-width: 1200px) { 
         /* GLOBAL */
-        .fade-in {
-          opacity: 0;
-          transition: opacity 250ms ease-in;
-        }
-
-        .fade-in.appear {
-          opacity: 1;
-        }
-
-        .from-left {
-          grid-column: 2 / 3;
-          -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-        }
-
-        .from-right {
-          grid-column: 3 / 4;
-          -webkit-transform: translateX(50%);
-          transform: translateX(50%);
-        }
-
-        .from-left,
-        .from-right {
-          transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
-          transition: opacity 250ms ease-in, transform 400ms ease-in;
-          transition: opacity 250ms ease-in, transform 400ms ease-in,
-            -webkit-transform 400ms ease-in;
-          opacity: 0;
-        }
-
-        .from-left.appear,
-        .from-right.appear {
-          -webkit-transform: translateX(0);
-          transform: translateX(0);
-          opacity: 1;
-        }
-
-        .more-stuff-grid {
-          padding: 4em 0;
-          display: grid;
-          grid-gap: 2em;
-          align-items: center;
-          grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax(1em, 1fr);
-        }
-          
-        .more-stuff-grid img {
-          width: 31vw;
-        }
-
-        .more-stuff-grid h2 {
-          width: 26.25vw;
+        .section-body {
+          padding-left: 6rem;
+          padding-right: 6rem;
         }
 
         /* NAV BAR */
         #erp-logo-nav{
-          max-width: 18rem;
+          width: 13rem;
         }
-
-        nav {
-          height: 60px;
-          width: 100%;
-          position: fixed;
-          padding: 5rem;
-        } 
-
+      
         .current {
-          padding-bottom: 0.35rem;
           font-size: 1rem;
-          color: #006993;
-          position: relative;
         }
-        
-        .current::after{
-          content: '';
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          width: 95%;
-          height: 2px;
-          background: #006993;
-        }
-        
+                     
         .navbar-link {
-          text-decoration: none;
-          position: relative;
-          padding-bottom: 0.25rem;
           font-size: 1rem;
-        }
-        
-        .navbar-link:hover {
-          text-decoration: none;
-          color: #006993;
-        }
-        
-        .navbar-link::after {
-          content: '';
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          width: 95%;
-          height: 2px;
-          background: #006993;
-          transform: scaleX(0);
-          transform-origin: right;
-          transition: transform 250ms ease-in;
-        }
-        
-        .navbar-link:hover::after {
-          transform: scaleX(1);
-          transform-origin: left;
-        }      
+        }  
 
         /* FOOTER */
         #copywright{
@@ -2960,31 +2812,38 @@ footer {
 
 
         /* INDEX */
-
-
-        /* Case Study Carousel */  
-        #case-study .carousel-caption {
-          top: 45%;
-          transform: translateY(-50%);
-          bottom: initial;
-          -webkit-transform-style: preserve-3d;
-          -moz-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-        }
-
-        #case-study h1 {
-          font-size: 5rem;
-          margin-bottom: 4rem;
-        }
-
-        #case-study h2 {
-          font-size: 2rem;
-          margin-bottom: 3rem;
-        }    
-
         #case-study .btn {
           font-size: 1.25rem;
-        }  
+          padding: 0.5rem;
+        }
+
+        #case1 .carousel-caption {
+          top: 50%;
+        }
+  
+        #case1 h1 {
+          font-size: 6rem;
+        }
+  
+        #case1 h2 {
+          font-size: 2.5rem;
+          margin-top: 25rem;
+          margin-bottom: 2rem;
+        }
+
+        #case2 .carousel-caption {
+          top: 50%;
+        }
+
+        #case2 h1 {
+          font-size: 6rem;
+        }
+  
+        #case2 h2 {
+          font-size: 2.5rem;
+          margin-top: 3rem;
+          margin-bottom: 3rem;
+        }
 
         /* SOLUTIONS */
         #solutions-cards h1 {
@@ -4068,55 +3927,20 @@ footer {
           /* GLOBAL */  
           /* INDEX */
           /* NAV BAR */
+          #erp-logo-nav{
+            width: 15rem;
+          }
+
           .success-parallax-text h1 {
             font-size: 3.5rem;
           }
               
           .current {
-            padding-bottom: 0.35rem;
             font-size: 1.25rem;
-            color: #006993;
-            position: relative;
-          }
-
-          .current::after{
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 95%;
-            height: 2px;
-            background: #006993;
           }
 
           .navbar-link {
-            text-decoration: none;
-            position: relative;
-            padding-bottom: 0.25rem;
             font-size: 1.25rem;
-          }
-
-          .navbar-link:hover {
-            text-decoration: none;
-            color: #006993;
-          }
-
-          .navbar-link::after {
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 95%;
-            height: 2px;
-            background: #006993;
-            transform: scaleX(0);
-            transform-origin: right;
-            transition: transform 250ms ease-in;
-          }
-
-          .navbar-link:hover::after {
-            transform: scaleX(1);
-            transform-origin: left;
           }
 
           /* FOOTER */
@@ -4133,28 +3957,7 @@ footer {
           }
 
           /* Index */
-          #case-study .carousel-caption {
-            top: 42%;
-            transform: translateY(-50%);
-            bottom: initial;
-            -webkit-transform-style: preserve-3d;
-            -moz-transform-style: preserve-3d;
-            transform-style: preserve-3d;
-          }
-  
-          #case-study h1 {
-            font-size: 6rem;
-            margin-bottom: 5rem;
-          }
-  
-          #case-study h2 {
-            font-size: 2.5rem;
-            margin-bottom: 3rem;
-          }    
-  
-          #case-study .btn {
-            font-size: 1.25rem;
-          }  
+          
 
           .from-right.appear:hover, .from-left.appear:hover {
             text-decoration: none;
@@ -4205,9 +4008,7 @@ footer {
             font-size: 4rem;
           }
           
-          .more-stuff-grid h2 {
-            width: 20.9vw;
-          }
+          
 
           #services-cards h1 {
             font-size: 1.5rem;
