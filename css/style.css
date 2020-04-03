@@ -62,7 +62,7 @@ table {
   backface-visibility: visible;
 }
 
-/*--Global-- */
+/*--GLOBAL-- */
 .hide-small {
   display: none;
 }
@@ -181,6 +181,31 @@ table {
   transform-origin: left;
 }   
 
+.parallax {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  margin-top: 60px;
+}
+
+.parallax-text h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
 
 /*--Navigation-- */
 nav {  
@@ -245,7 +270,7 @@ footer {
 }
 
 #copywright-small {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 500;
   margin-top: 1rem;
 }
@@ -273,6 +298,37 @@ footer {
   background-size: cover;
 }
 
+/* Control Costs */
+#control-costs-slider {
+  background-image: url(https://media.istockphoto.com/photos/teamwork-brainstorming-business-partners-graphs-picture-id1169655361?s=2048x2048);
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: 50% 20%;
+  background-size: cover;
+}
+
+/* Employee Satisfaction */
+#employee-satisfaction {
+  background-image: url(https://media.istockphoto.com/photos/have-seen-everything-now-picture-id1177394544?s=2048x2048);
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: 50% 20%;
+  background-size: cover;
+}
+
+/* Return on Investment */
+#return-on-investment {
+  background-image: url(https://media.istockphoto.com/photos/pharmaceutical-representative-gives-presentation-picture-id1130406790?s=2048x2048);
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: 50% 20%;
+  background-size: cover;
+}
+
+
 /* SOLUTIONS */
 #solutions {
   background-image: url("../img/solutions.jpg");
@@ -282,6 +338,71 @@ footer {
   background-position: center;
   background-size: cover;
 }
+
+/* Employee Self Management */
+#employee {
+background-image: url(https://media.istockphoto.com/photos/cheerful-businessman-in-the-office-picture-id965761332?s=2048x2048);
+background-repeat: no-repeat;
+background-color: rgb(139, 139, 139);
+background-blend-mode: multiply;
+background-position: center;
+background-size: cover;
+background-position: 30% 20%;
+}
+
+/* Performance Management */
+#performance {
+  background-image: url(https://media.istockphoto.com/photos/african-american-business-coach-speaking-presentation-at-briefing-picture-id1092645884?s=2048x2048);
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-position: 40% 20%;
+}
+
+/* Time Keeping */
+#time {
+  background-image: url(https://media.istockphoto.com/photos/cheerful-ceo-is-monitoring-time-on-watch-picture-id1143014167?s=2048x2048);
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: 36% 20%;
+  background-size: cover;
+}
+
+/* Employee Portal */
+#portal {
+  background-image: url(https://media.istockphoto.com/photos/happy-african-american-businessman-using-phone-mobile-apps-at-picture-id1150384559?s=2048x2048);
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: 45% 20%;
+  background-size: cover;
+}
+
+/* Schedule Fulfillment */
+#schedule {
+  background-image: url(https://media.istockphoto.com/photos/making-sure-i-have-no-colliding-appointments-picture-id1159369709?s=2048x2048);
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: 45% 20%;
+  background-size: cover;
+}
+
+/* Intraday */
+#intraday {
+  background-image: url(https://media.istockphoto.com/photos/millennial-black-businesswoman-stands-addressing-colleagues-at-a-picture-id1146473085?s=2048x2048);
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: 15% 20%;
+  background-size: cover;
+}
+
+
+
 
 /* SERVICES */
 #services {
@@ -362,34 +483,22 @@ footer {
 }  
 
 
-/* CONTROL COSTS */
-  #control-costs-slider {
-  background-image: url(https://media.istockphoto.com/photos/teamwork-brainstorming-business-partners-graphs-picture-id1169655361?s=2048x2048);
-  background-repeat: no-repeat;
-  background-color: rgb(139, 139, 139);
-  background-blend-mode: multiply;
-  background-position: 50% 20%;
-  background-size: cover;
-}
 
-/* EMPLOYEE SATISFACTION */
-#employee-satisfaction {
-  background-image: url(https://media.istockphoto.com/photos/have-seen-everything-now-picture-id1177394544?s=2048x2048);
-  background-repeat: no-repeat;
-  background-color: rgb(139, 139, 139);
-  background-blend-mode: multiply;
-  background-position: 50% 20%;
-  background-size: cover;
-}
 
-/* RETURN ON INVESTMENT */
-#return-on-investment {
-  background-image: url(https://media.istockphoto.com/photos/pharmaceutical-representative-gives-presentation-picture-id1130406790?s=2048x2048);
+
+
+ 
+
+
+/* News */
+#news {
+  background-image: url(https://media.istockphoto.com/photos/good-new-on-the-stock-market-picture-id1162210652?s=2048x2048);
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
-  background-position: 50% 20%;
+  background-position: center;
   background-size: cover;
+  background-position: 85% 50%;
 }
 
 
@@ -528,6 +637,10 @@ footer {
       /* Large devices (desktops, 992px and up) */
       @media (min-width: 992px) {    
       /* GLOBAL */
+      .parallax {
+        height: 75vh;
+      }
+
       .hide-large {
         display: none;
       } 
@@ -647,32 +760,7 @@ footer {
         transform: scale(1);
       }
 
-      .parallax {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;
-        margin-top: 60px;
-      }
-
-      .parallax-text h1{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 4.5rem;
-        font-weight: 700;
-        color: white;
-        text-shadow: 5px 5px 5px black;
-      }
-
+      
       /* NAV BAR */
       nav {
         height: 60px;
@@ -838,30 +926,92 @@ footer {
       #solutions-parallax {
         background-image: url(../img/solutions.jpg);
       }
+
       /* Employee Self Management */
+      #employee-carousel {
+        display: none;
+      }
+
       #employee-parallax {
         background-image: url(https://media.istockphoto.com/photos/cheerful-businessman-in-the-office-picture-id965761332?s=2048x2048);
+        background-repeat: no-repeat;
+        background-color: rgb(139, 139, 139);
+        background-blend-mode: multiply;
+        background-position: 36% 20%;
+        background-size: cover;
       }
+
       /* Performance Management */
+      #performance-carousel {
+        display: none;
+      }
+
       #performance-parallax {
         background-image: url(https://media.istockphoto.com/photos/african-american-business-coach-speaking-presentation-at-briefing-picture-id1092645884?s=2048x2048);
+        background-repeat: no-repeat;
+        background-color: rgb(139, 139, 139);
+        background-blend-mode: multiply;
+        background-position: 40% 20%;
+        background-size: cover;
       }
+
       /* Time Keeping */
+      #time-carousel {
+        display: none;
+      }
+
       #time-parallax {
         background-image: url(https://media.istockphoto.com/photos/cheerful-ceo-is-monitoring-time-on-watch-picture-id1143014167?s=2048x2048);
+        background-repeat: no-repeat;
+        background-color: rgb(139, 139, 139);
+        background-blend-mode: multiply;
+        background-position: 36% 20%;
+        background-size: cover;
       }
+
       /* Employee Portal */
+      #portal-carousel {
+        display: none;
+      }
+
       #portal-parallax {
         background-image: url(https://media.istockphoto.com/photos/happy-african-american-businessman-using-phone-mobile-apps-at-picture-id1150384559?s=2048x2048);
+        background-repeat: no-repeat;
+        background-color: rgb(139, 139, 139);
+        background-blend-mode: multiply;
+        background-position: 36% 20%;
+        background-size: cover;
       }
+
       /* Schedule Fulfillment */
+      #schedule-carousel {
+        display: none;
+      }
+
       #schedule-parallax {
         background-image: url(https://media.istockphoto.com/photos/making-sure-i-have-no-colliding-appointments-picture-id1159369709?s=2048x2048);
+        background-repeat: no-repeat;
+        background-color: rgb(139, 139, 139);
+        background-blend-mode: multiply;
+        background-position: 36% 20%;
+        background-size: cover;
       }
-        /* Intraday */
+
+      /* Intraday */
+      #intraday-carousel {
+        display: none;
+      }
+
       #intraday-parallax {
         background-image: url(https://media.istockphoto.com/photos/millennial-black-businesswoman-stands-addressing-colleagues-at-a-picture-id1146473085?s=2048x2048);
+        background-repeat: no-repeat;
+        background-color: rgb(139, 139, 139);
+        background-blend-mode: multiply;
+        background-position: 36% 20%;
+        background-size: cover;
       }
+
+
       
       /* SERVICES */
       #services-carousel {
@@ -1089,6 +1239,10 @@ footer {
       }
 
       /* NEWS */
+      #news-carousel {
+        display: none;
+      }
+
       .news-parallax {
         background-image: url(https://media.istockphoto.com/photos/good-new-on-the-stock-market-picture-id1162210652?s=2048x2048);
       }
