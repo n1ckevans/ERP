@@ -361,6 +361,39 @@ footer {
   margin-bottom: 0.5rem;
 }  
 
+
+/* CONTROL COSTS */
+  #control-costs-slider {
+  background-image: url(https://media.istockphoto.com/photos/teamwork-brainstorming-business-partners-graphs-picture-id1169655361?s=2048x2048);
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: 50% 20%;
+  background-size: cover;
+}
+
+/* EMPLOYEE SATISFACTION */
+#employee-satisfaction {
+  background-image: url(https://media.istockphoto.com/photos/have-seen-everything-now-picture-id1177394544?s=2048x2048);
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: 50% 20%;
+  background-size: cover;
+}
+
+/* RETURN ON INVESTMENT */
+#return-on-investment {
+  background-image: url(https://media.istockphoto.com/photos/pharmaceutical-representative-gives-presentation-picture-id1130406790?s=2048x2048);
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: 50% 20%;
+  background-size: cover;
+}
+
+
+
   /* Small devices (landscape phones, 576px and up) */
   @media (min-width: 576px) { 
   /* Global */
@@ -1060,6 +1093,25 @@ footer {
         background-image: url(https://media.istockphoto.com/photos/good-new-on-the-stock-market-picture-id1162210652?s=2048x2048);
       }
 
+      /* CONTROL COSTS */
+      #control-costs-slider {
+        height: 75vh;
+        margin-top: 60px;
+      }
+
+      /* EMPLOYEE SATISFACTION */
+      #employee-satisfaction {
+        height: 75vh;
+        margin-top: 60px;
+      }
+
+      /* RETURN ON INVESTMENT */
+      #return-on-investment {
+        height: 75vh;
+        margin-top: 60px;
+      }
+
+
       }
 
         /* Extra large devices (large desktops, 1200px and up) */
@@ -1172,6 +1224,21 @@ footer {
           margin-top: 3rem;
           margin-bottom: 3rem;
         }
+
+        /* CONTROL COSTS */
+        #control-costs-slider {
+          height: 100vh;
+        }
+
+         /* EMPLOYEE SATISFACTION */
+         #employee-satisfaction {
+          height: 100vh;
+        }
+
+         /* RETURN ON INVESTMENT */
+          #return-on-investment {
+            height: 100vh;
+          }
 
         }     
 
