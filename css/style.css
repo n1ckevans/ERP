@@ -1,17 +1,71 @@
-/*--Global-- */
-* {
-  font-family: 'Roboto', sans-serif;
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
-body{
-  overflow-x: hidden;
+* {
+  font-family: 'Roboto', sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  line-height: 1;
+  overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/*--Global-- */
+.hide-small {
+  display: none;
+}
 
 .blue {
   color: #1d184a;
@@ -43,8 +97,19 @@ html {
   margin-bottom: 1.5rem;
 }
 
-.hide-small {
-  display: none;
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.carousel-caption h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 5px 5px 7px black;
 } 
 
 .cards-title{
@@ -52,16 +117,70 @@ html {
   margin-bottom: -0.5rem;
 }
 
-
-
-/*---Firefox Bug Fix --*/
-.carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
+.card h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  color: #1d184a;
 }
+
+.card p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  color: #1d184a;
+}
+
+.card-image {
+  overflow: hidden;
+}
+
+.card-image img {
+  transition: all 1s ease-in;
+}
+
+.card-image:hover img {
+  transform: scale(1.1);
+}
+
+.carousel-item {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+}
+
+.learn-more {
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: 0;
+  background: #006993;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  z-index: 1;
+}      
+
+.learn-more::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+  z-index: -1;
+  transition: transform 200ms ease-in;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+.learn-more:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}   
+
 
 /*--Navigation-- */
 nav {  
@@ -98,6 +217,7 @@ nav {
 
 .navbar-link:hover {
   text-decoration: none;
+  background-color: white;
   color: #006993;
 }
 
@@ -142,11 +262,6 @@ footer {
   background-blend-mode: multiply;
   background-position: 50% 20%;
   background-size: cover;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 50vh;
-
 }
 
 #index2 {
@@ -156,27 +271,7 @@ footer {
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
-  height: 50vh;
 }
-
-
-
-.carousel-caption {
-  top: 55%;
-  transform: translateY(-50%);
-  bottom: initial;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
-
-.carousel-caption h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: white;
-  text-shadow: 5px 5px 7px black;
-} 
-
 
 /* SOLUTIONS */
 #solutions {
@@ -186,9 +281,7 @@ footer {
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
-  height: 50vh;
 }
-
 
 /* SERVICES */
 #services {
@@ -198,37 +291,16 @@ footer {
   background-blend-mode: multiply;
   background-position: center;
   background-size: cover;
-  height: 50vh;
 }
-
-
-.card h1 {
-  font-size: 1.2rem;
-  font-weight: 700;
-  margin-top: 1.5rem;
-  color: #1d184a;
-}
-
-.card p {
-  font-size: 1.2rem;
-  font-weight: 700;
-  margin-top: 1.5rem;
-  color: #1d184a;
-}
-
 
 /* INDUSTRIES */
-
-.card-image {
-   overflow: hidden;
- }
-
- .card-image img {
-   transition: all 1s ease-in;
- }
-
- .card-image:hover img {
-   transform: scale(1.1);
+#industries {
+  background-image: url(https://media.istockphoto.com/photos/phoenix-arizona-usa-cityscape-picture-id1138402547?s=2048x2048);
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
 }
 
 #industries-list {
@@ -241,35 +313,43 @@ footer {
 }  
 
 /* ABOUT */
-
-#careers-list {
-  font-size: 1.05rem;
-  margin-left: -1rem;
-  margin-right: 0rem;
-  margin-bottom: 0rem;
+#about {
+  background-image: url(https://media.istockphoto.com/photos/colorful-sunrise-on-camelback-mountain-in-phoenix-arizona-picture-id1097186204?s=2048x2048);
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
 }
 
-#careers-list li{
-  margin-bottom: 0.5rem;
-}  
-
 /* CONTACT */
-
+#contact {
+  background-image: url(https://media.istockphoto.com/photos/businessman-talking-on-cell-phone-picture-id1136937581?s=2048x2048);
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
 
 /* SUCCESS STORY */
+#success-story {
+  background-image: url(https://media.istockphoto.com/photos/phoenix-arizona-picture-id518395032?s=2048x2048);
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
 
 /* SUPPORT */
-#support-carousel {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 35vh;
-  position: relative;
-  overflow-y: hidden;
-  color: white;
-  text-shadow: 5px 5px 7px black;
-  margin-top: 60px;
-  margin-bottom: 2rem;
+#support {
+  background-image: url(https://media.istockphoto.com/photos/answering-your-call-with-a-smile-picture-id1143358054?s=2048x2048);
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
 }
 
 #support-list {
@@ -281,21 +361,20 @@ footer {
   margin-bottom: 0.5rem;
 }  
 
-/* NEWS */
-#news-carousel {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 35vh;
-  position: relative;
-  overflow-y: hidden;
-  color: white;
-  text-shadow: 5px 5px 7px black;
-}
-
-
   /* Small devices (landscape phones, 576px and up) */
   @media (min-width: 576px) { 
+  /* Global */
+  .carousel-item {
+    height: 75vh;
+  }
+  .carousel-caption h1 {
+    font-size: 3rem;
+  } 
+
+  .card h1 {
+    font-size: 1.75rem;
+  }
+  
   .card h1::after {
     content: '';
     position: absolute;
@@ -335,93 +414,27 @@ footer {
   }
 
   /* INDEX */
-  .carousel-caption h1 {
-    font-size: 3rem;
-  } 
-
-  #index1 {
-    height: 75vh;
-  }
-
-  #index2 {
-    height: 75vh;
-  }
-
   /* SOLUTIONS */
-  #solutions {
-    height: 75vh;
-  }
-
-
- .card h1 {
-    font-size: 1.75rem;
-  }
-
- 
-
   /* SERVICES */
-  #services {
-    height: 75vh;
-  }
-
-  #services-carousel {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 60vh;
-    position: relative;
-    overflow-y: hidden;
-    color: white;
-    text-shadow: 5px 5px 7px black;
-    margin-top: 60px;
-    margin-bottom: 2rem;
-  }
-
-
-  .card h1 {
-    font-size: 1.75rem;
-  }
-  
   /* INDUSTRIES */
-  
   /* ABOUT */
-
-
   /* CONTACT */
-
-  /* SUCCESS */
-
-  /* NEWS */
-  #news-carousel {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 50vh;
-    position: relative;
-    overflow-y: hidden;
-    color: white;
-    text-shadow: 5px 5px 7px black;
-  }
-
+  /* SUCCESS STORY */
   /* SUPPORT */
-  #support-carousel {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 50vh;
-    position: relative;
-    overflow-y: hidden;
-    color: white;
-    text-shadow: 5px 5px 7px black;
-    margin-top: 60px;
-    margin-bottom: 2rem;
-  }
-
+  /* NEWS */
   }
 
     /* Medium devices (tablets, 768px and up) */
     @media (min-width: 768px) { 
     /* GLOBAL */
+    .carousel-item {
+      height: 90vh;
+    }
+
+    .carousel-caption h1 {
+      font-size: 4rem;
+    } 
+    
     .subtitle {
       font-size: 1.4rem;
       font-weight: 750;
@@ -437,6 +450,18 @@ footer {
       font-size: 2.5rem;
     }
 
+    .card h1 {
+      font-size: 1rem;
+    }
+
+    .card {
+      width:20rem;
+    }
+    
+    .card:hover {
+      background-color: lightblue; 
+    } 
+
     /* NAV BAR */
     #erp-logo-nav{
       width: 15rem;
@@ -448,90 +473,14 @@ footer {
     }
 
     /* INDEX */
-    .carousel-caption h1 {
-      font-size: 4rem;
-    } 
-    
-    #index1  {
-      height: 90vh;
-    }
-  
-    #index2  {
-      height: 90vh;
-    }
-
     /* SOLUTIONS */
- 
-    .card h1 {
-      font-size: 1rem;
-    }
-
-    .card {
-      width:20rem;
-    }
-
-    .card h1::after {
-      content: '';
-      position: absolute;
-      left: 16%;
-      bottom: 81%;
-      width: 69%;
-      height: 4px;
-      background: #1d184a;
-      transform: scaleX(0);
-      transform-origin: right;
-      transition: transform 250ms ease-in;
-    }
-    
-    .card:hover h1::after {
-      transform: scaleX(1);
-      transform-origin: left;
-    }
-    
-    .card:hover {
-      background-color: lightblue; 
-    } 
-
     /* SERVICES */
-    
-  
-   
     /* INDUSTRIES */
-
-    
     /* ABOUT */
-   
-
     /* CONTACT */
-
     /* SUCCESS */
-
     /* NEWS */
-    #news-carousel {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 50vh;
-      position: relative;
-      overflow-y: hidden;
-      color: white;
-      text-shadow: 5px 5px 7px black;
-    }
-
     /* SUPPORT */
-    #support-carousel {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 50vh;
-      position: relative;
-      overflow-y: hidden;
-      color: white;
-      text-shadow: 5px 5px 7px black;
-      margin-top: 60px;
-      margin-bottom: 2rem;
-    }
-
     #support-list {
       font-size: 1.5rem;
       margin-bottom: 3rem;
@@ -540,6 +489,7 @@ footer {
     #support-list li {
       margin-bottom: 0.5rem;
     }  
+
     }
 
       /* Large devices (desktops, 992px and up) */
@@ -553,14 +503,38 @@ footer {
         display: inherit;
       }      
 
-      .section-body {
-        padding-left: 4rem;
-        padding-right: 4rem;
-      }
-
       .section-title {
         margin-top: 3rem;
         margin-bottom: 3rem;
+      }
+
+      .section-body {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        width: 100%;
+        height: auto;
+        margin: auto;
+      }
+ 
+      .section-body ul {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+      }
+
+      .carousel-caption h1 {
+        font-size: 4.5rem;
+      }    
+
+     .carousel-caption {
+        top: 50%;
+      }
+
+      .card h1 {
+        font-size: 1.5rem
+      }
+ 
+      .card {
+        width:28rem;
       }
 
       .subtitle{
@@ -639,17 +613,32 @@ footer {
       .from-right.appear:hover::after, .from-left.appear:hover::after {
         transform: scale(1);
       }
-       
-      .section-body{
+
+      .parallax {
+        margin: 0;
+        padding: 0;
         width: 100%;
-        height: auto;
-        margin: auto;
+        height: 75vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-color: rgb(139, 139, 139);
+        background-blend-mode: multiply;
+        margin-top: 60px;
       }
-          
-       .section-body ul {
-        font-size: 1.2rem;
-        line-height: 1.5rem;
-       }
+
+      .parallax-text h1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4.5rem;
+        font-weight: 700;
+        color: white;
+        text-shadow: 5px 5px 5px black;
+      }
 
       /* NAV BAR */
       nav {
@@ -694,19 +683,10 @@ footer {
           
       .footer-current {
         padding-bottom: 0.35rem;
+        color: #006993;
         font-size: 0.65rem;
       }
       
-      .footer-current::after{
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        width: 95%;
-        height: 2px;
-        background: #006993;
-      }
-
       .foot-link {
         text-decoration: none;
         position: relative;
@@ -747,46 +727,6 @@ footer {
         margin-top: 60px;
       }
 
-      .carousel-caption h1 {
-        font-size: 4.5rem;
-      }    
-
-     .carousel-caption {
-        top: 50%;
-      }
-
-      /* Case Study Carousel */
-      button {
-        font-size: 1rem;
-        border-radius: 0.5rem;
-        cursor: pointer;
-        border: 0;
-        background: #006993;
-        color: white;
-        padding: 1em 1.5em;
-        position: relative;
-        z-index: 1;
-      }      
-
-      button::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0,0,0,0.3);
-        z-index: -1;
-        transition: transform 200ms ease-in;
-        transform: scaleX(0);
-        transform-origin: right;
-      }
-
-      button:hover::after {
-        transform: scaleX(1);
-        transform-origin: left;
-      }   
-
       #case1 {
         background-image: url("../img/case1.jpg");
         background-repeat: no-repeat;
@@ -797,7 +737,7 @@ footer {
         height: 100vh;
       }
 
-     #case1 h1 {
+      #case1 h1 {
         font-size: 5rem;
         color: white;
         text-shadow: 5px 5px 7px black;
@@ -812,13 +752,13 @@ footer {
       }
 
       #case2 {
-      background-image: url("../img/case2.jpg");
-      background-repeat: no-repeat;
-      background-color: rgb(126, 126, 126);
-      background-blend-mode: multiply;
-      background-size: cover;
-      background-position: 50% 45%;
-      height: 100vh;
+        background-image: url("../img/case2.jpg");
+        background-repeat: no-repeat;
+        background-color: rgb(126, 126, 126);
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: 50% 45%;
+        height: 100vh;
       }
 
       #case2 h1 {
@@ -829,13 +769,11 @@ footer {
 
       #case2 h2 {
         font-size: 2rem;
-       margin-top: 2.5rem;
+        margin-top: 2.5rem;
         margin-bottom: 2.5rem;
         color: white;
         text-shadow: 5px 5px 7px black;
       }  
-
-
 
       #control-costs.appear:hover {
         text-decoration: none;
@@ -866,429 +804,66 @@ footer {
 
       #solutions-parallax {
         background-image: url(../img/solutions.jpg);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;
-        margin-top: 60px;
       }
-
-      .parallax-text h1{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 4.5rem;
-        font-weight: 700;
-        color: white;
-        text-shadow: 5px 5px 5px black;
-      }
-
-      
-
-     .card h1 {
-          font-size: 1.5rem
-      }
-   
-      .card {
-          width:28rem;
-      }
-
-      
-
       /* Employee Self Management */
-      .employee-parallax {
+      #employee-parallax {
         background-image: url(https://media.istockphoto.com/photos/cheerful-businessman-in-the-office-picture-id965761332?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;
-        margin-top: 60px;
       }
-
-      
       /* Performance Management */
-      .performance-parallax {
+      #performance-parallax {
         background-image: url(https://media.istockphoto.com/photos/african-american-business-coach-speaking-presentation-at-briefing-picture-id1092645884?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-  
-
-
       /* Time Keeping */
-      .time-parallax {
+      #time-parallax {
         background-image: url(https://media.istockphoto.com/photos/cheerful-ceo-is-monitoring-time-on-watch-picture-id1143014167?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-     
-
-
       /* Employee Portal */
-      .portal-parallax {
+      #portal-parallax {
         background-image: url(https://media.istockphoto.com/photos/happy-african-american-businessman-using-phone-mobile-apps-at-picture-id1150384559?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-
-
       /* Schedule Fulfillment */
-      .schedule-parallax {
+      #schedule-parallax {
         background-image: url(https://media.istockphoto.com/photos/making-sure-i-have-no-colliding-appointments-picture-id1159369709?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-  
-
-      /* Intraday */
-      .intraday-parallax {
+        /* Intraday */
+      #intraday-parallax {
         background-image: url(https://media.istockphoto.com/photos/millennial-black-businesswoman-stands-addressing-colleagues-at-a-picture-id1146473085?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-    
- 
-    
-
+      
       /* SERVICES */
       #services-carousel {
         display: none;
       }
 
-      .services-parallax {
+      #services-parallax {
         background-image: url(https://media.istockphoto.com/photos/it-support-picture-id1130702887?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-    
-
-
-      /* SOFTWARE AS A SERVICE */
-      .software-parallax {
+      /* Software as a Service */
+      #software-parallax {
         background-image: url(https://media.istockphoto.com/photos/accessing-important-information-picture-id1077510236?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-  
-  
-
       /* Deployment Process */
-      .deployment-parallax {
+      #deployment-parallax {
         background-image: url(https://media.istockphoto.com/photos/server-room-picture-id1091869510?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-  
-
-
-
       /* Integration */
-      .integration-parallax {
+      #integration-parallax {
         background-image: url(https://media.istockphoto.com/photos/ll-share-the-information-with-you-picture-id863497390?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-  
-
-  
-      /* training Process */
-      .training-parallax {
+      /* Training Process */
+      #training-parallax {
         background-image: url(https://media.istockphoto.com/photos/teacher-giving-an-it-class-at-school-to-a-group-of-students-picture-id669775712?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 80px;
       }
-  
-  
 
       /* INDUSTRIES */
       #industries-carousel {
         display: none;
       }
 
-      .industries-parallax {
+      #industries-parallax {
         background-image: url(https://media.istockphoto.com/photos/phoenix-arizona-usa-cityscape-picture-id1138402547?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
 
-
-
-           /* Contact Centers */
-      .contact-centers-parallax {
-        background-image: url(https://media.istockphoto.com/photos/beautiful-young-woman-with-headset-working-on-computer-while-talking-picture-id1143468136?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
-      }
-
- 
-
-        /* outsourcers Centers */
-      .outsourcers-parallax {
-        background-image: url(https://media.istockphoto.com/photos/rear-view-of-asian-businessman-walking-on-airport-escalator-at-sunset-picture-id1137499322?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
-      }
-
-      
-      /* at-home Centers */
-      .at-home-parallax {
-        background-image: url(https://media.istockphoto.com/photos/working-at-home-picture-id1153675389?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center ;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
-      }
-
-
-      /* healthcare Centers */
-      .healthcare-parallax {
-        background-image: url(https://media.istockphoto.com/photos/m-glad-to-see-you-doing-well-picture-id1152844782?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
-      }
-
-
-
-      /* hospitality Centers */
-      .hospitality-parallax {
-        background-image: url(https://media.istockphoto.com/photos/receptionist-giving-keys-to-hotel-guest-picture-id1192128830?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
-      }
-
-
-      /* public-safety Centers */
-      .public-safety-parallax {
-        background-image: url(https://media.istockphoto.com/photos/police-officers-picture-id170098610?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
-      }
-  
-
-
-      /* manufacturing Centers */
-      .manufacturing-parallax {
-        background-image: url(https://media.istockphoto.com/photos/industrial-engineer-picture-id453660217?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
-      }
-
-      /* shift Centers */
-      .shift-parallax {
-        background-image: url(https://media.istockphoto.com/photos/happy-pilot-with-his-cabin-crew-at-the-airport-picture-id1094714772?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
-      }
-    
-
-      /* INDUSTRIES SUB-CATEGORIES */
       #industries-list {
         font-size: 1.25rem;
         margin-left: 0rem;
@@ -1298,7 +873,23 @@ footer {
 
       #industries-list li{
         margin-bottom: 1rem;
-      }  
+      } 
+      /* Contact Centers */
+      .contact-centers-parallax {
+        background-image: url(https://media.istockphoto.com/photos/beautiful-young-woman-with-headset-working-on-computer-while-talking-picture-id1143468136?s=2048x2048);
+      }
+      /* Outsourcers */
+      #outsourcers-parallax {
+        background-image: url(https://media.istockphoto.com/photos/rear-view-of-asian-businessman-walking-on-airport-escalator-at-sunset-picture-id1137499322?s=2048x2048);
+      }
+      /* At-Home Centers */
+      #at-home-parallax {
+        background-image: url(https://media.istockphoto.com/photos/working-at-home-picture-id1153675389?s=2048x2048);
+      }
+      /* Healthcare */
+      #healthcare-parallax {
+        background-image: url(https://media.istockphoto.com/photos/m-glad-to-see-you-doing-well-picture-id1152844782?s=2048x2048);
+      }
 
       #healthcare-list {
         font-size: 1.5rem;
@@ -1309,103 +900,36 @@ footer {
       #healthcare-list li{
         margin-bottom: 1rem;
       }  
-
+      /* Hospitality */
+      .hospitality-parallax {
+        background-image: url(https://media.istockphoto.com/photos/receptionist-giving-keys-to-hotel-guest-picture-id1192128830?s=2048x2048);
+      }
+      /* Public-Safety */
+      .public-safety-parallax {
+        background-image: url(https://media.istockphoto.com/photos/police-officers-picture-id170098610?s=2048x2048);
+      }
+      /* Manufacturing */
+      #manufacturing-parallax {
+        background-image: url(https://media.istockphoto.com/photos/industrial-engineer-picture-id453660217?s=2048x2048);
+      }
+      /* Shift Based  */
+      #shift-parallax {
+        background-image: url(https://media.istockphoto.com/photos/happy-pilot-with-his-cabin-crew-at-the-airport-picture-id1094714772?s=2048x2048);
+      }
+          
       /* ABOUT */
       #about-carousel {
         display: none;
-        }
+      }
         
-      .about-parallax {
+      #about-parallax {
         background-image: url(https://media.istockphoto.com/photos/colorful-sunrise-on-camelback-mountain-in-phoenix-arizona-picture-id1097186204?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-      /* company parallax */
-      .company-parallax {
+      /* Company */
+      #company-parallax {
         background-image: url(https://media.istockphoto.com/photos/sonoran-desert-picture-id866010860?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
 
-      /* management-team parallax */
-      .management-team-parallax {
-        background-image: url(https://media.istockphoto.com/photos/business-data-information-projector-board-in-conference-room-me-picture-id1064053478?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
-      }
-
-
-      /* mission parallax */
-      .mission-parallax {
-        background-image: url(https://media.istockphoto.com/photos/sea-of-hands-picture-id857146092?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
-      }
-  
-
-  
-   
-      /* careers parallax */
-      .careers-parallax {
-        background-image: url(https://media.istockphoto.com/photos/happy-human-resource-team-congratulating-a-candidate-on-successful-picture-id1072034334?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
-      }
-
-
-
-      /* ABOUT SUB-CATEGORIES */
       #company-list-1 {
         font-size: 1.4rem;
         margin-left: 4rem;
@@ -1426,167 +950,67 @@ footer {
 
       #company-list-2 li{
         margin-bottom: 1rem;
-      }     
+      }    
+      /* Management Team */
+      .management-team-parallax {
+        background-image: url(https://media.istockphoto.com/photos/business-data-information-projector-board-in-conference-room-me-picture-id1064053478?s=2048x2048);
+      }
+      /* Mission */
+      #mission-parallax {
+        background-image: url(https://media.istockphoto.com/photos/sea-of-hands-picture-id857146092?s=2048x2048);
+      }
+      /* Careers */
+      .careers-parallax {
+        background-image: url(https://media.istockphoto.com/photos/happy-human-resource-team-congratulating-a-candidate-on-successful-picture-id1072034334?s=2048x2048);
+      }   
 
       /* CONTACT */
-      .contact-parallax {
+      #contact-parallax {
         background-image: url(https://media.istockphoto.com/photos/businessman-talking-on-cell-phone-picture-id1136937581?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-  
 
       #contact-carousel {
         display: none;
       }
-
-      /* sales */
-      .sales-parallax {
+      /* Sales */
+      #sales-parallax {
         background-image: url(https://media.istockphoto.com/photos/portrait-of-cheerful-young-manager-handshake-with-new-employee-picture-id1129342452?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
-      }
-
-
-   
-      /* media */
-      .media-parallax {
+      }   
+      /* Media */
+      #media-parallax {
         background-image: url(https://media.istockphoto.com/photos/focused-young-diverse-employees-listening-to-motivated-skilled-female-picture-id1208424336?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-      /* general */
-      .general-parallax {
+      /* General */
+      #general-parallax {
         background-image: url(https://media.istockphoto.com/photos/always-be-ready-when-business-comes-calling-picture-id1144585582?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-
-
-      /* customer-support */
-      .customer-support-parallax {
+      /* Customer Support */
+      #customer-support-parallax {
         background-image: url(https://media.istockphoto.com/photos/smiling-female-operator-working-in-call-center-picture-id1141990102?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
 
-
-      /* SUCCESS */
-      .success-parallax {
+      /* SUCCESS STORY */
+      #success-parallax {
         background-image: url(https://media.istockphoto.com/photos/phoenix-arizona-picture-id518395032?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
 
-  
-   
       #success-carousel {
       display: none;
       }
-
-      /* ideal */
-      .ideal-parallax {
+      /* Ideal Solution */
+      #ideal-parallax {
         background-image: url(../img/case1.jpg);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-
-
-     
-      /* free */
-      .free-parallax {
+      /* Free From Time Consuming Tasks */
+      #free-parallax {
         background-image: url(../img/case2.jpg);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 75vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-
 
       /* SUPPORT  */
+      #support-carousel {
+        display: none;
+      }
+
       #support-list {
         font-size: 1.5rem;
         margin-left: 0rem;
@@ -1598,171 +1022,45 @@ footer {
         margin-bottom: 1rem;
       } 
 
-      .support-parallax {
+      #support-parallax {
         background-image: url(https://media.istockphoto.com/photos/answering-your-call-with-a-smile-picture-id1143358054?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-
-      .privacy-parallax {
+      /* Privacy  */
+      #privacy-parallax {
         background-image: url(https://media.istockphoto.com/photos/data-security-system-shield-protection-verification-picture-id1058694620?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-
-      .security-parallax {
+      /* Security */
+      #security-parallax {
         background-image: url(https://media.istockphoto.com/photos/young-women-using-computer-cyber-security-concept-picture-id1166334015?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-
-
-      .support-plans-parallax {
+      /* Support Plans */
+      #support-plans-parallax {
         background-image: url(https://media.istockphoto.com/photos/beautiful-woman-on-a-virtual-meeting-using-her-laptop-and-headset-picture-id1133808033?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-
-
-      .implementation-process-parallax {
+      /* Implementation Process */     
+      #implementation-process-parallax {
         background-image: url(https://media.istockphoto.com/photos/indian-businesswoman-leading-the-seminar-picture-id1179434300?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-
-
-      #support-carousel {
-        display: none;
-      }
-
-      .customers-parallax {
+      
+      /* CUSTOMERS */
+      #customers-parallax {
         background-image: url(https://media.istockphoto.com/photos/downtown-phoenix-aerial-view-picture-id945853312?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-
-      .brick-parallax {
+      /* Brick and Mortar */
+      #brick-parallax {
         background-image: url(https://media.istockphoto.com/photos/female-customer-service-representative-working-on-desktop-pc-in-the-picture-id1147976572?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100vh;
-        background-attachment: fixed;
-        background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
-
-
-      .home-agent-parallax {
+      /* Home Agent */
+      #home-agent-parallax {
         background-image: url(https://media.istockphoto.com/photos/young-man-working-at-home-in-the-evening-picture-id1181035364?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
       }
 
-
-
+      /* NEWS */
       .news-parallax {
         background-image: url(https://media.istockphoto.com/photos/good-new-on-the-stock-market-picture-id1162210652?s=2048x2048);
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100vh;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-color: rgb(139, 139, 139);
-        background-blend-mode: multiply;;
-        margin-top: 60px;
-      }
-  
-
-
       }
 
-
+      }
 
         /* Extra large devices (large desktops, 1200px and up) */
         @media (min-width: 1200px) { 
@@ -1770,6 +1068,26 @@ footer {
         .section-body {
           padding-left: 6rem;
           padding-right: 6rem;
+        }
+
+        .card h1 {
+          font-size: 1.75rem;
+        }
+      
+        .card {
+          width:34rem;
+        }
+      
+        .card-img {
+          height: 32vh;
+        }
+
+        .parallax {
+          height: 100vh;
+        }
+
+        .parallax-text h1 {
+          font-size: 5rem;
         }
 
         /* NAV BAR */
@@ -1805,13 +1123,11 @@ footer {
         }   
 
         .footer-current {
-          padding-bottom: 0.35rem;
           font-size: 1rem;
-          color: #006993;
           position: relative;
         }
         
-        .footer-current::after{
+        .footer-current::after {
           content: '';
           position: absolute;
           left: 0;
@@ -1821,8 +1137,15 @@ footer {
           background: #006993;
         }
 
-
         /* INDEX */
+        #index1 {
+          height: 100vh;
+        }
+  
+        #index2 {
+          height: 100vh;
+        }
+
         .carousel-caption h1 {
           font-size: 5rem;
         }    
@@ -1837,9 +1160,7 @@ footer {
         }
   
         #case1 h2 {
-          font-size: 2.5rem;
           margin-top: 18rem;
-          margin-bottom: 2rem;
         }
 
         #case2 h1 {
@@ -1852,312 +1173,32 @@ footer {
           margin-bottom: 3rem;
         }
 
-        /* SOLUTIONS */
-        .card h1 {
-          font-size: 1.75rem;
-          position: relative;
-          padding-bottom: 1rem;
-        }
-      
-        .card {
-          width:34rem;
-        }
-      
-        .card-img {
-          height: 32vh;
-        }
-
-        .cards-title{
-          margin-top: 1rem;
-          margin-bottom: -0.5rem;
-        }
-
-        .card h1::after {
-          content: '';
-          position: absolute;
-          left: 16%;
-          bottom: 0;
-          width: 69%;
-          height: 4px;
-          background: #1d184a;
-          transform: scaleX(0);
-          transform-origin: right;
-          transition: transform 250ms ease-in;
-        }
-
-        .card:hover h1::after {
-          transform: scaleX(1);
-          transform-origin: left;
-        }
-
-        .solutions-parallax {
-          height: 100vh;
-        }
-
-        .parallax-text h1 {
-        font-size: 5rem;
-        }
-
-        /* Employee Self Management */
-        .employee-parallax {
-          height: 100vh;
-        }
-
-
-        /* Performance Management */
-        .performance-parallax {
-          height: 100vh;
-        }
-
-
-
-        /* Time Keeping */
-        .time-parallax {
-          height: 100vh;
-        }
-
-
-        /* Employee Portal */
-        .portal-parallax {
-          height: 100vh;
-        }
-
-
-        /* Schedule Fulfillment */
-        .schedule-parallax {
-          height: 100vh;
-        }
-
-        /* Intraday */
-        .intraday-parallax {
-          height: 100vh;
-        }
-
-
-        /* SERVICES */
-        .services-parallax {
-          height: 100vh;
-        }
-
-        
-
-        /* SaaS */
-        .software-parallax {
-          height: 100vh;
-        }
-
-
-
-
-        .deployment-parallax {
-          height: 100vh;
-        }
-
-
-
-        /* Integration */
-        .integration-parallax {
-          height: 100vh;
-        }
-
-
-
-        /* training Process */
-        .training-parallax {
-          height: 100vh;
-        }
-
-
-
-        /* INDUSTRIES */
-        .industries-parallax {
-          height: 100vh;
-        }
-
-     
- 
-        /* Contact Centers */
-        .contact-centers-parallax {
-          height: 100vh;
-        }
-
-     
-    
-        /* outsourcers Centers */
-        .outsourcers-parallax {
-          height: 100vh;
-        }
-
-
-
-        /* at-home Centers */
-        .at-home-parallax {
-          height: 100vh;
-        }
-
-
-
-        /* healthcare Centers */
-        .healthcare-parallax {
-          height: 100vh;
-        }
-    
-
-
-
-        /* hospitality Centers */
-        .hospitality-parallax {
-          height: 100vh;
-        }
-
-    
-
-
-        /* manufacturing Centers */
-        .manufacturing-parallax {
-          height: 100vh;
-        }
-
-
-        /* shift Centers */
-        .shift-parallax {
-          height: 100vh;
-        }
-    
-
-
-        /* public-safety Centers */
-        .public-safety-parallax {
-          height: 100vh;
-        }
-  
-
-
-
-        /* ABOUT */
-        .about-parallax {
-          height: 100vh;
-        }
-
-
-        /* company parallax */
-        .company-parallax {
-          height: 100vh;
-        }
-
-        /* management-team parallax */
-        .management-team-parallax {
-          height: 100vh;
-        }
-
-    
-
-        /* mission parallax */
-        .mission-parallax {
-          height: 100vh;
-        }
-  
-
-
-        /* careers parallax */
-        .careers-parallax {
-          height: 100vh;
-        }
-
-
-
-
-        /* CONTACT */
-        .contact-parallax {
-          height: 100vh;
-        }
-
-
-
-
-        /* sales */
-        .sales-parallax {
-          height: 100vh;
-        }
-
-
-
-
-        /* media */
-        .media-parallax {
-          height: 100vh;
-        }
-
-
-        /* general */
-        .general-parallax {
-          height: 100vh;
-        }
-
-
-
-    
-
-        /* customer-support */
-        .customer-support-parallax {
-          height: 100vh;
-        }
-
-
-
-
-        /* SUCCESS STORY */
-        .success-parallax {
-          height: 100vh;
-        }
-
-
-        /* ideal */
-        .ideal-parallax {
-          height: 100vh;
-        }
-
-
-        /* free */
-        .free-parallax {
-          height: 100vh;
-        }
-
         }     
 
           @media (min-width: 1600px) { 
-          /* GLOBAL */  
-          /* INDEX */
-          #index1 {
-            height: 100vh;
-          }
-    
-          #index2 {
-            height: 100vh;
-          }
+          /* GLOBAL */ 
+          .parallax-text h1 {
+            font-size: 6rem;
+          }   
 
           .carousel-caption h1 {
             font-size: 6rem;
           }    
 
-       
+          /* INDEX */
           #case1 h1 {
             font-size: 6rem;
           }
     
           #case1 h2 {
-            font-size: 2.5rem;
             margin-top: 25rem;
-            margin-bottom: 2rem;
           }
 
           /* NAV BAR */
           #erp-logo-nav{
             width: 15rem;
           }
-
       
-              
           .current {
             font-size: 1.25rem;
           }
@@ -2179,67 +1220,4 @@ footer {
             max-width: 18rem;
           }
 
-          /* Index */
-          
-
-          .from-right.appear:hover, .from-left.appear:hover {
-            text-decoration: none;
-            color: #006993;
-            position: relative;
-          }
-
-          .from-right.appear::after, .from-left.appear::after {
-            content: '';
-            position: absolute;
-            left: 10%;
-            bottom: 0;
-            width: 80%;
-            height: 2px;
-            background: #006993;
-            transform: scale(0);
-            transition: transform 250ms ease-in;
-          }
-
-          .from-right.appear:hover::after, .from-left.appear:hover::after {
-            transform: scale(1);
-          }
-
-          #control-costs.appear:hover {
-            text-decoration: none;
-            color: #006993;
-            position: relative;
-          }
-
-          #control-costs.appear::after {
-            content: '';
-            position: absolute;
-            left: 25%;
-            bottom: 0;
-            width: 50%;
-            height: 2px;
-            background: #006993;
-            transform: scale(0);
-            transition: transform 250ms ease-in;
-          }
-
-          #control-costs.appear:hover::after {
-            transform: scale(1);
-          }
-
-          /* SOLUTIONS */
-          
-
-          .parallax-text h1 {
-            font-size: 6rem;
-          }        
-
-          /* SERVICES */
-
-          /* INDUSTRIES */
-       
-
-          /* ABOUT */
-          /* CONTACT */
-        
-          /* SUCCESS */
           }
