@@ -281,7 +281,7 @@ footer {
 
 /* INDEX */
 #index1 {
-  background-image: url("../img/nurse.jpg");
+  background-image: url("../img/index-carousel1.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -299,8 +299,8 @@ footer {
 }
 
 /* Control Costs */
-#control-costs-slider {
-  background-image: url(https://media.istockphoto.com/photos/teamwork-brainstorming-business-partners-graphs-picture-id1169655361?s=2048x2048);
+#control-costs-carousel {
+  background-image: url("../img/control-costs.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -310,7 +310,7 @@ footer {
 
 /* Employee Satisfaction */
 #employee-satisfaction {
-  background-image: url(https://media.istockphoto.com/photos/have-seen-everything-now-picture-id1177394544?s=2048x2048);
+  background-image: url("../img/employee-satisfaction.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -320,7 +320,7 @@ footer {
 
 /* Return on Investment */
 #return-on-investment {
-  background-image: url(https://media.istockphoto.com/photos/pharmaceutical-representative-gives-presentation-picture-id1130406790?s=2048x2048);
+  background-image: url("../img/return-on-investment.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -340,8 +340,8 @@ footer {
 }
 
 /* Employee Self Management */
-#employee {
-background-image: url(https://media.istockphoto.com/photos/cheerful-businessman-in-the-office-picture-id965761332?s=2048x2048);
+#employee-self-management {
+background-image: url("../img/employee-self-management.jpg");
 background-repeat: no-repeat;
 background-color: rgb(139, 139, 139);
 background-blend-mode: multiply;
@@ -352,7 +352,7 @@ background-position: 30% 20%;
 
 /* Performance Management */
 #performance {
-  background-image: url(https://media.istockphoto.com/photos/african-american-business-coach-speaking-presentation-at-briefing-picture-id1092645884?s=2048x2048);
+  background-image: url("../img/performance.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -363,7 +363,7 @@ background-position: 30% 20%;
 
 /* Time Keeping */
 #time {
-  background-image: url(https://media.istockphoto.com/photos/cheerful-ceo-is-monitoring-time-on-watch-picture-id1143014167?s=2048x2048);
+  background-image: url("../img/time.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -373,7 +373,7 @@ background-position: 30% 20%;
 
 /* Employee Portal */
 #portal {
-  background-image: url(https://media.istockphoto.com/photos/happy-african-american-businessman-using-phone-mobile-apps-at-picture-id1150384559?s=2048x2048);
+  background-image: url("../img/portal.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -383,7 +383,7 @@ background-position: 30% 20%;
 
 /* Schedule Fulfillment */
 #schedule {
-  background-image: url(https://media.istockphoto.com/photos/making-sure-i-have-no-colliding-appointments-picture-id1159369709?s=2048x2048);
+  background-image: url("../img/schedule.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -393,7 +393,7 @@ background-position: 30% 20%;
 
 /* Intraday */
 #intraday {
-  background-image: url(https://media.istockphoto.com/photos/millennial-black-businesswoman-stands-addressing-colleagues-at-a-picture-id1146473085?s=2048x2048);
+  background-image: url("../img/intraday.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -402,11 +402,49 @@ background-position: 30% 20%;
 }
 
 
-
-
 /* SERVICES */
 #services {
-  background-image: url(https://media.istockphoto.com/photos/it-support-picture-id1130702887?s=2048x2048);
+  background-image: url("../img/services.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Software as a Service */
+#software {
+  background-image: url("../img/software-as-a-service.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Deployment Process */
+#deployment {
+  background-image: url("../img/deployment.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Integration with Existing Platforms */
+#integration {
+  background-image: url("../img/integration.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Training Options */
+#training {
+  background-image: url("../img/training.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -416,7 +454,7 @@ background-position: 30% 20%;
 
 /* INDUSTRIES */
 #industries {
-  background-image: url(https://media.istockphoto.com/photos/phoenix-arizona-usa-cityscape-picture-id1138402547?s=2048x2048);
+  background-image: url("../img/industries.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -433,9 +471,129 @@ background-position: 30% 20%;
   margin-bottom: 0.5rem;
 }  
 
+/* Contact Centers */
+#contact-centers {
+  background-image: url("../img/contact-centers.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Outsourcers */
+#outsourcers {
+  background-image: url("../img/outsourcers.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* At Home Agents */
+#at-home-agents {
+  background-image: url("../img/at-home-agents.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Healthcare */
+#healthcare {
+  background-image: url("../img/healthcare.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Hospitality */
+#hospitality {
+  background-image: url("../img/hospitality.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Public Safety */
+#public-safety {
+  background-image: url("../img/public-safety.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Manufacturing */
+#manufacturing {
+  background-image: url("../img/manufacturing.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Shift Based */
+#shift-based {
+  background-image: url("../img/shift-based.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
 /* ABOUT */
 #about {
-  background-image: url(https://media.istockphoto.com/photos/colorful-sunrise-on-camelback-mountain-in-phoenix-arizona-picture-id1097186204?s=2048x2048);
+  background-image: url("../img/about.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Company */
+#company {
+  background-image: url("../img/company.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Management Team */
+#management-team {
+  background-image: url("../img/management-team.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Mission */
+#mission {
+  background-image: url("../img/mission.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Careers */
+#careers {
+  background-image: url("../img/careers.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -445,7 +603,7 @@ background-position: 30% 20%;
 
 /* CONTACT */
 #contact {
-  background-image: url(https://media.istockphoto.com/photos/businessman-talking-on-cell-phone-picture-id1136937581?s=2048x2048);
+  background-image: url("../img/contact.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -453,9 +611,53 @@ background-position: 30% 20%;
   background-size: cover;
 }
 
+/* Sales Inquiries */
+#sales {
+  background-image: url("../img/sales.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Customer Support */
+#customer-support {
+  background-image: url("../img/customer-support.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Media and PR */
+#media {
+  background-image: url("../img/media.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* General Inquiries */
+#general {
+  background-image: url("../img/general.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+
+
 /* SUCCESS STORY */
 #success-story {
-  background-image: url(https://media.istockphoto.com/photos/phoenix-arizona-picture-id518395032?s=2048x2048);
+  background-image: url("../img/success.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -465,7 +667,7 @@ background-position: 30% 20%;
 
 /* SUPPORT */
 #support {
-  background-image: url(https://media.istockphoto.com/photos/answering-your-call-with-a-smile-picture-id1143358054?s=2048x2048);
+  background-image: url("../img/support.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -482,17 +684,83 @@ background-position: 30% 20%;
   margin-bottom: 0.5rem;
 }  
 
+/* Support Plans */
+#support-plans {
+  background-image: url("../img/support-plans.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Implementation Process */
+#implementation-process {
+  background-image: url("../img/implementation-process.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Privacy */
+#privacy {
+  background-image: url("../img/privacy.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Security */
+#security {
+  background-image: url("../img/security.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* CUSTOMERS */
+#customers {
+  background-image: url("../img/customers.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-position: 85% 50%;
+}
+
+/* Brick and Mortar Contact Center */
+#brick {
+  background-image: url("../img/brick-and-mortar.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Home Agent Contact Center */
+#home-agent {
+  background-image: url("../img/home-agent.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+}
 
 
 
 
-
- 
-
-
-/* News */
+/* NEWS */
 #news {
-  background-image: url(https://media.istockphoto.com/photos/good-new-on-the-stock-market-picture-id1162210652?s=2048x2048);
+  background-image: url("../img/news.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -933,7 +1201,7 @@ background-position: 30% 20%;
       }
 
       #employee-parallax {
-        background-image: url(https://media.istockphoto.com/photos/cheerful-businessman-in-the-office-picture-id965761332?s=2048x2048);
+        background-image: url("../img/employee-self-management.jpg");
         background-repeat: no-repeat;
         background-color: rgb(139, 139, 139);
         background-blend-mode: multiply;
@@ -947,7 +1215,7 @@ background-position: 30% 20%;
       }
 
       #performance-parallax {
-        background-image: url(https://media.istockphoto.com/photos/african-american-business-coach-speaking-presentation-at-briefing-picture-id1092645884?s=2048x2048);
+        background-image: url("../img/performance.jpg");
         background-repeat: no-repeat;
         background-color: rgb(139, 139, 139);
         background-blend-mode: multiply;
@@ -961,7 +1229,7 @@ background-position: 30% 20%;
       }
 
       #time-parallax {
-        background-image: url(https://media.istockphoto.com/photos/cheerful-ceo-is-monitoring-time-on-watch-picture-id1143014167?s=2048x2048);
+        background-image: url("../img/time.jpg");
         background-repeat: no-repeat;
         background-color: rgb(139, 139, 139);
         background-blend-mode: multiply;
@@ -975,7 +1243,7 @@ background-position: 30% 20%;
       }
 
       #portal-parallax {
-        background-image: url(https://media.istockphoto.com/photos/happy-african-american-businessman-using-phone-mobile-apps-at-picture-id1150384559?s=2048x2048);
+        background-image: url("../img/portal.jpg");
         background-repeat: no-repeat;
         background-color: rgb(139, 139, 139);
         background-blend-mode: multiply;
@@ -989,7 +1257,7 @@ background-position: 30% 20%;
       }
 
       #schedule-parallax {
-        background-image: url(https://media.istockphoto.com/photos/making-sure-i-have-no-colliding-appointments-picture-id1159369709?s=2048x2048);
+        background-image: url("../img/schedule.jpg");
         background-repeat: no-repeat;
         background-color: rgb(139, 139, 139);
         background-blend-mode: multiply;
@@ -1003,7 +1271,7 @@ background-position: 30% 20%;
       }
 
       #intraday-parallax {
-        background-image: url(https://media.istockphoto.com/photos/millennial-black-businesswoman-stands-addressing-colleagues-at-a-picture-id1146473085?s=2048x2048);
+        background-image: url("../img/intraday.jpg");
         background-repeat: no-repeat;
         background-color: rgb(139, 139, 139);
         background-blend-mode: multiply;
@@ -1019,23 +1287,39 @@ background-position: 30% 20%;
       }
 
       #services-parallax {
-        background-image: url(https://media.istockphoto.com/photos/it-support-picture-id1130702887?s=2048x2048);
+        background-image: url("../img/services.jpg");
       }
       /* Software as a Service */
+      #software-carousel {
+        display: none;
+      }
+
       #software-parallax {
-        background-image: url(https://media.istockphoto.com/photos/accessing-important-information-picture-id1077510236?s=2048x2048);
+        background-image: url("../img/software-as-a-service.jpg");
       }
       /* Deployment Process */
+      #deployment-carousel {
+        display: none;
+      }
+
       #deployment-parallax {
-        background-image: url(https://media.istockphoto.com/photos/server-room-picture-id1091869510?s=2048x2048);
+        background-image: url("../img/deployment.jpg");
       }
       /* Integration */
+      #integration-carousel {
+        display: none;
+      }
+
       #integration-parallax {
-        background-image: url(https://media.istockphoto.com/photos/ll-share-the-information-with-you-picture-id863497390?s=2048x2048);
+        background-image: url("../img/integration.jpg");
       }
       /* Training Process */
+      #training-carousel {
+        display: none;
+      }
+
       #training-parallax {
-        background-image: url(https://media.istockphoto.com/photos/teacher-giving-an-it-class-at-school-to-a-group-of-students-picture-id669775712?s=2048x2048);
+        background-image: url("../img/training.jpg");
       }
 
       /* INDUSTRIES */
@@ -1044,7 +1328,7 @@ background-position: 30% 20%;
       }
 
       #industries-parallax {
-        background-image: url(https://media.istockphoto.com/photos/phoenix-arizona-usa-cityscape-picture-id1138402547?s=2048x2048);
+        background-image: url("../img/industries.jpg");
       }
 
       #industries-list {
@@ -1058,20 +1342,38 @@ background-position: 30% 20%;
         margin-bottom: 1rem;
       } 
       /* Contact Centers */
+      #contact-centers-carousel {
+        display: none;
+      }
+
       .contact-centers-parallax {
-        background-image: url(https://media.istockphoto.com/photos/beautiful-young-woman-with-headset-working-on-computer-while-talking-picture-id1143468136?s=2048x2048);
+        background-image: url("../img/contact-centers.jpg");
+        background-position: 50% 0%;
       }
       /* Outsourcers */
+      #outsourcers-carousel {
+        display: none;
+      }
+
       #outsourcers-parallax {
-        background-image: url(https://media.istockphoto.com/photos/rear-view-of-asian-businessman-walking-on-airport-escalator-at-sunset-picture-id1137499322?s=2048x2048);
+        background-image: url("../img/outsourcers.jpg");
       }
       /* At-Home Centers */
+      #at-home-agents-carousel {
+        display: none;
+      }
+
       #at-home-parallax {
-        background-image: url(https://media.istockphoto.com/photos/working-at-home-picture-id1153675389?s=2048x2048);
+        background-image: url("../img/at-home-agents.jpg");
       }
       /* Healthcare */
+      #healthcare-carousel {
+        display: none;
+      }
+
+
       #healthcare-parallax {
-        background-image: url(https://media.istockphoto.com/photos/m-glad-to-see-you-doing-well-picture-id1152844782?s=2048x2048);
+        background-image: url("../img/healthcare.jpg");
       }
 
       #healthcare-list {
@@ -1084,20 +1386,36 @@ background-position: 30% 20%;
         margin-bottom: 1rem;
       }  
       /* Hospitality */
+      #hospitality-carousel {
+        display: none;
+      }
+
       .hospitality-parallax {
-        background-image: url(https://media.istockphoto.com/photos/receptionist-giving-keys-to-hotel-guest-picture-id1192128830?s=2048x2048);
+        background-image: url("../img/hospitality.jpg");
       }
       /* Public-Safety */
+      #public-safety-carousel {
+        display: none;
+      }
+
       .public-safety-parallax {
-        background-image: url(https://media.istockphoto.com/photos/police-officers-picture-id170098610?s=2048x2048);
+        background-image: url("../img/public-safety.jpg");
       }
       /* Manufacturing */
+      #manufacturing-carousel {
+        display: none;
+      }
+
       #manufacturing-parallax {
-        background-image: url(https://media.istockphoto.com/photos/industrial-engineer-picture-id453660217?s=2048x2048);
+        background-image: url("../img/manufacturing.jpg");
       }
       /* Shift Based  */
+      #shift-carousel {
+        display: none;
+      }
+
       #shift-parallax {
-        background-image: url(https://media.istockphoto.com/photos/happy-pilot-with-his-cabin-crew-at-the-airport-picture-id1094714772?s=2048x2048);
+        background-image: url("../img/shift-based.jpg");
       }
           
       /* ABOUT */
@@ -1106,11 +1424,16 @@ background-position: 30% 20%;
       }
         
       #about-parallax {
-        background-image: url(https://media.istockphoto.com/photos/colorful-sunrise-on-camelback-mountain-in-phoenix-arizona-picture-id1097186204?s=2048x2048);
+        background-image: url("../img/about.jpg");
       }
+
       /* Company */
+      #company-carousel {
+        display: none;
+      }
+
       #company-parallax {
-        background-image: url(https://media.istockphoto.com/photos/sonoran-desert-picture-id866010860?s=2048x2048);
+        background-image: url("../img/company.jpg");
       }
 
       #company-list-1 {
@@ -1135,46 +1458,77 @@ background-position: 30% 20%;
         margin-bottom: 1rem;
       }    
       /* Management Team */
-      .management-team-parallax {
-        background-image: url(https://media.istockphoto.com/photos/business-data-information-projector-board-in-conference-room-me-picture-id1064053478?s=2048x2048);
+      #management-team-carousel {
+        display: none;
       }
+
+      #management-team-parallax {
+        background-image: url("../img/management-team.jpg");
+      }
+
       /* Mission */
-      #mission-parallax {
-        background-image: url(https://media.istockphoto.com/photos/sea-of-hands-picture-id857146092?s=2048x2048);
+      #mission-carousel {
+        display: none;
       }
+
+      #mission-parallax {
+        background-image: url("../img/mission.jpg");
+      }
+
       /* Careers */
-      .careers-parallax {
-        background-image: url(https://media.istockphoto.com/photos/happy-human-resource-team-congratulating-a-candidate-on-successful-picture-id1072034334?s=2048x2048);
+      #careers-carousel {
+        display: none;
+      }
+
+      #careers-parallax {
+        background-image: url("../img/careers.jpg");
       }   
 
       /* CONTACT */
-      #contact-parallax {
-        background-image: url(https://media.istockphoto.com/photos/businessman-talking-on-cell-phone-picture-id1136937581?s=2048x2048);
-      }
-
       #contact-carousel {
         display: none;
       }
+
+      #contact-parallax {
+        background-image: url("../img/contact.jpg");
+      }
+     
       /* Sales */
+      #sales-carousel {
+        display: none;
+      }
+
       #sales-parallax {
-        background-image: url(https://media.istockphoto.com/photos/portrait-of-cheerful-young-manager-handshake-with-new-employee-picture-id1129342452?s=2048x2048);
+        background-image: url("../img/sales.jpg");
       }   
       /* Media */
+      #media-carousel {
+        display: none;
+      }
+
       #media-parallax {
-        background-image: url(https://media.istockphoto.com/photos/focused-young-diverse-employees-listening-to-motivated-skilled-female-picture-id1208424336?s=2048x2048);
+        background-image: url("../img/media.jpg");
       }
       /* General */
+      #general-carousel {
+        display: none;
+      }
+
       #general-parallax {
-        background-image: url(https://media.istockphoto.com/photos/always-be-ready-when-business-comes-calling-picture-id1144585582?s=2048x2048);
+        background-image: url("../img/general.jpg");
       }
       /* Customer Support */
+      #customer-support-carousel {
+        display: none;
+      }
+
       #customer-support-parallax {
-        background-image: url(https://media.istockphoto.com/photos/smiling-female-operator-working-in-call-center-picture-id1141990102?s=2048x2048);
+        background-image: url("../img/customer-support.jpg");
       }
 
       /* SUCCESS STORY */
       #success-parallax {
-        background-image: url(https://media.istockphoto.com/photos/phoenix-arizona-picture-id518395032?s=2048x2048);
+        background-image: url("../img/success.jpg");
       }
 
       #success-carousel {
@@ -1206,36 +1560,70 @@ background-position: 30% 20%;
       } 
 
       #support-parallax {
-        background-image: url(https://media.istockphoto.com/photos/answering-your-call-with-a-smile-picture-id1143358054?s=2048x2048);
+        background-image: url("../img/support.jpg");
       }
-      /* Privacy  */
-      #privacy-parallax {
-        background-image: url(https://media.istockphoto.com/photos/data-security-system-shield-protection-verification-picture-id1058694620?s=2048x2048);
-      }
-      /* Security */
-      #security-parallax {
-        background-image: url(https://media.istockphoto.com/photos/young-women-using-computer-cyber-security-concept-picture-id1166334015?s=2048x2048);
-      }
+
       /* Support Plans */
-      #support-plans-parallax {
-        background-image: url(https://media.istockphoto.com/photos/beautiful-woman-on-a-virtual-meeting-using-her-laptop-and-headset-picture-id1133808033?s=2048x2048);
-      }
-      /* Implementation Process */     
-      #implementation-process-parallax {
-        background-image: url(https://media.istockphoto.com/photos/indian-businesswoman-leading-the-seminar-picture-id1179434300?s=2048x2048);
+      #support-plans-carousel {
+        display: none;
       }
       
+      #support-plans-parallax {
+        background-image: url("../img/support-plans.jpg");
+      }
+
+      /* Implementation Process */ 
+      #implementation-process-carousel {
+        display: none;
+      }
+
+      #implementation-process-parallax {
+        background-image: url("../img/implementation.jpg");
+      }
+
+      /* Privacy  */
+      #privacy-carousel {
+        display: none;
+      }
+
+      #privacy-parallax {
+        background-image: url("../img/privacy.jpg");
+      }
+
+      /* Security */
+      #security-carousel {
+        display: none;
+      }
+
+      #security-parallax {
+        background-image: url("../img/security.jpg");
+      }
+      
+     
+      
       /* CUSTOMERS */
+      #customers-carousel {
+        display: none;
+      }
+
       #customers-parallax {
-        background-image: url(https://media.istockphoto.com/photos/downtown-phoenix-aerial-view-picture-id945853312?s=2048x2048);
+        background-image: url("../img/customers.jpg");
       }
       /* Brick and Mortar */
+      #brick-carousel {
+        display: none;
+      }
+
       #brick-parallax {
-        background-image: url(https://media.istockphoto.com/photos/female-customer-service-representative-working-on-desktop-pc-in-the-picture-id1147976572?s=2048x2048);
+        background-image: url("../img/brick-and-mortar.jpg");
       }
       /* Home Agent */
+      #home-agent-carousel {
+        display: none;
+      }
+
       #home-agent-parallax {
-        background-image: url(https://media.istockphoto.com/photos/young-man-working-at-home-in-the-evening-picture-id1181035364?s=2048x2048);
+        background-image: url("../img/home-agent.jpg");
       }
 
       /* NEWS */
@@ -1244,11 +1632,11 @@ background-position: 30% 20%;
       }
 
       .news-parallax {
-        background-image: url(https://media.istockphoto.com/photos/good-new-on-the-stock-market-picture-id1162210652?s=2048x2048);
+        background-image: url("../img/news.jpg");
       }
 
       /* CONTROL COSTS */
-      #control-costs-slider {
+      #control-costs-carousel {
         height: 75vh;
         margin-top: 60px;
       }
@@ -1380,7 +1768,7 @@ background-position: 30% 20%;
         }
 
         /* CONTROL COSTS */
-        #control-costs-slider {
+        #control-costs-carousel {
           height: 100vh;
         }
 
