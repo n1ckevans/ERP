@@ -79,8 +79,8 @@ table {
   width: 100%;
   height: auto;
   margin: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .section-title h1 {
@@ -95,6 +95,12 @@ table {
   font-weight: 600;
   line-height: 2;
   margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 750;
+  margin-bottom: 1.5rem;
 }
 
 .carousel-caption {
@@ -652,7 +658,10 @@ background-position: 30% 20%;
   background-size: cover;
 }
 
-
+#erp-logo-address {
+  width: 10rem;
+  margin-bottom: 1.5rem;
+}
 
 
 
@@ -676,14 +685,13 @@ background-position: 30% 20%;
   background-size: cover;
 }
 
-#support-list {
-  font-size: 1.1rem;
-  margin-bottom: 3rem;
-}
+ #support-list {
+  list-style-type: disc;
+ }
 
 #support-list li{
   margin-bottom: 0.5rem;
-}  
+} 
 
 /* Support Plans */
 #support-plans {
@@ -861,26 +869,23 @@ background-position: 30% 20%;
       font-size: 3rem;
     } 
     
-    .subtitle {
-      font-size: 1.4rem;
-      font-weight: 750;
-      margin: 1rem 1.5rem 1rem 1.5em;
-    }
-
     .section-body {
-      padding-left: 3rem;
-      padding-right: 3rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
     }
 
     .section-title h1 {
       font-size: 2.5rem;
     }
 
+    .subtitle {
+      font-size: 1.5rem;
+    }
+
     .card h1 {
       font-size: 1rem;
     }
-
-   
+ 
     
     .card h1::after {
       bottom: 82%;
@@ -915,9 +920,22 @@ background-position: 30% 20%;
       /* Large devices (desktops, 992px and up) */
       @media (min-width: 992px) {    
       /* GLOBAL */
-        .btn-group:hover>.dropdown-menu {
-          display: block;
-        }
+      .btn-group {
+        border: 1px solid white;
+      }
+
+      .btn-group:hover>.dropdown-menu {
+        display: block;
+  
+      }
+
+      .list-title {
+        font-weight: 550;
+      }
+
+      .sub-list {
+        margin-left: 1.5rem;
+      }
 
       .parallax {
         height: 75vh;
@@ -937,8 +955,8 @@ background-position: 30% 20%;
       }
 
       .section-body {
-        padding-left: 6rem;
-        padding-right: 6rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
         width: 100%;
         height: auto;
         margin: auto;
@@ -946,7 +964,7 @@ background-position: 30% 20%;
  
       .section-body ul {
         font-size: 1.2rem;
-        line-height: 1.5rem;
+        line-height: 1.75;
       }
 
       .carousel-caption h1 {
@@ -973,12 +991,7 @@ background-position: 30% 20%;
         bottom: 91%;
       }
 
-      .subtitle{
-        font-size: 1.4rem;
-        font-weight: 750;
-        margin: 1rem 1.5rem 1rem 3.5em;
-      }
-
+    
       .fade-in {
         opacity: 0;
         transition: opacity 250ms ease-in;
@@ -1521,7 +1534,7 @@ background-position: 30% 20%;
         display: none;
       }
 
-      #careers-parallax {
+      .careers-parallax {
         background-image: url("../img/careers.jpg");
       }   
 
@@ -1590,7 +1603,7 @@ background-position: 30% 20%;
       }
 
       #support-list {
-        font-size: 1.5rem;
+        font-size: 1.35rem;
         margin-left: 0rem;
         margin-right: 0rem;
         margin-bottom: 0rem;
@@ -1701,8 +1714,8 @@ background-position: 30% 20%;
         @media (min-width: 1200px) { 
         /* GLOBAL */
         .section-body {
-          padding-left: 8rem;
-          padding-right: 8rem;
+          padding-left: 14rem;
+          padding-right: 14rem;
         }
 
         .card h1 {
@@ -1806,7 +1819,20 @@ background-position: 30% 20%;
 
           @media (min-width: 1600px) { 
           /* GLOBAL */ 
+          .section-body {
+            padding-left: 18rem;
+            padding-right: 18rem;
+          }
+  
+          .section-body p {
+            font-size: 1.5rem;
+            line-height: 2;
+            padding-bottom: 1.5rem;
+          }
 
+          .subtitle {
+            font-size: 1.75rem;
+          }
 
           /* INDEX */
           #case1 {
