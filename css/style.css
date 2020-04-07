@@ -915,6 +915,10 @@ background-position: 30% 20%;
       /* Large devices (desktops, 992px and up) */
       @media (min-width: 992px) {    
       /* GLOBAL */
+        .btn-group:hover>.dropdown-menu {
+          display: block;
+        }
+
       .parallax {
         height: 75vh;
       }
