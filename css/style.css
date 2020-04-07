@@ -93,18 +93,19 @@ table {
 .section-body p {
   font-size: 1.15rem;
   font-weight: 600;
-  line-height: 1.75;
-  margin-bottom: 1.5rem;
+  line-height: 2;
+  margin-bottom: 2rem;
 }
 
 .carousel-caption {
-  top: 50%;
+  top: 48%;
   transform: translateY(-50%);
   bottom: initial;
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
+
 .carousel-caption h1 {
   font-size: 2rem;
   font-weight: 700;
@@ -201,7 +202,7 @@ table {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-weight: 700;
   color: white;
   text-shadow: 5px 5px 5px black;
@@ -777,8 +778,17 @@ background-position: 30% 20%;
   .carousel-item {
     height: 75vh;
   }
+
+  .carousel-caption {
+    top: 55%;
+    transform: translateY(-50%);
+    bottom: initial;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
   .carousel-caption h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   } 
 
   .card h1 {
@@ -807,6 +817,12 @@ background-position: 30% 20%;
     background-color: lightblue; 
   }
 
+  #success-cards .card h1::after {
+    bottom: 90.5%;
+  }
+
+
+  
   /* NAV */
   #erp-logo-nav{
     width: 12rem;
@@ -842,7 +858,7 @@ background-position: 30% 20%;
     }
 
     .carousel-caption h1 {
-      font-size: 4rem;
+      font-size: 3rem;
     } 
     
     .subtitle {
@@ -864,13 +880,16 @@ background-position: 30% 20%;
       font-size: 1rem;
     }
 
-    .card {
-      width:20rem;
+   
+    
+    .card h1::after {
+      bottom: 82%;
     }
     
-    .card:hover {
-      background-color: lightblue; 
-    } 
+    #success-cards .card h1::after {
+      bottom: 92%;
+    }
+    
 
     /* NAV BAR */
     #erp-logo-nav{
@@ -882,15 +901,6 @@ background-position: 30% 20%;
       font-size: 1.25rem;
     }
 
-    /* INDEX */
-    /* SOLUTIONS */
-    /* SERVICES */
-    /* INDUSTRIES */
-    /* ABOUT */
-    /* CONTACT */
-    /* SUCCESS */
-    /* NEWS */
-    /* SUPPORT */
     #support-list {
       font-size: 1.5rem;
       margin-bottom: 3rem;
@@ -923,8 +933,8 @@ background-position: 30% 20%;
       }
 
       .section-body {
-        padding-left: 4rem;
-        padding-right: 4rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
         width: 100%;
         height: auto;
         margin: auto;
@@ -936,7 +946,7 @@ background-position: 30% 20%;
       }
 
       .carousel-caption h1 {
-        font-size: 4.5rem;
+        font-size: 4rem;
       }    
 
      .carousel-caption {
@@ -949,6 +959,14 @@ background-position: 30% 20%;
  
       .card {
         width:28rem;
+      }
+
+      .card h1::after {
+        bottom: 84%;
+      }
+
+      #success-cards .card h1::after {
+        bottom: 91%;
       }
 
       .subtitle{
@@ -1109,6 +1127,7 @@ background-position: 30% 20%;
       #index1 {
         height: 75vh;
         margin-top: 60px;
+        background-position: 50% 100%;
       }
 
       #index2 {
@@ -1121,21 +1140,30 @@ background-position: 30% 20%;
         background-repeat: no-repeat;
         background-color: rgb(180 , 180, 180);
         background-blend-mode: multiply;
-        background-position: 50% 60%;
+        background-position: 50% 34%;
         background-size: cover;
-        height: 100vh;
+        height: 75vh;
+      }
+
+      #case1 .carousel-caption {
+        top: 50%;
+        transform: translateY(-50%);
+        bottom: initial;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        transform-style: preserve-3d;
       }
 
       #case1 h1 {
-        font-size: 5rem;
+        font-size: 4rem;
         color: white;
         text-shadow: 5px 5px 7px black;
       }
 
       #case1 h2 {
-          font-size: 2.5rem;
-          margin-top: 20rem;
-          margin-bottom: 2rem;
+          font-size: 1.5rem;
+          margin-top: 14rem;
+          margin-bottom: 1rem;
           color: white;
           text-shadow: 5px 5px 7px black;
       }
@@ -1147,7 +1175,16 @@ background-position: 30% 20%;
         background-blend-mode: multiply;
         background-size: cover;
         background-position: 50% 45%;
-        height: 100vh;
+        height: 75vh;
+      }
+
+      #case2 .carousel-caption {
+        top: 48%;
+        transform: translateY(-50%);
+        bottom: initial;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        transform-style: preserve-3d;
       }
 
       #case2 h1 {
@@ -1158,8 +1195,8 @@ background-position: 30% 20%;
 
       #case2 h2 {
         font-size: 2rem;
-        margin-top: 2.5rem;
-        margin-bottom: 2.5rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
         color: white;
         text-shadow: 5px 5px 7px black;
       }  
@@ -1660,8 +1697,8 @@ background-position: 30% 20%;
         @media (min-width: 1200px) { 
         /* GLOBAL */
         .section-body {
-          padding-left: 6rem;
-          padding-right: 6rem;
+          padding-left: 8rem;
+          padding-right: 8rem;
         }
 
         .card h1 {
@@ -1673,7 +1710,7 @@ background-position: 30% 20%;
         }
       
         .card-img {
-          height: 32vh;
+          height: 34vh;
         }
 
         .parallax {
@@ -1681,7 +1718,7 @@ background-position: 30% 20%;
         }
 
         .parallax-text h1 {
-          font-size: 5rem;
+          font-size: 4rem;
         }
 
         /* NAV BAR */
@@ -1740,33 +1777,12 @@ background-position: 30% 20%;
           height: 100vh;
         }
 
-        .carousel-caption h1 {
-          font-size: 5rem;
-        }    
-
         #case-study .btn {
           font-size: 1.25rem;
           padding: 0.5rem;
         }
-  
-        #case1 h1 {
-          font-size: 6rem;
-        }
-  
-        #case1 h2 {
-          margin-top: 18rem;
-        }
-
-        #case2 h1 {
-          font-size: 6rem;
-        }
-  
-        #case2 h2 {
-          font-size: 2.5rem;
-          margin-top: 3rem;
-          margin-bottom: 3rem;
-        }
-
+        
+      
         /* CONTROL COSTS */
         #control-costs-carousel {
           height: 100vh;
@@ -1786,21 +1802,42 @@ background-position: 30% 20%;
 
           @media (min-width: 1600px) { 
           /* GLOBAL */ 
-          .parallax-text h1 {
-            font-size: 6rem;
-          }   
 
-          .carousel-caption h1 {
-            font-size: 6rem;
-          }    
 
           /* INDEX */
+          #case1 {
+            height: 100vh;
+            background-position: 50% 24%;
+          }
+
+          #case1 .carousel-caption {
+            top: 47%;
+          }
+
           #case1 h1 {
             font-size: 6rem;
           }
     
           #case1 h2 {
-            margin-top: 25rem;
+            margin-top: 20rem;
+          }
+
+          #case2 {
+            height: 100vh;
+          }
+  
+          #case2 .carousel-caption {
+            top: 52%;
+          }
+  
+          #case2 h1 {
+            font-size: 6rem;
+          }
+    
+          #case2 h2 {
+            font-size: 2.5rem;
+            margin-top: 4rem;
+            margin-bottom: 4rem;
           }
 
           /* NAV BAR */
