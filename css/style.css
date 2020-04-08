@@ -97,6 +97,43 @@ table {
   margin-bottom: 2rem;
 }
 
+.two-panel {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.two-panel h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.two-panel {
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+
+
+.two-panel h1{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.two-panel li{
+  font-size: 1rem;
+  list-style-type: circle;
+}
+
+
+
 .subtitle {
   font-size: 1.25rem;
   font-weight: 750;
@@ -685,11 +722,11 @@ background-position: 30% 20%;
   background-size: cover;
 }
 
- #support-list {
+ .two-panel-list {
   list-style-type: disc;
  }
 
-#support-list li{
+.two-panel-list li{
   margin-bottom: 0.5rem;
 } 
 
@@ -802,34 +839,12 @@ background-position: 30% 20%;
   .card h1 {
     font-size: 1.75rem;
   }
-  
-  .card h1::after {
-    content: '';
-    position: absolute;
-    left: 16%;
-    bottom: 84%;
-    width: 69%;
-    height: 4px;
-    background: #1d184a;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 250ms ease-in;
-  }
-  
-  .card:hover h1::after {
-    transform: scaleX(1);
-    transform-origin: left;
-  }
-  
+    
   .card:hover {
     background-color: lightblue; 
   }
 
-  #success-cards .card h1::after {
-    bottom: 90.5%;
-  }
-
-
+  
   
   /* NAV */
   #erp-logo-nav{
@@ -887,14 +902,7 @@ background-position: 30% 20%;
     }
  
     
-    .card h1::after {
-      bottom: 82%;
-    }
-    
-    #success-cards .card h1::after {
-      bottom: 92%;
-    }
-    
+       
 
     /* NAV BAR */
     #erp-logo-nav{
@@ -906,12 +914,12 @@ background-position: 30% 20%;
       font-size: 1.25rem;
     }
 
-    #support-list {
+    .two-panel-list {
       font-size: 1.5rem;
       margin-bottom: 3rem;
     }
     
-    #support-list li {
+    .two-panel-list li {
       margin-bottom: 0.5rem;
     }  
 
@@ -930,6 +938,7 @@ background-position: 30% 20%;
       }
 
       .list-title {
+        font-size: 1.15rem;
         font-weight: 550;
       }
 
@@ -961,11 +970,46 @@ background-position: 30% 20%;
         height: auto;
         margin: auto;
       }
- 
-      .section-body ul {
-        font-size: 1.2rem;
-        line-height: 1.75;
+
+      .two-panel {
+        width: 100%;
+        height: auto;
       }
+      
+      .two-panel h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+      
+      .two-panel p {
+        font-size: 1.15rem;
+        font-weight: 600;
+        line-height: 2;
+        margin-bottom: 2rem;
+      }
+      
+      #panel1 {
+        padding-left: 10rem;
+        padding-right: 10rem;
+      }
+      
+      #panel2 {
+        padding-right: 10rem;
+        margin-bottom: 2rem;
+      }
+      
+      #panel2 h1{
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+      
+      #panel2 li{
+        font-size: 1.25rem;
+      }
+      
+ 
 
       .carousel-caption h1 {
         font-size: 4rem;
@@ -983,14 +1027,7 @@ background-position: 30% 20%;
         width:28rem;
       }
 
-      .card h1::after {
-        bottom: 84%;
-      }
-
-      #success-cards .card h1::after {
-        bottom: 91%;
-      }
-
+    
     
       .fade-in {
         opacity: 0;
@@ -1261,6 +1298,21 @@ background-position: 30% 20%;
         background-blend-mode: multiply;
         background-position: 36% 20%;
         background-size: cover;
+      }
+
+      .section-list {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 2.5rem;
+        list-style-type: circle;
+        margin-bottom: 2rem;
+      }
+
+      .benefits-list {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 2.5rem;
+        margin-bottom: 2rem;
       }
 
       /* Performance Management */
@@ -1602,14 +1654,14 @@ background-position: 30% 20%;
         display: none;
       }
 
-      #support-list {
+      .two-panel-list {
         font-size: 1.35rem;
         margin-left: 0rem;
         margin-right: 0rem;
         margin-bottom: 0rem;
       }
 
-      #support-list li{
+      .two-panel-list li{
         margin-bottom: 1rem;
       } 
 
@@ -1717,17 +1769,23 @@ background-position: 30% 20%;
           padding-left: 14rem;
           padding-right: 14rem;
         }
-
+        .section-list, .benefits-list  {
+          font-size: 1.15rem;
+        }
         .card h1 {
           font-size: 1.75rem;
         }
       
+        #index1 .carousel-caption {
+          top: 55%;
+        }
+        
         .card {
           width:34rem;
         }
       
         .card-img {
-          height: 34vh;
+          height: 38vh;
         }
 
         .parallax {
@@ -1830,6 +1888,10 @@ background-position: 30% 20%;
             padding-bottom: 1.5rem;
           }
 
+          .card-img {
+            height: 40vh;
+          }
+
           .subtitle {
             font-size: 1.75rem;
           }
@@ -1894,6 +1956,15 @@ background-position: 30% 20%;
       
           #erp-logo-footer{
             max-width: 18rem;
+          }
+
+          .section-list, .benefits-list {
+            font-size: 1.3rem;
+            margin-bottom: 3rem;
+          }
+
+          .list-title {
+            font-size: 1.4rem;
           }
 
           }
