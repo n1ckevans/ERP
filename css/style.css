@@ -132,6 +132,12 @@ table {
   list-style-type: circle;
 }
 
+.address p {
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
 
 
 .subtitle {
@@ -506,14 +512,6 @@ background-position: 30% 20%;
   background-size: cover;
 }
 
-#industries-list {
-  font-size: 1rem;
-  margin-bottom: 3rem;
-}
-
-#industries-list li{
-  margin-bottom: 0.5rem;
-}  
 
 /* Contact Centers */
 #contact-centers {
@@ -742,7 +740,7 @@ background-position: 30% 20%;
 
 /* Implementation Process */
 #implementation-process {
-  background-image: url("../img/implementation-process.jpg");
+  background-image: url("../img/implementation.jpg");
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
@@ -1437,16 +1435,7 @@ background-position: 30% 20%;
         background-image: url("../img/industries.jpg");
       }
 
-      #industries-list {
-        font-size: 1.25rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
-        margin-bottom: 0rem;
-      }
-
-      #industries-list li{
-        margin-bottom: 1rem;
-      } 
+     
       /* Contact Centers */
       #contact-centers-carousel {
         display: none;
