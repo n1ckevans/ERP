@@ -97,48 +97,12 @@ table {
   margin-bottom: 2rem;
 }
 
-.two-panel {
-  width: 100%;
-  height: auto;
-  margin: auto;
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.two-panel h1 {
-  font-size: 2rem;
-  font-weight: 600;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.two-panel {
-  font-size: 1.15rem;
-  font-weight: 600;
-  line-height: 2;
-  margin-bottom: 2rem;
-}
-
-
-.two-panel h1{
-  font-size: 2rem;
-  font-weight: 600;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.two-panel li{
-  font-size: 1rem;
-  list-style-type: circle;
-}
-
 .address p {
   font-size: 1.15rem;
   font-weight: 600;
   line-height: 1;
   margin-bottom: 2rem;
 }
-
 
 .subtitle {
   font-size: 1.25rem;
@@ -378,7 +342,6 @@ footer {
   background-size: cover;
 }
 
-
 /* SOLUTIONS */
 #solutions {
   background-image: url("../img/solutions.jpg");
@@ -451,7 +414,6 @@ background-position: 30% 20%;
   background-size: cover;
 }
 
-
 /* SERVICES */
 #services {
   background-image: url("../img/services.jpg");
@@ -511,7 +473,6 @@ background-position: 30% 20%;
   background-position: center;
   background-size: cover;
 }
-
 
 /* Contact Centers */
 #contact-centers {
@@ -698,8 +659,6 @@ background-position: 30% 20%;
   margin-bottom: 1.5rem;
 }
 
-
-
 /* SUCCESS STORY */
 #success-story {
   background-image: url("../img/success.jpg");
@@ -719,14 +678,6 @@ background-position: 30% 20%;
   background-position: center;
   background-size: cover;
 }
-
- .two-panel-list {
-  list-style-type: disc;
- }
-
-.two-panel-list li{
-  margin-bottom: 0.5rem;
-} 
 
 /* Support Plans */
 #support-plans {
@@ -799,9 +750,6 @@ background-position: 30% 20%;
   background-size: cover;
 }
 
-
-
-
 /* NEWS */
 #news {
   background-image: url("../img/news.jpg");
@@ -812,8 +760,6 @@ background-position: 30% 20%;
   background-size: cover;
   background-position: 85% 50%;
 }
-
-
 
   /* Small devices (landscape phones, 576px and up) */
   @media (min-width: 576px) { 
@@ -842,8 +788,6 @@ background-position: 30% 20%;
     background-color: lightblue; 
   }
 
-  
-  
   /* NAV */
   #erp-logo-nav{
     width: 12rem;
@@ -859,16 +803,6 @@ background-position: 30% 20%;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
-
-  /* INDEX */
-  /* SOLUTIONS */
-  /* SERVICES */
-  /* INDUSTRIES */
-  /* ABOUT */
-  /* CONTACT */
-  /* SUCCESS STORY */
-  /* SUPPORT */
-  /* NEWS */
   }
 
     /* Medium devices (tablets, 768px and up) */
@@ -899,9 +833,6 @@ background-position: 30% 20%;
       font-size: 1rem;
     }
  
-    
-       
-
     /* NAV BAR */
     #erp-logo-nav{
       width: 15rem;
@@ -911,15 +842,6 @@ background-position: 30% 20%;
     #copywright-small {
       font-size: 1.25rem;
     }
-
-    .two-panel-list {
-      font-size: 1.5rem;
-      margin-bottom: 3rem;
-    }
-    
-    .two-panel-list li {
-      margin-bottom: 0.5rem;
-    }  
 
     }
 
@@ -932,7 +854,6 @@ background-position: 30% 20%;
 
       .btn-group:hover>.dropdown-menu {
         display: block;
-  
       }
 
       .list-title {
@@ -969,46 +890,6 @@ background-position: 30% 20%;
         margin: auto;
       }
 
-      .two-panel {
-        width: 100%;
-        height: auto;
-      }
-      
-      .two-panel h1 {
-        font-size: 2rem;
-        font-weight: 600;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-      }
-      
-      .two-panel p {
-        font-size: 1.15rem;
-        font-weight: 600;
-        line-height: 2;
-        margin-bottom: 2rem;
-      }
-      
-      #panel1 {
-        padding-left: 10rem;
-        padding-right: 10rem;
-      }
-      
-      #panel2 {
-        padding-right: 10rem;
-        margin-bottom: 2rem;
-      }
-      
-      #panel2 h1{
-        font-size: 1.5rem;
-        font-weight: 600;
-      }
-      
-      #panel2 li{
-        font-size: 1.25rem;
-      }
-      
- 
-
       .carousel-caption h1 {
         font-size: 4rem;
       }    
@@ -1025,8 +906,6 @@ background-position: 30% 20%;
         width:28rem;
       }
 
-    
-    
       .fade-in {
         opacity: 0;
         transition: opacity 250ms ease-in;
@@ -1098,7 +977,6 @@ background-position: 30% 20%;
         transform: scale(1);
       }
 
-      
       /* NAV BAR */
       nav {
         height: 60px;
@@ -1383,8 +1261,6 @@ background-position: 30% 20%;
         background-size: cover;
       }
 
-
-      
       /* SERVICES */
       #services-carousel {
         display: none;
@@ -1434,7 +1310,6 @@ background-position: 30% 20%;
       #industries-parallax {
         background-image: url("../img/industries.jpg");
       }
-
      
       /* Contact Centers */
       #contact-centers-carousel {
@@ -1445,6 +1320,7 @@ background-position: 30% 20%;
         background-image: url("../img/contact-centers.jpg");
         background-position: 50% 0%;
       }
+
       /* Outsourcers */
       #outsourcers-carousel {
         display: none;
@@ -1453,6 +1329,7 @@ background-position: 30% 20%;
       #outsourcers-parallax {
         background-image: url("../img/outsourcers.jpg");
       }
+
       /* At-Home Centers */
       #at-home-agents-carousel {
         display: none;
@@ -1461,11 +1338,11 @@ background-position: 30% 20%;
       #at-home-parallax {
         background-image: url("../img/at-home-agents.jpg");
       }
+
       /* Healthcare */
       #healthcare-carousel {
         display: none;
       }
-
 
       #healthcare-parallax {
         background-image: url("../img/healthcare.jpg");
@@ -1480,6 +1357,7 @@ background-position: 30% 20%;
       #healthcare-list li{
         margin-bottom: 1rem;
       }  
+
       /* Hospitality */
       #hospitality-carousel {
         display: none;
@@ -1488,6 +1366,7 @@ background-position: 30% 20%;
       .hospitality-parallax {
         background-image: url("../img/hospitality.jpg");
       }
+
       /* Public-Safety */
       #public-safety-carousel {
         display: none;
@@ -1496,6 +1375,7 @@ background-position: 30% 20%;
       .public-safety-parallax {
         background-image: url("../img/public-safety.jpg");
       }
+
       /* Manufacturing */
       #manufacturing-carousel {
         display: none;
@@ -1504,6 +1384,7 @@ background-position: 30% 20%;
       #manufacturing-parallax {
         background-image: url("../img/manufacturing.jpg");
       }
+
       /* Shift Based  */
       #shift-carousel {
         display: none;
@@ -1551,7 +1432,8 @@ background-position: 30% 20%;
 
       #company-list-2 li{
         margin-bottom: 1rem;
-      }    
+      }  
+
       /* Management Team */
       #management-team-carousel {
         display: none;
@@ -1596,6 +1478,7 @@ background-position: 30% 20%;
       #sales-parallax {
         background-image: url("../img/sales.jpg");
       }   
+
       /* Media */
       #media-carousel {
         display: none;
@@ -1604,6 +1487,7 @@ background-position: 30% 20%;
       #media-parallax {
         background-image: url("../img/media.jpg");
       }
+
       /* General */
       #general-carousel {
         display: none;
@@ -1612,6 +1496,7 @@ background-position: 30% 20%;
       #general-parallax {
         background-image: url("../img/general.jpg");
       }
+
       /* Customer Support */
       #customer-support-carousel {
         display: none;
@@ -1629,10 +1514,12 @@ background-position: 30% 20%;
       #success-carousel {
       display: none;
       }
+
       /* Ideal Solution */
       #ideal-parallax {
         background-image: url(../img/case1.jpg);
       }
+
       /* Free From Time Consuming Tasks */
       #free-parallax {
         background-image: url(../img/case2.jpg);
@@ -1642,17 +1529,6 @@ background-position: 30% 20%;
       #support-carousel {
         display: none;
       }
-
-      .two-panel-list {
-        font-size: 1.35rem;
-        margin-left: 0rem;
-        margin-right: 0rem;
-        margin-bottom: 0rem;
-      }
-
-      .two-panel-list li{
-        margin-bottom: 1rem;
-      } 
 
       #support-parallax {
         background-image: url("../img/support.jpg");
@@ -1693,9 +1569,7 @@ background-position: 30% 20%;
       #security-parallax {
         background-image: url("../img/security.jpg");
       }
-      
-     
-      
+
       /* CUSTOMERS */
       #customers-carousel {
         display: none;
@@ -1704,6 +1578,7 @@ background-position: 30% 20%;
       #customers-parallax {
         background-image: url("../img/customers.jpg");
       }
+
       /* Brick and Mortar */
       #brick-carousel {
         display: none;
@@ -1712,6 +1587,7 @@ background-position: 30% 20%;
       #brick-parallax {
         background-image: url("../img/brick-and-mortar.jpg");
       }
+
       /* Home Agent */
       #home-agent-carousel {
         display: none;
@@ -1747,8 +1623,6 @@ background-position: 30% 20%;
         height: 75vh;
         margin-top: 60px;
       }
-
-
       }
 
         /* Extra large devices (large desktops, 1200px and up) */
@@ -1845,23 +1719,21 @@ background-position: 30% 20%;
           font-size: 1.25rem;
           padding: 0.5rem;
         }
-        
-      
+              
         /* CONTROL COSTS */
         #control-costs-carousel {
           height: 100vh;
         }
 
-         /* EMPLOYEE SATISFACTION */
+        /* EMPLOYEE SATISFACTION */
          #employee-satisfaction {
           height: 100vh;
         }
 
-         /* RETURN ON INVESTMENT */
+        /* RETURN ON INVESTMENT */
           #return-on-investment {
             height: 100vh;
           }
-
         }     
 
           @media (min-width: 1600px) { 
@@ -1955,5 +1827,4 @@ background-position: 30% 20%;
           .list-title {
             font-size: 1.4rem;
           }
-
           }
