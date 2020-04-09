@@ -120,7 +120,7 @@ table {
 }
 
 .carousel-caption h1 {
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: white;
   text-shadow: 5px 5px 7px black;
@@ -215,7 +215,7 @@ table {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 3.5rem;
+  font-size: 2.75rem;
   font-weight: 700;
   color: white;
   text-shadow: 5px 5px 5px black;
@@ -460,7 +460,7 @@ background-position: 30% 20%;
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
-  background-position: center;
+  background-position: 50% 2rem;
   background-size: cover;
 }
 
@@ -480,7 +480,7 @@ background-position: 30% 20%;
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
-  background-position: center;
+  background-position: 50% 3rem;
   background-size: cover;
 }
 
@@ -510,7 +510,7 @@ background-position: 30% 20%;
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
-  background-position: center;
+  background-position: 50% 3.5rem;
   background-size: cover;
 }
 
@@ -520,7 +520,7 @@ background-position: 30% 20%;
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
-  background-position: center;
+  background-position: 50% 0.75rem;
   background-size: cover;
 }
 
@@ -530,8 +530,8 @@ background-position: 30% 20%;
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
-  background-position: center;
   background-size: cover;
+  background-position: 50% 2rem;
 }
 
 /* Manufacturing */
@@ -550,7 +550,7 @@ background-position: 30% 20%;
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
-  background-position: center;
+  background-position: 50% 3rem;
   background-size: cover;
 }
 
@@ -600,7 +600,7 @@ background-position: 30% 20%;
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
-  background-position: center;
+  background-position: 35% 3rem;
   background-size: cover;
 }
 
@@ -620,7 +620,7 @@ background-position: 30% 20%;
   background-repeat: no-repeat;
   background-color: rgb(139, 139, 139);
   background-blend-mode: multiply;
-  background-position: center;
+  background-position: 100% 3rem;
   background-size: cover;
 }
 
@@ -777,7 +777,7 @@ background-position: 30% 20%;
     transform-style: preserve-3d;
 }
   .carousel-caption h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   } 
 
   .card h1 {
@@ -813,7 +813,7 @@ background-position: 30% 20%;
     }
 
     .carousel-caption h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
     } 
     
     .section-body {
@@ -1057,7 +1057,7 @@ background-position: 30% 20%;
       #index1 {
         height: 75vh;
         margin-top: 60px;
-        background-position: 50% 100%;
+        background-position: 50% 65%;
       }
 
       #index2 {
@@ -1096,7 +1096,7 @@ background-position: 30% 20%;
           margin-bottom: 1rem;
           color: white;
           text-shadow: 5px 5px 7px black;
-      }
+      }s
 
       #case2 {
         background-image: url("../img/case2.jpg");
@@ -1160,6 +1160,7 @@ background-position: 30% 20%;
 
       #solutions-parallax {
         background-image: url(../img/solutions.jpg);
+        background-position: 50% 20%;
       }
 
       /* Employee Self Management */
@@ -1300,6 +1301,7 @@ background-position: 30% 20%;
 
       #training-parallax {
         background-image: url("../img/training.jpg");
+        background-position: 50% 2rem;
       }
 
       /* INDUSTRIES */
@@ -1346,6 +1348,7 @@ background-position: 30% 20%;
 
       #healthcare-parallax {
         background-image: url("../img/healthcare.jpg");
+        background-position: 50% 3.5rem;
       }
 
       #healthcare-list {
@@ -1365,6 +1368,7 @@ background-position: 30% 20%;
 
       .hospitality-parallax {
         background-image: url("../img/hospitality.jpg");
+        background-position: 50% -3rem;
       }
 
       /* Public-Safety */
@@ -1374,6 +1378,7 @@ background-position: 30% 20%;
 
       .public-safety-parallax {
         background-image: url("../img/public-safety.jpg");
+        background-position: 50% 25%;
       }
 
       /* Manufacturing */
@@ -1392,6 +1397,7 @@ background-position: 30% 20%;
 
       #shift-parallax {
         background-image: url("../img/shift-based.jpg");
+        background-position: 50% 3rem;
       }
           
       /* ABOUT */
@@ -1459,6 +1465,7 @@ background-position: 30% 20%;
 
       .careers-parallax {
         background-image: url("../img/careers.jpg");
+        background-position: 35% 3rem;
       }   
 
       /* CONTACT */
@@ -1477,6 +1484,7 @@ background-position: 30% 20%;
 
       #sales-parallax {
         background-image: url("../img/sales.jpg");
+        background-position: 50% 0.5rem;
       }   
 
       /* Media */
@@ -1504,6 +1512,7 @@ background-position: 30% 20%;
 
       #customer-support-parallax {
         background-image: url("../img/customer-support.jpg");
+        background-position: 100% 1rem;
       }
 
       /* SUCCESS STORY */
@@ -1541,6 +1550,7 @@ background-position: 30% 20%;
       
       #support-plans-parallax {
         background-image: url("../img/support-plans.jpg");
+        background-position: 100% 0.25rem;
       }
 
       /* Implementation Process */ 
@@ -1586,6 +1596,7 @@ background-position: 30% 20%;
 
       #brick-parallax {
         background-image: url("../img/brick-and-mortar.jpg");
+        background-position: 100% -100px;
       }
 
       /* Home Agent */
@@ -1656,7 +1667,7 @@ background-position: 30% 20%;
         }
 
         .parallax-text h1 {
-          font-size: 4rem;
+          font-size: 3.25rem;
         }
 
         /* NAV BAR */
@@ -1826,5 +1837,18 @@ background-position: 30% 20%;
 
           .list-title {
             font-size: 1.4rem;
+          }
+
+          /* SOLUTIONS */
+          #solutions-parallax {
+            background-position: 50% 20%;
+          }
+
+          #manufacturing-parallax {
+            background-position: 50% -10rem;
+          }
+
+          .news-parallax {
+            background-position: 50% -7rem;
           }
           }
