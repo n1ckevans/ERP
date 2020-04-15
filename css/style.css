@@ -33,21 +33,26 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
   line-height: 1;
   overflow-x: hidden;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -79,8 +84,8 @@ table {
   width: 100%;
   height: auto;
   margin: auto;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .section-title h1 {
@@ -91,7 +96,7 @@ table {
 }
 
 .section-body p {
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 2;
   margin-bottom: 2rem;
@@ -354,13 +359,13 @@ footer {
 
 /* Employee Self Management */
 #employee-self-management {
-background-image: url("../img/employee-self-management.jpg");
-background-repeat: no-repeat;
-background-color: rgb(139, 139, 139);
-background-blend-mode: multiply;
-background-position: center;
-background-size: cover;
-background-position: 30% 20%;
+  background-image: url("../img/employee-self-management.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(139, 139, 139);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-position: 30% 20%;
 }
 
 /* Performance Management */
@@ -775,7 +780,8 @@ background-position: 30% 20%;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
-}
+  }
+
   .carousel-caption h1 {
     font-size: 2rem;
   } 
@@ -803,6 +809,7 @@ background-position: 30% 20%;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
+
   }
 
     /* Medium devices (tablets, 768px and up) */
@@ -903,7 +910,7 @@ background-position: 30% 20%;
       }
  
       .card {
-        width:28rem;
+        width: 28rem;
       }
 
       .fade-in {
@@ -985,7 +992,7 @@ background-position: 30% 20%;
         padding: 5rem;
       } 
 
-      #erp-logo-nav{
+      #erp-logo-nav {
         width: 12rem;
       }
 
@@ -1004,11 +1011,11 @@ background-position: 30% 20%;
         margin-top: 1rem;
       }
 
-      #erp-logo-copywright{
+      #erp-logo-copywright {
         max-width: 5rem;
       }
 
-      #erp-logo-footer{
+      #erp-logo-footer {
         max-width: 8rem;
       }
 
@@ -1096,7 +1103,7 @@ background-position: 30% 20%;
           margin-bottom: 1rem;
           color: white;
           text-shadow: 5px 5px 7px black;
-      }s
+      }
 
       #case2 {
         background-image: url("../img/case2.jpg");
@@ -1116,6 +1123,7 @@ background-position: 30% 20%;
         -moz-transform-style: preserve-3d;
         transform-style: preserve-3d;
       }
+      
 
       #case2 h1 {
         font-size: 5rem;
@@ -1270,6 +1278,7 @@ background-position: 30% 20%;
       #services-parallax {
         background-image: url("../img/services.jpg");
       }
+
       /* Software as a Service */
       #software-carousel {
         display: none;
@@ -1278,6 +1287,7 @@ background-position: 30% 20%;
       #software-parallax {
         background-image: url("../img/software-as-a-service.jpg");
       }
+
       /* Deployment Process */
       #deployment-carousel {
         display: none;
@@ -1286,6 +1296,7 @@ background-position: 30% 20%;
       #deployment-parallax {
         background-image: url("../img/deployment.jpg");
       }
+
       /* Integration */
       #integration-carousel {
         display: none;
@@ -1294,6 +1305,7 @@ background-position: 30% 20%;
       #integration-parallax {
         background-image: url("../img/integration.jpg");
       }
+
       /* Training Process */
       #training-carousel {
         display: none;
@@ -1357,7 +1369,7 @@ background-position: 30% 20%;
         margin-bottom: 3rem;
       }
 
-      #healthcare-list li{
+      #healthcare-list li {
         margin-bottom: 1rem;
       }  
 
@@ -1425,7 +1437,7 @@ background-position: 30% 20%;
         margin-bottom: 0rem;
       }
 
-      #company-list-1 li{
+      #company-list-1 li {
         margin-bottom: 1rem;
       }  
 
@@ -1436,7 +1448,7 @@ background-position: 30% 20%;
         margin-bottom: 2rem;
       }
 
-      #company-list-2 li{
+      #company-list-2 li {
         margin-bottom: 1rem;
       }  
 
@@ -1633,7 +1645,8 @@ background-position: 30% 20%;
       #return-on-investment {
         height: 75vh;
         margin-top: 60px;
-      }
+      }   
+
       }
 
         /* Extra large devices (large desktops, 1200px and up) */
@@ -1643,9 +1656,11 @@ background-position: 30% 20%;
           padding-left: 14rem;
           padding-right: 14rem;
         }
+
         .section-list, .benefits-list  {
           font-size: 1.15rem;
         }
+
         .card h1 {
           font-size: 1.75rem;
         }
@@ -1671,7 +1686,7 @@ background-position: 30% 20%;
         }
 
         /* NAV BAR */
-        #erp-logo-nav{
+        #erp-logo-nav {
           width: 13rem;
         }
       
@@ -1684,15 +1699,15 @@ background-position: 30% 20%;
         }  
 
         /* FOOTER */
-        #copywright{
+        #copywright {
           font-size: 0.8rem;
         }
 
-        #erp-logo-copywright{
+        #erp-logo-copywright {
           max-width: 7rem;
         }
 
-        #erp-logo-footer{
+        #erp-logo-footer {
           max-width: 12rem;
         }
 
@@ -1744,7 +1759,8 @@ background-position: 30% 20%;
         /* RETURN ON INVESTMENT */
           #return-on-investment {
             height: 100vh;
-          }
+        }
+
         }     
 
           @media (min-width: 1600px) { 
@@ -1805,7 +1821,7 @@ background-position: 30% 20%;
           }
 
           /* NAV BAR */
-          #erp-logo-nav{
+          #erp-logo-nav {
             width: 15rem;
           }
       
@@ -1818,7 +1834,7 @@ background-position: 30% 20%;
           }
 
           /* FOOTER */
-          #erp-logo-copywright{
+          #erp-logo-copywright {
             max-width: 8rem;
           }
 
@@ -1826,7 +1842,7 @@ background-position: 30% 20%;
             font-size: 0.75rem; 
           }
       
-          #erp-logo-footer{
+          #erp-logo-footer {
             max-width: 18rem;
           }
 
@@ -1851,4 +1867,5 @@ background-position: 30% 20%;
           .news-parallax {
             background-position: 50% -7rem;
           }
+
           }
